@@ -1,7 +1,7 @@
 ﻿[
     {
         "id":  "01-general-user-errors",
-        "file":  "01-general-user-errors/README.md",
+        "file":  "01-general-user-errors.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -121,7 +121,7 @@
     },
     {
         "id":  "02-liquid-and-physical-damage",
-        "file":  "02-liquid-and-physical-damage/README.md",
+        "file":  "02-liquid-and-physical-damage.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -205,7 +205,7 @@
     },
     {
         "id":  "03-power-shutdown-and-overheating",
-        "file":  "03-power-shutdown-and-overheating/README.md",
+        "file":  "03-power-shutdown-and-overheating.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -270,7 +270,7 @@
     },
     {
         "id":  "04-passwords-and-accounts",
-        "file":  "04-passwords-and-accounts/README.md",
+        "file":  "04-passwords-and-accounts.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -326,7 +326,7 @@
     },
     {
         "id":  "05-network-and-printers",
-        "file":  "05-network-and-printers/README.md",
+        "file":  "05-network-and-printers.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -391,7 +391,7 @@
     },
     {
         "id":  "06-software-and-os",
-        "file":  "06-software-and-os/README.md",
+        "file":  "06-software-and-os.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -474,7 +474,7 @@
     },
     {
         "id":  "07-the-expert-relative-and-diy",
-        "file":  "07-the-expert-relative-and-diy/README.md",
+        "file":  "07-the-expert-relative-and-diy.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -539,7 +539,7 @@
     },
     {
         "id":  "08-support-etiquette-and-clients",
-        "file":  "08-support-etiquette-and-clients/README.md",
+        "file":  "08-support-etiquette-and-clients.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -640,7 +640,7 @@
     },
     {
         "id":  "09-ai-and-modern-tech",
-        "file":  "09-ai-and-modern-tech/README.md",
+        "file":  "09-ai-and-modern-tech.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -714,7 +714,7 @@
     },
     {
         "id":  "10-religious-and-spiritual",
-        "file":  "10-religious-and-spiritual/README.md",
+        "file":  "10-religious-and-spiritual.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -797,7 +797,7 @@
     },
     {
         "id":  "11-banking-and-home-network",
-        "file":  "11-banking-and-home-network/README.md",
+        "file":  "11-banking-and-home-network.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -880,7 +880,7 @@
     },
     {
         "id":  "12-developers-and-code-sins",
-        "file":  "12-developers-and-code-sins/README.md",
+        "file":  "12-developers-and-code-sins.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -981,7 +981,7 @@
     },
     {
         "id":  "13-hardware-graveyard",
-        "file":  "13-hardware-graveyard/README.md",
+        "file":  "13-hardware-graveyard.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1064,7 +1064,7 @@
     },
     {
         "id":  "14-procurement-disasters",
-        "file":  "14-procurement-disasters/README.md",
+        "file":  "14-procurement-disasters.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1156,7 +1156,7 @@
     },
     {
         "id":  "15-i-read-an-article-special",
-        "file":  "15-i-read-an-article-special/README.md",
+        "file":  "15-i-read-an-article-special.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1248,7 +1248,7 @@
     },
     {
         "id":  "16-the-my-kid-pet-did-it-defense",
-        "file":  "16-the-my-kid-pet-did-it-defense/README.md",
+        "file":  "16-the-my-kid-pet-did-it-defense.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1304,7 +1304,7 @@
     },
     {
         "id":  "17-cable-management-crimes",
-        "file":  "17-cable-management-crimes/README.md",
+        "file":  "17-cable-management-crimes.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1369,7 +1369,7 @@
     },
     {
         "id":  "18-whatsapp-voice-note-it-support",
-        "file":  "18-whatsapp-voice-note-it-support/README.md",
+        "file":  "18-whatsapp-voice-note-it-support.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1443,7 +1443,7 @@
     },
     {
         "id":  "19-the-wrong-department",
-        "file":  "19-the-wrong-department/README.md",
+        "file":  "19-the-wrong-department.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1517,7 +1517,7 @@
     },
     {
         "id":  "20-meeting-room-tech-rituals",
-        "file":  "20-meeting-room-tech-rituals/README.md",
+        "file":  "20-meeting-room-tech-rituals.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1591,7 +1591,7 @@
     },
     {
         "id":  "21-cloud-saas-confusion",
-        "file":  "21-cloud-saas-confusion/README.md",
+        "file":  "21-cloud-saas-confusion.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1665,7 +1665,7 @@
     },
     {
         "id":  "22-the-phishing-forwarder",
-        "file":  "22-the-phishing-forwarder/README.md",
+        "file":  "22-the-phishing-forwarder.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1739,7 +1739,7 @@
     },
     {
         "id":  "23-wfh-vpn-horror",
-        "file":  "23-wfh-vpn-horror/README.md",
+        "file":  "23-wfh-vpn-horror.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1813,7 +1813,7 @@
     },
     {
         "id":  "24-the-can-you-just-requests",
-        "file":  "24-the-can-you-just-requests/README.md",
+        "file":  "24-the-can-you-just-requests.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1896,7 +1896,7 @@
     },
     {
         "id":  "25-the-chair-whisperer",
-        "file":  "25-the-chair-whisperer/README.md",
+        "file":  "25-the-chair-whisperer.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1943,7 +1943,7 @@
     },
     {
         "id":  "26-file-naming-crimes",
-        "file":  "26-file-naming-crimes/README.md",
+        "file":  "26-file-naming-crimes.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2008,7 +2008,7 @@
     },
     {
         "id":  "27-the-desk-tourist",
-        "file":  "27-the-desk-tourist/README.md",
+        "file":  "27-the-desk-tourist.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2064,7 +2064,7 @@
     },
     {
         "id":  "28-the-password-resetter",
-        "file":  "28-the-password-resetter/README.md",
+        "file":  "28-the-password-resetter.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2129,7 +2129,7 @@
     },
     {
         "id":  "29-the-printer-hero",
-        "file":  "29-the-printer-hero/README.md",
+        "file":  "29-the-printer-hero.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2194,7 +2194,7 @@
     },
     {
         "id":  "30-the-meeting-that-could-have-been-an-email",
-        "file":  "30-the-meeting-that-could-have-been-an-email/README.md",
+        "file":  "30-the-meeting-that-could-have-been-an-email.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2268,7 +2268,7 @@
     },
     {
         "id":  "31-usb-stick-roulette",
-        "file":  "31-usb-stick-roulette/README.md",
+        "file":  "31-usb-stick-roulette.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2307,7 +2307,7 @@
     },
     {
         "id":  "32-the-i-fixed-it-first-disaster",
-        "file":  "32-the-i-fixed-it-first-disaster/README.md",
+        "file":  "32-the-i-fixed-it-first-disaster.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2363,7 +2363,7 @@
     },
     {
         "id":  "33-the-escalation-abuser",
-        "file":  "33-the-escalation-abuser/README.md",
+        "file":  "33-the-escalation-abuser.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2428,7 +2428,7 @@
     },
     {
         "id":  "34-the-reply-all-apocalypse",
-        "file":  "34-the-reply-all-apocalypse/README.md",
+        "file":  "34-the-reply-all-apocalypse.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2493,7 +2493,7 @@
     },
     {
         "id":  "35-the-update-denier",
-        "file":  "35-the-update-denier/README.md",
+        "file":  "35-the-update-denier.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2540,7 +2540,7 @@
     },
     {
         "id":  "36-the-keyboard-warrior",
-        "file":  "36-the-keyboard-warrior/README.md",
+        "file":  "36-the-keyboard-warrior.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2596,7 +2596,7 @@
     },
     {
         "id":  "37-the-tab-hoarder",
-        "file":  "37-the-tab-hoarder/README.md",
+        "file":  "37-the-tab-hoarder.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2652,7 +2652,7 @@
     },
     {
         "id":  "38-the-bring-your-own-everything",
-        "file":  "38-the-bring-your-own-everything/README.md",
+        "file":  "38-the-bring-your-own-everything.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2708,7 +2708,7 @@
     },
     {
         "id":  "39-the-spreadsheet-sorcerer",
-        "file":  "39-the-spreadsheet-sorcerer/README.md",
+        "file":  "39-the-spreadsheet-sorcerer.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2764,7 +2764,7 @@
     },
     {
         "id":  "40-the-silent-saboteur",
-        "file":  "40-the-silent-saboteur/README.md",
+        "file":  "40-the-silent-saboteur.md",
         "warnings":  [
                          {
                              "bullets":  [

@@ -3,13 +3,12 @@ param(
     [string]$OutputFile = "index.json"
 )
 
-$chapters = Get-ChildItem -LiteralPath $SourceDir -Directory | Where-Object { Test-Path (Join-Path $_.FullName "README.md") } | Sort-Object Name
+$chapters = Get-ChildItem -LiteralPath $SourceDir -Filter "*.md" -Exclude "README.md" | Where-Object { $_.Name -ne $OutputFile } | Sort-Object Name
 
 $result = @()
 
-foreach ($dir in $chapters) {
-    $readmePath = Join-Path $dir.FullName "README.md"
-    $content = Get-Content -LiteralPath $readmePath -Raw
+foreach ($file in $chapters) {
+    $content = Get-Content -LiteralPath $file.FullName -Raw
     $lines = $content -split "`n"
 
     $title = ""
@@ -72,13 +71,12 @@ foreach ($dir in $chapters) {
     $descLines = $lines | Where-Object { $_.Trim() -ne "" -and $_ -notmatch "^(⚠️|#|\*Note:|---)" }
     $description = if ($title -match "^(.+)\s+[&&].+") { $matches[1] } else { $title }
 
-    $dirName = $dir.Name
-    $chapterNum = [int]($dirName -replace '^(\d+).*', '$1')
+    $chapterNum = [int]($file.BaseName -replace '^(\d+).*', '$1')
 
     $result += @{
-        id = $dirName
+        id = $file.BaseName
         number = $chapterNum
-        file = "$dirName/README.md"
+        file = $file.Name
         title = $title
         description = $description
         warningCount = $warnings.Count

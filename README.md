@@ -8,13 +8,16 @@ A collection of painful-but-true IT support warnings, formatted for reading, sea
 
 ```
 docs/it-bible/
-├── 01-general-user-errors/README.md
-├── 02-liquid-and-physical-damage/README.md
+├── 01-general-user-errors.md
+├── 02-liquid-and-physical-damage.md
 ├── ...
-└── 40-the-silent-saboteur/README.md
+├── 40-the-silent-saboteur.md
+├── index.html          (frontend)
+├── index.json          (search index)
+├── serve.py            (dev server)
+├── start.bat           (double-click launcher)
+└── generate-index.ps1  (rebuild index.json)
 ```
-
-Each book is a subfolder with its own `README.md` so GitHub renders them beautifully.
 
 ## Quick Start
 
