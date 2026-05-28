@@ -1,7 +1,7 @@
 ﻿[
     {
         "id":  "01-general-user-errors",
-        "file":  "01-general-user-errors.md",
+        "file":  "01-general-user-errors/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -121,7 +121,7 @@
     },
     {
         "id":  "02-liquid-and-physical-damage",
-        "file":  "02-liquid-and-physical-damage.md",
+        "file":  "02-liquid-and-physical-damage/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -205,7 +205,7 @@
     },
     {
         "id":  "03-power-shutdown-and-overheating",
-        "file":  "03-power-shutdown-and-overheating.md",
+        "file":  "03-power-shutdown-and-overheating/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -270,7 +270,7 @@
     },
     {
         "id":  "04-passwords-and-accounts",
-        "file":  "04-passwords-and-accounts.md",
+        "file":  "04-passwords-and-accounts/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -326,7 +326,7 @@
     },
     {
         "id":  "05-network-and-printers",
-        "file":  "05-network-and-printers.md",
+        "file":  "05-network-and-printers/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -391,7 +391,7 @@
     },
     {
         "id":  "06-software-and-os",
-        "file":  "06-software-and-os.md",
+        "file":  "06-software-and-os/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -474,7 +474,7 @@
     },
     {
         "id":  "07-the-expert-relative-and-diy",
-        "file":  "07-the-expert-relative-and-diy.md",
+        "file":  "07-the-expert-relative-and-diy/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -539,7 +539,7 @@
     },
     {
         "id":  "08-support-etiquette-and-clients",
-        "file":  "08-support-etiquette-and-clients.md",
+        "file":  "08-support-etiquette-and-clients/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -640,7 +640,7 @@
     },
     {
         "id":  "09-ai-and-modern-tech",
-        "file":  "09-ai-and-modern-tech.md",
+        "file":  "09-ai-and-modern-tech/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -714,7 +714,7 @@
     },
     {
         "id":  "10-religious-and-spiritual",
-        "file":  "10-religious-and-spiritual.md",
+        "file":  "10-religious-and-spiritual/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -797,7 +797,7 @@
     },
     {
         "id":  "11-banking-and-home-network",
-        "file":  "11-banking-and-home-network.md",
+        "file":  "11-banking-and-home-network/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -880,7 +880,7 @@
     },
     {
         "id":  "12-developers-and-code-sins",
-        "file":  "12-developers-and-code-sins.md",
+        "file":  "12-developers-and-code-sins/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -981,7 +981,7 @@
     },
     {
         "id":  "13-hardware-graveyard",
-        "file":  "13-hardware-graveyard.md",
+        "file":  "13-hardware-graveyard/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1064,7 +1064,7 @@
     },
     {
         "id":  "14-procurement-disasters",
-        "file":  "14-procurement-disasters.md",
+        "file":  "14-procurement-disasters/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1156,7 +1156,7 @@
     },
     {
         "id":  "15-i-read-an-article-special",
-        "file":  "15-i-read-an-article-special.md",
+        "file":  "15-i-read-an-article-special/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1248,7 +1248,7 @@
     },
     {
         "id":  "16-the-my-kid-pet-did-it-defense",
-        "file":  "16-the-my-kid-pet-did-it-defense.md",
+        "file":  "16-the-my-kid-pet-did-it-defense/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1304,7 +1304,7 @@
     },
     {
         "id":  "17-cable-management-crimes",
-        "file":  "17-cable-management-crimes.md",
+        "file":  "17-cable-management-crimes/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1369,7 +1369,7 @@
     },
     {
         "id":  "18-whatsapp-voice-note-it-support",
-        "file":  "18-whatsapp-voice-note-it-support.md",
+        "file":  "18-whatsapp-voice-note-it-support/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1443,7 +1443,7 @@
     },
     {
         "id":  "19-the-wrong-department",
-        "file":  "19-the-wrong-department.md",
+        "file":  "19-the-wrong-department/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1517,7 +1517,7 @@
     },
     {
         "id":  "20-meeting-room-tech-rituals",
-        "file":  "20-meeting-room-tech-rituals.md",
+        "file":  "20-meeting-room-tech-rituals/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1591,7 +1591,7 @@
     },
     {
         "id":  "21-cloud-saas-confusion",
-        "file":  "21-cloud-saas-confusion.md",
+        "file":  "21-cloud-saas-confusion/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1665,7 +1665,7 @@
     },
     {
         "id":  "22-the-phishing-forwarder",
-        "file":  "22-the-phishing-forwarder.md",
+        "file":  "22-the-phishing-forwarder/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1739,7 +1739,7 @@
     },
     {
         "id":  "23-wfh-vpn-horror",
-        "file":  "23-wfh-vpn-horror.md",
+        "file":  "23-wfh-vpn-horror/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1813,7 +1813,7 @@
     },
     {
         "id":  "24-the-can-you-just-requests",
-        "file":  "24-the-can-you-just-requests.md",
+        "file":  "24-the-can-you-just-requests/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1896,7 +1896,7 @@
     },
     {
         "id":  "25-the-chair-whisperer",
-        "file":  "25-the-chair-whisperer.md",
+        "file":  "25-the-chair-whisperer/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -1943,7 +1943,7 @@
     },
     {
         "id":  "26-file-naming-crimes",
-        "file":  "26-file-naming-crimes.md",
+        "file":  "26-file-naming-crimes/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2008,7 +2008,7 @@
     },
     {
         "id":  "27-the-desk-tourist",
-        "file":  "27-the-desk-tourist.md",
+        "file":  "27-the-desk-tourist/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2064,7 +2064,7 @@
     },
     {
         "id":  "28-the-password-resetter",
-        "file":  "28-the-password-resetter.md",
+        "file":  "28-the-password-resetter/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2129,7 +2129,7 @@
     },
     {
         "id":  "29-the-printer-hero",
-        "file":  "29-the-printer-hero.md",
+        "file":  "29-the-printer-hero/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2194,7 +2194,7 @@
     },
     {
         "id":  "30-the-meeting-that-could-have-been-an-email",
-        "file":  "30-the-meeting-that-could-have-been-an-email.md",
+        "file":  "30-the-meeting-that-could-have-been-an-email/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2268,54 +2268,46 @@
     },
     {
         "id":  "31-usb-stick-roulette",
-        "file":  "31-usb-stick-roulette.md",
+        "file":  "31-usb-stick-roulette/README.md",
         "warnings":  [
                          {
                              "bullets":  [
-                                             "That USB drive has been in someone\u0027s pocket, on a keychain with 14 other keys, dropped in a parking lot, and passed between 6 people in the last month. It is not a storage device. It is a digital petri dish.",
-                                             "\"A friend gave it to me with some files\" â€” your friend\u0027s computer has 3 trojans, 2 keyloggers, and a browser hijacker. That USB drive is patient zero for the next office-wide malware outbreak.",
-                                             "The company policy says \"no external media without IT scanning it first.\" That policy exists because of people exactly like you, exactly one USB insertion away from disaster.",
-                                             "Note: A USB drive found in the parking lot does not contain \"free money.\" It contains \"free ransomware.\" Do not plug it in."
+                                             "You found a USB stick in the parking lot and your first instinct was to plug it into the work PC. That is not curiosity. That is a digital suicide wish.",
+                                             "The USB stick from the conference swag bag went straight into your laptop without a second thought. You do not know who handled that stick before you. You do not know what else is on it.",
+                                             "\"It was in my drawer for three years, it\u0027s probably fine.\" Three years is not a sterilization period. Malware does not have an expiration date.",
+                                             "The \"I found it in the break room\" defense does not hold up when the entire network goes down.",
+                                             "You picked up a USB stick from the parking lot and plugged it in because you thought it might contain \"interesting files.\" It did contain files. They were encrypting your hard drive.",
+                                             "You found a USB stick labeled \"Salary Data 2025\" and plugged it in immediately. It was not salary data. It was a keystroke logger.",
+                                             "The USB stick was shaped like a rubber duck. That is not cute. That is a Rubber Ducky attack. It is typing commands as fast as the human thumb can manage â€” except it is not a human thumb.",
+                                             "You saw a USB stick on the floor and thought \"free storage.\" It was free storage the same way a bear trap is free footwear.",
+                                             "The colleague who said \"I ran a virus scan on it\" ran Windows Defender once in 2019. That scan result is not valid.",
+                                             "You collected USB sticks from the lost-and-found bin and tested each one \"just to see.\" You saw the inside of a ransomware screen.",
+                                             "\"I only opened one file.\" That is how it starts. Patient zero never says \"I opened all of them.\"",
+                                             "You tried to charge your phone using a USB port on a public kiosk. That is called juice jacking. Your phone is now exfiltrating data to a stranger.",
+                                             "The USB stick was left on your desk with a note that said \"urgent.\" Urgent is a red flag. Real urgent documents are sent via email with a proper chain of custody.",
+                                             "You bought a cheap USB hub from a random vendor at a tech flea market. The hub contains a hidden chip that logs every keystroke you make through it.",
+                                             "The USB stick came free with a subscription box. Free hardware is never free. The cost is your network integrity.",
+                                             "You plugged in a USB stick from a vendor at a trade show without asking IT to vet it first. That vendor\u0027s logo does not make it safe.",
+                                             "\"I formatted it first.\" Formatting does not fix hardware-level exploits. The controller chip can be reprogrammed to inject malware on format.",
+                                             "You found a microSD card on the sidewalk and used it in your dashcam. That microSD now has remote access to your home network.",
+                                             "The USB stick was given to you by a user who said \"it has a virus, can you fix it?\" and you plugged it into your machine instead of an isolated sandbox.",
+                                             "You still have the USB stick from your previous company and you plugged it into your new work computer. That is how cross-contamination works in the digital world.",
+                                             "You thought BadUSB was a myth. It is not a myth. It is a proven attack vector and you just inserted patient zero into the company network.",
+                                             "You plugged a USB stick into the server because \"it needed a driver.\" Servers do not need drivers from unidentified USB sticks. Servers need isolation.",
+                                             "The USB stick was attached to a keychain that also had a company badge. That badge now looks like an endorsement. It is not."
                                          ],
-                             "title":  "BEFORE YOU PLUG THAT UNLABELED USB DRIVE INTO YOUR WORK LAPTOP..."
-                         },
-                         {
-                             "bullets":  [
-                                             "A USB drive is temporary storage for file transfer. It is not a backup solution. It is not archival media. It is a flash memory chip in a plastic shell with a limited write lifespan.",
-                                             "\"All my important files are on here\" â€” and when this USB drive fails, which it will, without warning, those files will be gone. There is no recovery. There is only regret.",
-                                             "The same USB drive that has been in your bag for 3 years, rattling around with loose change, is one static discharge away from being a very expensive paperweight.",
-                                             "Note: A USB drive is not a backup. A backup exists in at least 2 locations. A USB drive in your pocket is a single point of failure."
-                                         ],
-                             "title":  "BEFORE YOU USE A USB DRIVE AS YOUR PRIMARY BACKUP..."
-                         },
-                         {
-                             "bullets":  [
-                                             "Your personal computer is not managed by IT. It does not have the same antivirus, firewall, or security policies. It is a wild card. Plugging it into the corporate network via USB is how breaches start.",
-                                             "\"I just needed to transfer one file\" â€” that one file could be carrying a macro virus, a PowerShell payload, or a worm that self-propagates across the network the moment the USB is inserted.",
-                                             "The USB drive does not care about your convenience. It is a vector. Treat it like one.",
-                                             "Note: The USB drive that goes between your home PC and your work laptop is the digital equivalent of shaking hands with a stranger and then touching your face."
-                                         ],
-                             "title":  "BEFORE YOU SHARE A USB DRIVE BETWEEN PERSONAL AND WORK COMPUTERS..."
-                         },
-                         {
-                             "bullets":  [
-                                             "That R39 USB drive with \"1TB\" capacity is not 1TB. It is a 16GB drive that has been reprogrammed to report itself as 1TB. When you save files beyond 16GB, they will be written over existing data silently.",
-                                             "\"But it showed up as 1TB on my computer\" â€” yes, it lied. The firmware was modified. The drive is counterfeit. Your data is being stored on a memory chip that thinks it is 64 times larger than it actually is.",
-                                             "There is no such thing as a R39 1TB USB drive. Physics does not allow it. Economics does not allow it. Your greed has overridden your common sense.",
-                                             "Note: A USB drive that costs less than a sandwich is not a bargain. It is a trap. Your data will be the sacrifice."
-                                         ],
-                             "title":  "BEFORE YOU BUY THE CHEAPEST USB DRIVE ON TAKELOT..."
+                             "title":  "BEFORE YOU PLUG THAT MYSTERY USB STICK INTO YOUR WORK COMPUTER..."
                          }
                      ],
         "title":  "USB Stick Roulette",
-        "totalBullets":  16,
-        "warningCount":  4,
+        "totalBullets":  23,
+        "warningCount":  1,
         "number":  31,
         "description":  "USB Stick Roulette"
     },
     {
         "id":  "32-the-i-fixed-it-first-disaster",
-        "file":  "32-the-i-fixed-it-first-disaster.md",
+        "file":  "32-the-i-fixed-it-first-disaster/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2371,7 +2363,7 @@
     },
     {
         "id":  "33-the-escalation-abuser",
-        "file":  "33-the-escalation-abuser.md",
+        "file":  "33-the-escalation-abuser/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2436,7 +2428,7 @@
     },
     {
         "id":  "34-the-reply-all-apocalypse",
-        "file":  "34-the-reply-all-apocalypse.md",
+        "file":  "34-the-reply-all-apocalypse/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2501,67 +2493,54 @@
     },
     {
         "id":  "35-the-update-denier",
-        "file":  "35-the-update-denier.md",
+        "file":  "35-the-update-denier/README.md",
         "warnings":  [
                          {
                              "bullets":  [
                                              "You have been postponing the same Windows Update for 6 months. The \"Remind me later\" button is tired. The system is tired. I am tired. The update is not going away.",
                                              "Every update you postpone is a security patch you are not applying. Those patches fix vulnerabilities that are being actively exploited in the wild. Your procrastination is a security risk to the entire network.",
-                                             "\"I will do it when I have time\" â€” you will never have time. The update takes 15 minutes. You spend more than 15 minutes per day waiting for your slow machine to boot because you refused the update that fixes the performance issue.",
-                                             "Note: \"Remind me later\" does not mean \"never.\" It means \"later.\" Later has arrived. Restart your computer."
+                                             "\"It worked fine before the update\" is not an argument. It worked fine before the update because previous updates kept it working fine. The update you are declining is the reason it kept working fine.",
+                                             "You turned off automatic updates because they were \"annoying.\" You know what is more annoying? Ransomware encrypting every file on the server.",
+                                             "You said \"I don\u0027t trust Microsoft updates.\" You are running Windows on a Microsoft network. That ship has sailed. You already trust them with your data. Trust them with the patches.",
+                                             "The blue screen you got after an update three years ago is not justification for declining every update forever.",
+                                             "You are still on Windows 10 because you \"heard Windows 11 has bugs.\" Windows 10 is approaching end of life. No more security patches.",
+                                             "You postponed a critical security update 47 times. The notification badge is showing a 4 and a 7. That is not a count. That is an indictment.",
+                                             "You think restarting for updates takes too long. The ransomware recovery will take much longer.",
+                                             "Your phone has 37 pending OS updates. Every unpatched vulnerability on your phone is a backdoor into the network.",
+                                             "You declined a firmware update because \"it might break something.\" Firmware updates patch hardware-level vulnerabilities. The thing that will break is your security posture.",
+                                             "You are running an unsupported operating system because you \"prefer the interface.\" The interface does not matter when there are no security patches.",
+                                             "You set your network connection to \"metered\" specifically to block Windows Update from downloading. That is not clever. That is sabotage.",
+                                             "You use third-party software to disable updates entirely. That software does not disable vulnerabilities. It disables protection.",
+                                             "The update failed once, so you hid it permanently. Update failures can be fixed. Zero-day exploits cannot.",
+                                             "You uninstalled a security update because it \"slowed down Excel.\" A slightly slower spreadsheet is better than a compromised network.",
+                                             "You do not believe in patches. Patches are not a belief system. They fix holes that exist whether you believe in them or not.",
+                                             "You restart your computer once a year whether it needs it or not. It needs it. Monthly is the minimum. Weekly is better.",
+                                             "You are using software from 2018 because \"the new version has a different layout.\" Using unsupported software is a security vulnerability.",
+                                             "You pay for extended support on an outdated OS because you refuse to upgrade. That is paying rent on a sinking ship.",
+                                             "You turned off your antivirus because it was \"using too much CPU.\" The malware using 100% CPU is going to be a lot less convenient.",
+                                             "The VPN update notification has been sitting there for two months. An unpatched VPN client is an open door to the corporate network.",
+                                             "You do not update your browser because you \"like the old tab design.\" The old design does not include the latest security sandboxing.",
+                                             "You clicked \"don\u0027t show this again\" on a critical update notification. The notification is gone. The vulnerability is not.",
+                                             "You think IT sends updates to annoy you personally. We do not have the time or the inclination to personally annoy every user.",
+                                             "You declined a BIOS update. The BIOS is the first thing that runs when you press the power button. Compromised BIOS means compromised everything.",
+                                             "You use the motto \"if it ain\u0027t broke, don\u0027t fix it.\" Security is not a repair strategy. It is a maintenance strategy. Update before the breach.",
+                                             "Your printer has a pending firmware update from 2022. Printers are network devices. Network devices get hacked.",
+                                             "You think updates are a Microsoft conspiracy. Conspiracy theories do not encrypt files. Ransomware does.",
+                                             "You are still running Windows 7 on a machine that touches the network. Windows 7 is a ghost. Ghosts do not get security patches.",
+                                             "The phrase \"I\u0027ll update later\" is the epitaph of compromised networks. Later never comes. The breach does."
                                          ],
                              "title":  "BEFORE YOU DECLINE THAT WINDOWS UPDATE FOR THE 47TH TIME..."
-                         },
-                         {
-                             "bullets":  [
-                                             "The update took 45 minutes because it has been queuing updates for 8 months. If you had installed them monthly, each would have taken 10 minutes. Your cumulative delay created the 45-minute install time.",
-                                             "\"I do not have 45 minutes to wait for a restart\" â€” you had 8 months. You chose to spend 0 of those minutes updating. The 45 minutes is the consequence of 8 months of avoidance.",
-                                             "The update is not \"taking too long.\" It is doing 8 months of deferred work in one sitting. That is like complaining that your laundry takes too long when you have not washed anything since January.",
-                                             "Note: Updates are not instant because you delayed them. Physics does not care about your schedule."
-                                         ],
-                             "title":  "BEFORE YOU COMPLAIN THAT THE UPDATE \u0027TOOK TOO LONG\u0027..."
-                         },
-                         {
-                             "bullets":  [
-                                             "Disabling Windows Update does not make your computer faster. It makes your computer less secure. The background processes you \"saved\" are negligible compared to the performance impact of a malware infection.",
-                                             "\"I noticed my computer was slow so I turned off updates\" â€” your computer was slow because it was trying to download and install 47 deferred updates in the background while you were working. The solution is to install the updates, not disable the updater.",
-                                             "Automatic updates are not a suggestion. They are a security policy. Disabling them is a violation of the company acceptable use policy. I do not make the rules. I enforce them.",
-                                             "Note: Turning off updates to improve performance is like removing your seatbelt because it is uncomfortable. The discomfort is temporary. The crash is permanent."
-                                         ],
-                             "title":  "BEFORE YOU TURN OFF AUTOMATIC UPDATES \u0027FOR PERFORMANCE\u0027..."
-                         },
-                         {
-                             "bullets":  [
-                                             "\"If it ain\u0027t broke, don\u0027t fix it\" is the mantra of every person who has ever been compromised by an exploit that was patched 6 months ago.",
-                                             "The update is not fixing something that is broken. It is preventing something from breaking. You cannot see the vulnerability. That does not mean it is not there.",
-                                             "By the time you notice it is \"broke,\" it is too late. The ransomware has already encrypted your files. The data has already been exfiltrated. The \"fix\" is now data recovery, not a simple update.",
-                                             "Note: \"If it ain\u0027t broke, don\u0027t fix it\" is not a security strategy. It is a denial mechanism. Updates are preventive medicine, not reactive surgery."
-                                         ],
-                             "title":  "BEFORE YOU SAY \u0027IF IT AIN\u0027T BROKE, DON\u0027T FIX IT\u0027..."
-                         },
-                         {
-                             "bullets":  [
-                                             "You ignored the \"Your computer will restart in 15 minutes\" warning. You ignored the \"Your computer will restart in 5 minutes\" warning. You ignored the \"Your computer will restart in 1 minute\" warning. The restart is not \"forced.\" It is the consequence of ignoring 3 warnings.",
-                                             "\"I lost my work!\" â€” you had 15 minutes to save. You chose not to. The auto-save feature probably captured most of it anyway. The drama is disproportionate to the actual data loss.",
-                                             "The restart happened at 2 AM because that is when the system was configured to minimise disruption. You left your laptop open and running overnight. The restart happened while you were asleep. You did not even notice.",
-                                             "Note: A \"forced restart\" is not a surprise attack. It is a scheduled event with multiple notifications. The only thing forced about it is your unwillingness to read on-screen messages.",
-                                             "Þ\u0006\u0007@\u000bñ\u000b¢\rÓ\u000fD\u0010u\u0012æ\u0014×\u0014H\u00119\u000e*\u0010\u001b\u0015\f\u0017ý\u0011î\u0016ß\u0019Ð\u001bA\u001d2\u001b£\u0017\u0014\u0019…\u0019v\u0019§\u0018\u0018\u0016\t\u0016z\u0019k\u0019Ü\u0016M\u0019¾\u0018/\u0017 \u0015‘\u0015‚\u0017ó\u0015ä\u0012U\u0013F\u0016·\u0015¨\u0013\u0019\u0012J\u0012»\u0011l\u0010Ý\u000e®\rß\fP\r\u0001\rò",
-                                             "6\fÿ\rˆ\u000eÑ\u000eº\u000f#\u000e\f\r5\r\u001e\r‡\tp\u0006Ù\u0006Â\u0006ë\u0004T\u0004ý\u0003F\u0004/\u0004x\u0004¡\u0004",
-                                             "N\u000bO\f0\u000e1\u000fÒ\u0010S\u0013\u0014\u0014•\u0013Ö\u0013×\u0013¸\u0013y\u0014š\u0015\u001b\u0017ü\u0018½\u001b¾\u001cÿ\u001b\u0000\u001dA\u001cÂ\u001bƒ\u001c„\u001d%\u001e\u0026\u001fG È \t Š\u001f«\u001e\f\u001f-\u001fn\u001fO \u0010!q\"R!³\u001fT\u001fµ\u001e¶\u001d÷\u001dx\u001d¹\u001d:\u001f{ ü\u001f½\u001d\u003e\u001dÿ\u001c`\u001cá\u001br\u001bã\u001b”\u001d…\u001d6\u001d‡\u001c8\u001c‰\u001bz\u001bK\u001c\u003c\u001d\u001d~\u001dÏ\u001d\u0000\u001eQ\u001dÂ\u001bs\u001bä\u001b•\u001b†\u001bW\u001bÈ\u001bY\u001c*\u001b;\u0019\f\u0018\u0017n\u0016\u0014P\u0014á\u0015²\u0015Ã\u0013”\u0012%\u0013v\u0012‡\u0011ø\u0010É\u0010:\u0011‹\u0011ü\u0010\u0010.\u0010o\u0010Ð\u000f‘\u000e’\u000eS\u000fÔ\u000e•\u000e¶\u000e7\u000fØ\u000e9\rZ\u000b;\u000bÜ",
-                                             "¶\u000bŸ\u000b¨"
-                                         ],
-                             "title":  "BEFORE YOU COMPLAIN ABOUT THE \u0027FORCED RESTART\u0027..."
                          }
                      ],
         "title":  "The Update Denier",
-        "totalBullets":  24,
-        "warningCount":  5,
+        "totalBullets":  31,
+        "warningCount":  1,
         "number":  35,
         "description":  "The Update Denier"
     },
     {
         "id":  "36-the-keyboard-warrior",
-        "file":  "36-the-keyboard-warrior.md",
+        "file":  "36-the-keyboard-warrior/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2617,7 +2596,7 @@
     },
     {
         "id":  "37-the-tab-hoarder",
-        "file":  "37-the-tab-hoarder.md",
+        "file":  "37-the-tab-hoarder/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2673,7 +2652,7 @@
     },
     {
         "id":  "38-the-bring-your-own-everything",
-        "file":  "38-the-bring-your-own-everything.md",
+        "file":  "38-the-bring-your-own-everything/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2729,7 +2708,7 @@
     },
     {
         "id":  "39-the-spreadsheet-sorcerer",
-        "file":  "39-the-spreadsheet-sorcerer.md",
+        "file":  "39-the-spreadsheet-sorcerer/README.md",
         "warnings":  [
                          {
                              "bullets":  [
@@ -2785,7 +2764,7 @@
     },
     {
         "id":  "40-the-silent-saboteur",
-        "file":  "40-the-silent-saboteur.md",
+        "file":  "40-the-silent-saboteur/README.md",
         "warnings":  [
                          {
                              "bullets":  [
