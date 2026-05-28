@@ -1,13 +1,10 @@
 # 📖 The IT Bible
 
-**Warnings From The Department** — 40 books, 267+ warnings covering every flavor of user error known to IT.
-
-A collection of painful-but-true IT support warnings, formatted for reading, searching, and sharing.
+**Warnings From The Department** — 40 books, 260+ warnings covering every flavor of user error known to IT.
 
 ## Structure
 
 ```
-docs/it-bible/
 ├── 01-general-user-errors.md
 ├── 02-liquid-and-physical-damage.md
 ├── ...
@@ -16,21 +13,20 @@ docs/it-bible/
 ├── index.json          (search index)
 ├── serve.py            (dev server)
 ├── start.bat           (double-click launcher)
-└── generate-index.ps1  (rebuild index.json)
+├── generate-index.ps1  (rebuild index.json)
+└── README.txt          (server options)
 ```
 
 ## Quick Start
 
-1. Open `docs/it-bible/`
-2. Double-click `start.bat` or run `py serve.py`
-3. Open http://localhost:3000
-
-No build step, no dependencies — just a browser and Python.
+```
+py serve.py
+```
+Open http://localhost:3000. No dependencies, no build step.
 
 ## Generating the Index
 
-After adding or editing warnings, regenerate the search index:
+After adding or editing warnings:
 ```
-cd docs/it-bible
 powershell -File generate-index.ps1
 ```
