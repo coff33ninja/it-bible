@@ -1,0 +1,17 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated (but keep index.json — needed for frontend)
+# index.json is required by the frontend, do not ignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
