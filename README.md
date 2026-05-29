@@ -44,10 +44,10 @@ A comprehensive (and brutally honest) guide to user errors that break systems. E
 
 <!-- STATS_START -->
 > [!IMPORTANT]
-> - **<span style="color:#ff4444;">61 books</span>** of warnings
-> - **<span style="color:#ff8800;">397 warnings</span>** total
-> - **<span style="color:#44ff44;">1340 verses</span>** (individual prevention tips)
-> - **<span style="color:#44ddff;">100% preventable</span>** (if you read this first)
+> - **61 books** of warnings
+> - **397 warnings** total
+> - **1340 verses** (individual prevention tips)
+> - **100% preventable** (if you read this first)
 <!-- STATS_END -->
 
 ---
@@ -75,17 +75,76 @@ The frontend will load with a search-enabled sidebar, full warning text, and the
 
 ## 📚 The Books
 
+<!-- BOOKS_START -->
 <details>
 <summary><strong>📚 Click to expand book list</strong></summary>
 
-| Book | Focus | Warning Count |
-|------|-------|---|
-| 01 | General User Errors & <abbr title="Problem Exists Between Chair And Keyboard">PEBCAK</abbr> | 12 |
-| 02 | Liquid & Physical Damage | 8 |
-| ... | ... | ... |
-| 61 | Afterword — The Last Warnings You Will Ever Need | 7 |
+| # | Book | Warnings |
+|---|------|---|
+| 01 | [Classic PEBCAK & General User Errors](volumes/01-general-user-errors.md) | 12 |
+| 02 | [Liquid Damage & Physical Destruction](volumes/02-liquid-and-physical-damage.md) | 8 |
+| 03 | [Power, Shutdown & The Overheating Backpack Saga](volumes/03-power-shutdown-and-overheating.md) | 6 |
+| 04 | [Passwords, Accounts & Digital Identity](volumes/04-passwords-and-accounts.md) | 5 |
+| 05 | [Network, Internet & Printers](volumes/05-network-and-printers.md) | 6 |
+| 06 | [Software, OS & The Windows Abyss](volumes/06-software-and-os.md) | 8 |
+| 07 | [The "Expert" Relative & DIY Disasters](volumes/07-the-expert-relative-and-diy.md) | 6 |
+| 08 | [Support Etiquette, Remote Sessions & Client Horror](volumes/08-support-etiquette-and-clients.md) | 10 |
+| 09 | [AI Hallucinations & Modern Tech Nightmares](volumes/09-ai-and-modern-tech.md) | 7 |
+| 10 | [Thoughts, Prayers & Spiritual IT Delusions](volumes/10-religious-and-spiritual.md) | 8 |
+| 11 | [Banking, Home Networks & Budget Bandwidth](volumes/11-banking-and-home-network.md) | 8 |
+| 12 | [Developers & Code Sins](volumes/12-developers-and-code-sins.md) | 10 |
+| 13 | [The Hardware Graveyard](volumes/13-hardware-graveyard.md) | 8 |
+| 14 | [Procurement Disasters](volumes/14-procurement-disasters.md) | 9 |
+| 15 | [The "I Read an Article" Special](volumes/15-i-read-an-article-special.md) | 9 |
+| 16 | [The "My Kid/Pet Did It" Defense](volumes/16-the-my-kid-pet-did-it-defense.md) | 5 |
+| 17 | [Cable Management Crimes](volumes/17-cable-management-crimes.md) | 6 |
+| 18 | [WhatsApp / Voice Note IT Support](volumes/18-whatsapp-voice-note-it-support.md) | 7 |
+| 19 | [The Wrong Department](volumes/19-the-wrong-department.md) | 7 |
+| 20 | [Meeting Room Tech Rituals](volumes/20-meeting-room-tech-rituals.md) | 7 |
+| 21 | [Cloud / SaaS Confusion](volumes/21-cloud-saas-confusion.md) | 7 |
+| 22 | [The Phishing Forwarder](volumes/22-the-phishing-forwarder.md) | 7 |
+| 23 | [WFH / VPN Horror](volumes/23-wfh-vpn-horror.md) | 7 |
+| 24 | [The "Can You Just..." Requests](volumes/24-the-can-you-just-requests.md) | 8 |
+| 25 | [The Chair Whisperer](volumes/25-the-chair-whisperer.md) | 6 |
+| 26 | [File Naming Crimes](volumes/26-file-naming-crimes.md) | 6 |
+| 27 | [The Desk Tourist](volumes/27-the-desk-tourist.md) | 5 |
+| 28 | [The Password Resetter](volumes/28-the-password-resetter.md) | 6 |
+| 29 | [The Printer Hero](volumes/29-the-printer-hero.md) | 6 |
+| 30 | [The Meeting That Could Have Been an Email](volumes/30-the-meeting-that-could-have-been-an-email.md) | 7 |
+| 31 | [USB Stick Roulette](volumes/31-usb-stick-roulette.md) | 1 |
+| 32 | [The "I Fixed It First" Disaster](volumes/32-the-i-fixed-it-first-disaster.md) | 5 |
+| 33 | [The Escalation Abuser / CEO CC](volumes/33-the-escalation-abuser.md) | 6 |
+| 34 | [The Reply-All Apocalypse](volumes/34-the-reply-all-apocalypse.md) | 6 |
+| 35 | [The Update Denier](volumes/35-the-update-denier.md) | 7 |
+| 36 | [The Keyboard Warrior](volumes/36-the-keyboard-warrior.md) | 5 |
+| 37 | [The Tab Hoarder](volumes/37-the-tab-hoarder.md) | 5 |
+| 38 | [The "Bring Your Own Everything"](volumes/38-the-bring-your-own-everything.md) | 5 |
+| 39 | [The Spreadsheet Sorcerer](volumes/39-the-spreadsheet-sorcerer.md) | 5 |
+| 40 | [The Silent Saboteur](volumes/40-the-silent-saboteur.md) | 6 |
+| 41 | [I Asked the AI](volumes/41-i-asked-the-ai.md) | 5 |
+| 42 | [The AI Prompt Engineer](volumes/42-the-ai-prompt-engineer.md) | 5 |
+| 43 | [The "It Worked in Dev" Gambit](volumes/43-it-worked-in-dev.md) | 6 |
+| 44 | [The Backup Gambler](volumes/44-the-backup-gambler.md) | 6 |
+| 45 | [The License Pirate](volumes/45-the-license-pirate.md) | 6 |
+| 46 | [The Screenshot That Isn't](volumes/46-the-screenshot-that-isnt.md) | 5 |
+| 47 | [The "It Worked Yesterday" Expert](volumes/47-it-worked-yesterday.md) | 5 |
+| 48 | [The Over-Explainer](volumes/48-the-over-explainer.md) | 5 |
+| 49 | [The Karin Protocol](volumes/49-the-karin-protocol.md) | 8 |
+| 50 | [The Karin Protocol v2: The Sequel](volumes/50-the-karin-protocol-v2.md) | 7 |
+| 51 | [The Karin Protocol: Tech Shop v1](volumes/51-the-karin-protocol-tech-shop-v1.md) | 7 |
+| 52 | [The Karin Protocol: Tech Shop v2](volumes/52-the-karin-protocol-tech-shop-v2.md) | 7 |
+| 53 | [The Karin Protocol: The Meeting Menace](volumes/53-the-karin-protocol-meeting-menace.md) | 7 |
+| 54 | [The Karin Protocol: The Password Apocalypse](volumes/54-the-karin-protocol-password-apocalypse.md) | 6 |
+| 55 | [The Karin Protocol: The WFH Horror](volumes/55-the-karin-protocol-wfh-horror.md) | 7 |
+| 56 | [The Karin Protocol: The Security Risk](volumes/56-the-karin-protocol-security-risk.md) | 6 |
+| 57 | [The Karin Protocol: The Procurement Disaster](volumes/57-the-karin-protocol-procurement-disaster.md) | 6 |
+| 58 | [The Karin Protocol: The Printer Warrior](volumes/58-the-karin-protocol-printer-warrior.md) | 6 |
+| 59 | [The Karin Protocol: The Onboarding Disaster](volumes/59-the-karin-protocol-onboarding-disaster.md) | 6 |
+| 60 | [The Karin Protocol: The Offboarding Escape](volumes/60-the-karin-protocol-offboarding-escape.md) | 6 |
+| 61 | [Afterword — The Last Warnings You Will Ever Need](volumes/61-afterword-the-last-warnings.md) | 7 |
 
 </details>
+<!-- BOOKS_END -->
 
 Browse them all in the web interface. Bookmark the ones you'll need.
 
