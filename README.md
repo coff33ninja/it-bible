@@ -26,8 +26,8 @@ A comprehensive (and brutally honest) guide to user errors that break systems. E
 ## 📊 By The Numbers
 
 - **45 books** of warnings
-- **282 warnings** total
-- **1135 verses** (individual prevention tips)
+- **0 warnings** total
+- **918 verses** (individual prevention tips)
 - **100% preventable** (if you read this first)
 
 ---
