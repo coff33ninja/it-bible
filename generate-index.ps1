@@ -3,7 +3,7 @@ param(
     [string]$OutputFile = "index.json"
 )
 
-$chapters = Get-ChildItem -LiteralPath $SourceDir -Filter "*.md" -Exclude "README.md" | Where-Object { $_.Name -ne $OutputFile } | Sort-Object Name
+$chapters = Get-ChildItem -LiteralPath $SourceDir -Filter "*.md" | Where-Object { $_.Name -ne "README.md" -and $_.Name -ne $OutputFile -and $_.BaseName -match '^\d{2}' } | Sort-Object Name
 
 $result = @()
 

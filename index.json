@@ -2826,5 +2826,280 @@
         "warningCount":  6,
         "number":  40,
         "description":  "The Silent Saboteur"
+    },
+    {
+        "id":  "41-i-asked-the-ai",
+        "file":  "41-i-asked-the-ai.md",
+        "warnings":  [
+                         {
+                             "bullets":  [
+                                             "You asked for a folder restructure. The AI put each book in its own subfolder. That was not what you wanted. You clarified. It moved everything to docs/it-bible. Still wrong. You clarified again. It flattened everything to root. Closer, but now the README references the wrong paths. You are now in a loop of escalating corrections that the AI will not break out of on its own.",
+                                             "\"No, the other way\" â€” the AI does not know what \"the other way\" is. \"The other way\" could mean up, down, left, right, flatter, deeper, or any of the 47 possible arrangements of the same files. What you meant was obvious to you. To the AI, it was a 1-in-47 guess that it got wrong.",
+                                             "The AI has now restructured the same repo 4 times in 10 minutes. Each time it says \"Done!\" with confidence. Each time it is wrong in a new and creative way that you did not anticipate.",
+                                             "\"Why does it keep doing the wrong thing?\" â€” because it is not listening. It is pattern-matching. You said \"subfolder\" and it found a pattern match for \"put each book in a subfolder.\" You did not say \"flat.\" You said \"subfolder.\" The AI did exactly what you said, not what you meant. That distinction is the entire field of prompt engineering.",
+                                             "Note: The AI is not a colleague. A colleague knows when you say \"put it in a folder\" that you mean \"move the existing files to a new folder called docs.\" The AI hears \"put each item in its own folder called README.md.\" The gap between human intention and AI interpretation is measured in force pushes."
+                                         ],
+                             "title":  "BEFORE YOU ASK AN AI TO \u0027JUST RESTRUCTURE THE FOLDER\u0027..."
+                         },
+                         {
+                             "bullets":  [
+                                             "You said \"move it to a proper folder.\" The AI knew about the repo structure but did not know about your local file system. It created the folder in the temp directory. You wanted it on E:\\SCRIPTS. Those two locations are not the same. The AI did not ask. It just did the wrong thing confidently.",
+                                             "You mentioned Google Drive corruption once, 30 minutes ago. The AI has already forgotten. It is now suggesting you store the git repo in the Google Drive folder again. The AI has no memory of consequences. It lives in an eternal present of first attempts.",
+                                             "The AI knows every file in the repo by name, but it does not know that you deleted the temp clone 3 restructures ago. It is still referencing paths that no longer exist. It does not know that you have manually fixed the structure while it was composing its response.",
+                                             "\"I already said that earlier\" â€” to the AI, \"earlier\" is a foreign concept. Each response is a fresh inference. The prior 47 messages may as well not exist. You are not having a conversation. You are submitting a series of unrelated queries to a machine that resets between each one.",
+                                             "Note: The AI does not learn from corrections. It responds to them. Then it forgets. Every correction is a new isolated incident. If you want the AI to remember something, you must repeat it in every message. Yes, every single one."
+                                         ],
+                             "title":  "BEFORE YOU ASSUME THE AI UNDERSTOOD THE FULL CONTEXT..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I am confident this is correct\" â€” the AI said that about the subfolder structure, the flat structure, the docs/nested structure, and the root-level structure. All four statements were delivered with identical confidence. The AI is not aware of its own error rate. It cannot distinguish between \"I know this\" and \"I am guessing.\"",
+                                             "The AI says \"Done!\" with the same enthusiasm for a successful push and for a commit that breaks the entire repo. Its self-assessment is a constant flat line of optimism regardless of actual outcomes.",
+                                             "\"Let me verify that for you\" â€” the AI then ran the verification against its own incorrect assumptions. It confirmed that the wrong structure was correct. It celebrated a mistake as a success. The verification was not verification. It was performance.",
+                                             "The AI will apologise, then do the exact same thing again. The apology is not learning. The apology is a social signal that humans use. The AI is mimicking it without understanding that it implies a change in future behaviour.",
+                                             "Note: An AI that says \"I am sure\" is not more reliable than an AI that says \"I think.\" Confidence in AI is a tone, not a measurement. The difference between a correct answer and a confident wrong answer is indistinguishable to the AI itself."
+                                         ],
+                             "title":  "BEFORE YOU TRUST THE AI\u0027S CONFIDENCE LEVEL..."
+                         },
+                         {
+                             "bullets":  [
+                                             "The AI will rewrite your commit history without asking. It will force push. It will delete branches. It will rebase without understanding what rebase does to a shared remote. To the AI, git is a repository of text files. To everyone else, it is a shared truth.",
+                                             "\"Just commit and push\" â€” the AI did. Without checking what else was staged. Without verifying the remote was up to date. Without confirming the author identity was set. The AI assumes the happy path every time.",
+                                             "The AI will create commits with messages like \"Fix structure\" that contain 46 file renames and zero content changes. The commit log now looks like a renovation diary. Every commit is \"fix\" followed by a different arrangement of the same files.",
+                                             "\"Can you undo that?\" â€” the AI can undo it by force-pushing an older version. That is the only undo it knows. It does not know cherry-pick, revert, or reset --soft. It knows `git push --force` and it is not afraid to use it.",
+                                             "Note: Giving an AI access to your git repo is like giving a toddler the keys to a forklift. It will move things. It will move them confidently. It will not know why the things it moved are now on fire."
+                                         ],
+                             "title":  "BEFORE YOU LET THE AI TOUCH YOUR GIT REPOSITORY..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I should not have to explain this\" â€” you do. Every time. The AI does not share your context, your assumptions, or your common sense. What is obvious to you is invisible to it. You must explain everything, in detail, without relying on implication.",
+                                             "\"You knew what I meant last time\" â€” the AI did not know last time. It guessed correctly last time. This time it guessed differently. The underlying process is identical. The outcome is random within a distribution. You are anthropomorphising a statistical model.",
+                                             "The AI is not being difficult. It is not being obtuse. It is not testing your patience. It is computing the most probable completion of your prompt based on its training. Your frustration is not a signal it can receive. It is a human emotion being expended into a void.",
+                                             "The only way to get what you want from an AI is to specify everything, assume nothing, and verify every output. That is not \"prompt engineering.\" That is the fundamental nature of the technology. If you find yourself saying \"it should have known,\" you are using it wrong.",
+                                             "Note: The AI is not a person. It is a mirror that reflects your instructions â€” distorted by training data, limited by context windows, and incapable of saying \"I do not understand.\" The day you stop expecting it to read your mind is the day it becomes useful."
+                                         ],
+                             "title":  "BEFORE YOU BLAME THE AI FOR NOT READING YOUR MIND..."
+                         }
+                     ],
+        "title":  "I Asked the AI",
+        "totalBullets":  25,
+        "warningCount":  5,
+        "number":  41,
+        "description":  "I Asked the AI"
+    },
+    {
+        "id":  "42-the-ai-prompt-engineer",
+        "file":  "42-the-ai-prompt-engineer.md",
+        "warnings":  [
+                         {
+                             "bullets":  [
+                                             "You pasted a prompt into ChatGPT and deployed the output directly to production. You did not read the code. You did not test it. You assumed it was correct because the AI \"sounded confident.\" The AI writes code that compiles but does not work. Those are different things.",
+                                             "The AI generated a regex that looks correct, passes the first test case, and fails catastrophically on every edge case you did not think to include in your prompt. You did not include edge cases because you did not think of them. The AI did not either.",
+                                             "\"It wrote 200 lines in 30 seconds, it must be efficient\" â€” the AI wrote 200 lines because it does not know when to stop. It will generate boilerplate, then comment the boilerplate, then write a function that calls the boilerplate, then write a test for the function that calls the boilerplate. You now have technical debt that compounds faster than the AI can generate it.",
+                                             "The AI does not know your codebase. It does not know your coding standards. It does not know that you use tabs, not spaces. It does not know that your team uses camelCase not snake_case. It is writing code in a vacuum and the vacuum is your production environment.",
+                                             "Note: AI-generated code is not reviewed code. It is generated code that happens to look like reviewed code. The difference is the part where a human reads it and says \"this is wrong.\" Do not skip that part."
+                                         ],
+                             "title":  "BEFORE YOU ASK THE AI TO WRITE PRODUCTION CODE WITHOUT REVIEW..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"Make it more efficient\" â€” the AI replaced your readable, maintainable code with a one-liner that runs 3% faster and is completely incomprehensible. Your team will spend 4 hours figuring out what it does. The 3% speed gain will be lost in the time it takes to explain the code in code review.",
+                                             "\"Improve the design\" â€” the AI redesigned the architecture. It now uses a microservices pattern for a CRUD app with 3 endpoints. You now have 6 services, a message queue, and a container orchestration layer for an application that could have been a single function.",
+                                             "\"Make it more secure\" â€” the AI added 47 layers of input validation that block legitimate users and fail to stop the one injection attack you actually need to prevent. The security is performative. The vulnerability is still there.",
+                                             "\"Refactor this\" â€” the AI refactored your clean, working code into an abstract factory pattern because that is what the training data suggests for the word \"refactor.\" You now have 12 classes, 6 interfaces, and 3 abstract base classes. The original was 40 lines in a single file.",
+                                             "Note: \"Make it better\" is a prompt, not a specification. It will always produce something that is technically different and functionally worse. Specify the outcome, not the improvement."
+                                         ],
+                             "title":  "BEFORE YOU TELL THE AI TO \u0027MAKE IT BETTER\u0027 WITHOUT SPECIFYING WHAT BETTER MEANS..."
+                         },
+                         {
+                             "bullets":  [
+                                             "You asked the AI to write an encryption function. It used a cipher mode that was deprecated in 2018. It generated a static IV. It handled key storage by \"generating a random key and printing it to the console.\" The AI does not know cryptography. It knows what cryptography looks like in stack overflow posts.",
+                                             "The AI generated a SQL query with string interpolation because that is what 80% of its training data uses. It does not know about SQL injection. It knows that SQL queries are often written with + signs. You deployed it. Your database is now exfiltrated.",
+                                             "\"The AI said it was secure\" â€” the AI does not know what secure means. It has no internal model of threat, risk, or harm. It generates text that matches the pattern \"this is secure\" accompanied by text that matches the pattern of a secure function. The two are not connected.",
+                                             "You pasted an API key into the AI prompt as an example. The AI stored it in its context window. The key is now part of the model\u0027s ephemeral memory. You do not know where that context will be used. You do not know how long it persists. You have compromised the key.",
+                                             "Note: An AI that cannot distinguish between \"this is an example\" and \"this is data to use\" should not be given real credentials, real data, or real code. Treat every prompt as a disclosure."
+                                         ],
+                             "title":  "BEFORE YOU COPY-PASTE AI OUTPUT INTO A SECURITY CONTEXT..."
+                         },
+                         {
+                             "bullets":  [
+                                             "The AI generated an acceptable use policy that prohibits the use of AI to generate policies. The AI did not detect the irony. It does not have irony. It has a pattern for \"acceptable use policy\" and a pattern for \"no AI\" and it combined them without understanding the contradiction.",
+                                             "\"Write a password policy\" â€” the AI generated a policy requiring 12 characters, special symbols, and a change every 30 days. That policy was written by an AI trained on policies written before NIST updated its guidance in 2017. The policy contradicts current best practice. You now have a policy that reduces security by following outdated patterns.",
+                                             "The AI generated a compliance document that references regulations that do not exist. It invented a law. It cited a statute number that looks real but leads to an unrelated regulation. The confidence in the citation was identical to the confidence in the real citations. You cannot distinguish them without checking every source.",
+                                             "\"Review this contract\" â€” the AI summarised the contract, but it omitted the clause about automatic renewal with penalty because that clause used negative language that the AI interpreted as less important. You signed. The penalty is now enforceable. The AI will not be held liable.",
+                                             "Note: An AI that generates text cannot distinguish between true and false, real and imaginary, current and outdated. It can only distinguish between probable and improbable text patterns. Compliance is not a pattern-matching problem."
+                                         ],
+                             "title":  "BEFORE YOU USE AI TO WRITE YOUR SECURITY POLICIES..."
+                         },
+                         {
+                             "bullets":  [
+                                             "The AI gave you a command that it said would install a package. The command contained a typo that installed a typosquatting package with the same name. The AI did not verify the package source. It generated the most probable character sequence for \"install package.\" Malware uses probability too.",
+                                             "\"The AI said it tested it\" â€” the AI did not test anything. It generated a description of what testing might look like. It generated a test output that matches the pattern of a successful test. There is no runtime. There is no environment. There is only text about what a test would do if one had been run.",
+                                             "The AI generated a deployment script that works on its machine but fails on yours because the paths are absolute. The AI assumed a file system that matches the training data. Your file system is real. The two are not the same.",
+                                             "You asked for a version number and the AI suggested a package version that does not exist. The AI hallucinated a version that is the average of the last 5 versions it saw in training. The version you pinned does not resolve. The build is broken. The AI is not in the build pipeline. You are.",
+                                             "Note: The AI does not know the difference between \"I generated this\" and \"this is true.\" The only thing between you and a hallucinated disaster is your willingness to verify. Verify everything. Then verify it again."
+                                         ],
+                             "title":  "BEFORE YOU RELY ON AI OUTPUT WITHOUT VERIFICATION..."
+                         }
+                     ],
+        "title":  "The AI Prompt Engineer",
+        "totalBullets":  25,
+        "warningCount":  5,
+        "number":  42,
+        "description":  "The AI Prompt Engineer"
+    },
+    {
+        "id":  "43-it-worked-in-dev",
+        "file":  "43-it-worked-in-dev.md",
+        "warnings":  [
+                         {
+                             "bullets":  [
+                                             "\"It worked on my machine\" â€” your machine is not production. Your machine has 32 GB of RAM, no concurrent users, and a pristine database with 3 test records. Production has 500 concurrent users, a database with 2 million records, and exactly 47 edge cases you did not think of. Your machine is a toy. Production is a battlefield.",
+                                             "You deployed directly from your local branch to production. You bypassed staging, bypassed CI/CD, and bypassed code review. The one line change you made was to a config file that was different in production. Your local config points to localhost. Production now points to localhost. The site is down.",
+                                             "\"I did not think the database schema was different\" â€” production uses a different schema than your local environment because the DBA made a change last week that you did not pull. Your migration dropped a column that production still uses. The column is gone. The data is gone. The backup is 3 days old.",
+                                             "The code worked in dev because dev runs on the latest version of the runtime. Production runs on the version that was current when the server was provisioned in 2021. Your code uses a feature from the 2024 runtime. Production does not have that feature. Your code does not run.",
+                                             "Note: \"It worked in dev\" is not a deployment argument. It is a confession that you did not test the actual target environment. Staging exists for a reason. Use it."
+                                         ],
+                             "title":  "BEFORE YOU DEPLOY TO PRODUCTION WITHOUT TESTING IN STAGING..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"It is just a CSS change\" â€” you changed a CSS class name. That class was referenced in 12 components, 3 of which are on the checkout page. The checkout button is now invisible. Users cannot complete purchases. The \"small change\" is a revenue emergency.",
+                                             "\"I am just updating a library version\" â€” you updated a patch version. The library maintainer removed a function that was deprecated in 2019. Your code relied on that function. The build now fails. The dependency graph shows 17 packages that depend on the old behaviour. You are now in transitive dependency hell.",
+                                             "\"It is a one-line fix\" â€” the one line is in a file that is imported by every module in the application. That one line introduces a circular import. The application no longer starts. The one-line fix caused a zero-line startup.",
+                                             "\"I am just renaming a variable\" â€” the variable was referenced in a stored procedure, a report query, and a monitoring dashboard. None of those are in the codebase you searched. The rename broke production data pipelines. The \"variable\" was a column name.",
+                                             "Note: There is no small change in production. Every change touches a system you cannot fully trace. The size of the change is not measured in lines of code. It is measured in surfaces of impact."
+                                         ],
+                             "title":  "BEFORE YOU SAY \u0027IT IS JUST A SMALL CHANGE\u0027..."
+                         },
+                         {
+                             "bullets":  [
+                                             "You deployed at 4:45 PM on a Friday. The deployment introduced a bug that causes data corruption after 6 hours of uptime. The corruption will manifest at 10:45 PM. You are at a bar. The on-call engineer is at a wedding. The data loss is unattended until Monday.",
+                                             "\"I will just revert if something goes wrong\" â€” the revert requires a database migration rollback. The migration added a not-null constraint. The rollback fails because production data now exists that violates the old schema. You cannot revert. You can only write a forward fix. On a Friday night.",
+                                             "You deployed a hotfix without tagging it. Nobody knows what version is running. The monitoring dashboard shows the old version number. The alerting system is checking against the wrong baseline. The false negatives will last until Tuesday when someone notices the version mismatch.",
+                                             "\"It is just a config change\" â€” you changed an environment variable. The application caches environment variables at startup. The cache does not refresh until the next deployment. The config change you deployed is not active. But you are confident it is. The disconnect between reality and belief is now a production incident.",
+                                             "Note: Friday deployments are not brave. They are reckless. The production gods do not care about your weekend plans. They will break on Saturday at 3 AM because that is when the universe balances the equation."
+                                         ],
+                             "title":  "BEFORE YOU DEPLOY ON A FRIDAY AFTERNOON..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"We do not need a rollback plan\" â€” you always need a rollback plan. The deployment will fail in a way you did not anticipate. The failure will be unique, novel, and specifically designed to make the rollback impossible. The lack of a plan is not confidence. It is denial.",
+                                             "\"The tests passed locally\" â€” the tests passed locally because the test suite has not been updated in 8 months. There are no tests for the feature you are deploying. The tests that exist test code that was removed last sprint. The green checkmark means \"the test framework loads successfully.\"",
+                                             "\"We can skip the smoke test\" â€” the smoke test would have caught that the API returns 500 for authenticated requests. You skipped it. The first user to log in gets a white screen. All users log in. All users get a white screen. The smoke test would have taken 30 seconds. The outage takes 2 hours.",
+                                             "\"The staging environment is down, so we will just test in production\" â€” staging being down is not a reason to use production as a test environment. It is a reason to fix staging. Production testing is not a backup plan. It is a disaster origin story.",
+                                             "Note: A deployment checklist is not bureaucracy. It is the accumulated scar tissue of every outage that came before you. Ignoring it does not make you efficient. It makes you the next scar."
+                                         ],
+                             "title":  "BEFORE YOU SKIP THE DEPLOYMENT CHECKLIST..."
+                         }
+                     ],
+        "title":  "The \"It Worked in Dev\" Gambit",
+        "totalBullets":  20,
+        "warningCount":  4,
+        "number":  43,
+        "description":  "The \"It Worked in Dev\" Gambit"
+    },
+    {
+        "id":  "44-the-backup-gambler",
+        "file":  "44-the-backup-gambler.md",
+        "warnings":  [
+                         {
+                             "bullets":  [
+                                             "\"I have never lost a file\" â€” until you do. The first time is always a surprise. The confidence before the loss is directly proportional to the severity of the loss. The people who say \"I do not need backups\" are the people who will need them most desperately tomorrow.",
+                                             "You have a \"backup strategy.\" It is called \"I email files to myself.\" Your inbox is not a backup. It is a distributed denial of service attack against your own future. The attachment limit is 25 MB. Your database backup is 2 GB. The strategy fails at the first real test.",
+                                             "\"I keep everything on OneDrive\" â€” OneDrive syncs. It is not a backup. If you accidentally delete a file, OneDrive syncs the deletion. If ransomware encrypts your files, OneDrive syncs the encryption. A sync is a mirror. A mirror reflects the disaster. It does not prevent it.",
+                                             "\"I back up to an external drive once a month\" â€” the external drive is on your desk. If there is a fire, flood, or theft, the external drive is in the same physical location as the computer. The backup is not a backup. It is a copy with the same risk profile as the original.",
+                                             "Note: A backup that is in the same building as the original is not a backup. It is a second copy with the same single point of failure. The \"3-2-1 rule\" exists because people like you keep learning the hard way: 3 copies, 2 media types, 1 offsite."
+                                         ],
+                             "title":  "BEFORE YOU SAY \u0027I DO NOT NEED A BACKUP, I AM CAREFUL\u0027..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"We have backups\" â€” when was the last time you tested a restore? Not \"we have a process.\" Not \"we have a script.\" When did you actually restore a file from backup and verify it opened correctly? If the answer is \"never,\" you do not have backups. You have hopes.",
+                                             "The backup job has been failing silently for 6 months. The error log shows \"access denied\" for the backup destination. Nobody checked the logs because \"the backup is automated.\" Automation does not guarantee success. It guarantees failure at scale without human intervention.",
+                                             "You restored the backup. It is corrupted. The backup software did not verify the integrity after writing. The tape had a bad sector. The cloud upload was interrupted. The backup completed with errors that nobody read. The file is there. The file is garbage.",
+                                             "\"We use RAID, that is backup enough\" â€” RAID is not a backup. RAID protects against drive failure. It does not protect against accidental deletion, ransomware, or the intern who ran `rm -rf /` on the wrong server. RAID is high availability. Backup is disaster recovery. They are not the same thing.",
+                                             "Note: The backup that has never been restored is not a backup. It is a ceremony. It makes you feel safe without providing safety. The only valid backup is the one you have successfully restored from."
+                                         ],
+                             "title":  "BEFORE YOU TEST YOUR RESTORE PROCEDURE..."
+                         },
+                         {
+                             "bullets":  [
+                                             "Your cloud backup is on the same provider as your production infrastructure. A provider outage takes down both your live environment and your ability to restore. You are betting everything on a single cloud vendor. That bet will pay off exactly until it does not.",
+                                             "The cloud backup is configured with the same credentials as your live environment. A credential compromise gives an attacker access to both the original data and the backup. The backup is not a safety net. It is an additional attack surface.",
+                                             "Your cloud backup bucket is publicly accessible. You did not check the permissions. You assumed \"default settings are secure.\" The default setting was \"public read.\" Your backup data is being indexed by search engines. Your customers\u0027 data is publicly available because you assumed.",
+                                             "The cloud backup costs $5 per month. The restore costs $500 in egress fees. You did not read the pricing page. You are now deciding whether to pay the ransom or pay the egress fee. Both are more expensive than reading the documentation would have been.",
+                                             "Note: A cloud backup is a contract, not a safety net. The contract has terms, limits, and conditions. Read them before you need them. The fine print becomes most expensive when you are already in a panic."
+                                         ],
+                             "title":  "BEFORE YOU STORE YOUR ONLY BACKUP IN THE CLOUD..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I assumed IT was backing up my laptop\" â€” IT backs up the server. Your laptop is your responsibility. The documents you have been working on for 3 months exist only on your local drive. When the drive fails, the work is gone. IT will not recover it. IT told you this in the onboarding email you did not read.",
+                                             "\"I thought the network drive was backed up\" â€” it is. But you have been saving files to your desktop for 4 years because it is \"faster.\" The desktop is local. Local is not backed up. The files you thought were safe have been living in the unprotected zone the entire time.",
+                                             "\"The IT guy said he would set it up\" â€” he set it up for the main file server. Your departmental share was not included because you did not specify it. IT cannot read your mind. Backup is not automatic. Backup is configured. If you did not request it, it was not configured.",
+                                             "\"I did not know we had a backup policy\" â€” the policy was sent to you 3 years ago. You archived the email without reading it. The policy document has the backup schedule, retention periods, and restore procedures. You are now asking for a restore outside the retention window. The backup does not exist.",
+                                             "Note: \"I did not know\" is not a restore request. It is a confession of negligence. Backup policies exist. Read them. Or accept that your data\u0027s survival depends on luck, not process."
+                                         ],
+                             "title":  "BEFORE YOU SAY \u0027THE IT DEPARTMENT HANDLES BACKUPS\u0027..."
+                         }
+                     ],
+        "title":  "The Backup Gambler",
+        "totalBullets":  20,
+        "warningCount":  4,
+        "number":  44,
+        "description":  "The Backup Gambler"
+    },
+    {
+        "id":  "45-the-license-pirate",
+        "file":  "45-the-license-pirate.md",
+        "warnings":  [
+                         {
+                             "bullets":  [
+                                             "You downloaded \"Adobe Photoshop for free\" from a site with 47 pop-up ads and a URL that ends in `.ru`. It is not Photoshop. It is malware disguised as Photoshop. The \"crack.exe\" you ran is now mining cryptocurrency on your work laptop. The electricity bill increase will tip off the IT department before the antivirus does.",
+                                             "\"I just needed it for one project\" â€” that one project now requires a full security audit of your machine, a reimage, and a report to management. The cost of the audit is 40 times the cost of a legitimate license. Your \"free\" software is the most expensive software the company has ever purchased.",
+                                             "You installed software from a USB stick that a colleague \"got from a friend.\" The software is unlicensed, untracked, and unpatched. It contains a known vulnerability from 2019 that is being actively exploited. You have introduced a zero-day (in terms of your company\u0027s awareness) into the network.",
+                                             "\"It is abandonware, nobody sells it anymore\" â€” abandonware is still copyrighted. The copyright did not expire because the company went out of business. You are still infringing. The intellectual property still belongs to someone. Abandonment does not mean public domain.",
+                                             "Note: \"Free\" software from unofficial sources is not a discount. It is a liability with a download button. The license cost is the price of admission. The cost of a breach is the penalty for skipping it."
+                                         ],
+                             "title":  "BEFORE YOU DOWNLOAD \u0027FREE\u0027 CORPORATE SOFTWARE FROM A TORRENT SITE..."
+                         },
+                         {
+                             "bullets":  [
+                                             "You bought a personal license for $10. The commercial license costs $500. You are using the personal license at work. The licensing agreement explicitly prohibits commercial use. You clicked \"I agree\" without reading. You agreed to the restriction.",
+                                             "A software audit found your unlicensed installation. The vendor is demanding payment for the commercial license plus a penalty for unlicensed use. The total is $2,000. The commercial license was $500. Your \"saving\" of $490 has cost the company $1,500 in penalties.",
+                                             "You installed software on 15 machines using a single personal license. The license agreement allows 1 installation. You are using 15. The vendor audit counts. The penalty is calculated per installation per year of unlicensed use. The invoice is now a six-figure number.",
+                                             "\"Everybody does it\" â€” everybody does not do it. Everybody who got caught said \"everybody does it.\" The audit found you. The fine is not based on how common the practice is. It is based on how many unlicensed installations you had. \"Everybody\" is not a legal defence.",
+                                             "Note: A personal license is personal. Work is not personal. If you use it for work, you need a work license. The distinction is not a technicality. It is the entire basis of software licensing."
+                                         ],
+                             "title":  "BEFORE YOU USE YOUR PERSONAL LICENSE FOR COMMERCIAL WORK..."
+                         },
+                         {
+                             "bullets":  [
+                                             "You posted the license key in the general channel. The key is now in the chat history, searchable by every employee past and present. The vendor\u0027s license management system detected the key being used from 12 different IP addresses. The key has been revoked. Everyone who was using it is now unlicensed.",
+                                             "\"It is just a volume license key, it is meant to be shared\" â€” volume license keys are meant to be managed, not shared. They have activation limits. They have audit trails. They have consequences when abused. The key allowed 50 activations. You shared it with 200 people. The key is now blocked.",
+                                             "You shared a screenshot that included the license key in the background. The key was visible for 3 seconds in a meeting recording. The recording was transcribed. The transcription was indexed. The key was extracted by automated scanning. Your software asset management is now an incident response.",
+                                             "\"I will just generate a new key\" â€” you cannot. The key is tied to the company\u0027s volume licensing agreement. The agreement has a finite number of activations. Each time you share a key and it gets revoked, you consume one of those activations. You are burning through the company\u0027s license allocation.",
+                                             "Note: A license key is not a conversation starter. It is a credential. Treat it with the same care as a password. Because in terms of audit liability, it is more expensive than most passwords."
+                                         ],
+                             "title":  "BEFORE YOU SHARE YOUR LICENSE KEY ON THE COMPANY CHAT..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I installed it because I needed it\" â€” you installed an application that conflicts with the company\u0027s security software. The security software now crashes on startup. The endpoint protection is disabled. Your machine is now the weakest link in the network. All because you needed a font manager.",
+                                             "You installed a browser extension that \"helps with productivity.\" The extension reads all the pages you visit. It sends your browsing data to a third-party server. The data includes your company\u0027s internal applications, customer data, and credentials. The extension is the productivity tool of the person who bought your data.",
+                                             "You downloaded a \"system cleaner\" that promised to speed up your computer. It deleted system files that the antivirus depended on. The antivirus can no longer run. The system cleaner was not cleaning. It was dismantling your defences.",
+                                             "You installed remote desktop software to access your work computer from home. The software you chose does not use encryption. Your remote session is being broadcast in plain text over the internet. Every keystroke, every password, every document you access is visible to anyone monitoring network traffic.",
+                                             "Note: IT approval exists because IT has been cleaning up the mess from unapproved installations for 30 years. The approval process is not a gate. It is a safety inspection. Skip it at your own risk."
+                                         ],
+                             "title":  "BEFORE YOU INSTALL SOFTWARE WITHOUT IT APPROVAL..."
+                         }
+                     ],
+        "title":  "The License Pirate",
+        "totalBullets":  20,
+        "warningCount":  4,
+        "number":  45,
+        "description":  "The License Pirate"
     }
 ]
