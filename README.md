@@ -176,23 +176,27 @@ flowchart LR
 <details>
 <summary><strong>📁 Project Structure</strong></summary>
 
-```
-├── volumes/                         # All book files (01-61)
-│   ├── 01-general-user-errors.md
-│   ├── ...
-│   └── 61-afterword.md
-│
-├── version.json                     # Auto-updated stats
-├── index.html                       # The UI you'll actually use
-├── serve.py                         # Python dev server
-├── start.bat                        # Windows double-click launcher
-├── generate-index.py                # Index generator (Python)
-├── generate-index.ps1               # Thin wrapper calling generate-index.py
-├── .github/
-│   ├── workflows/                   # <abbr title="Continuous Integration / Continuous Deployment">CI/CD</abbr>: auto-updates stats
-│   └── scripts/                     # Stats calculator
-└── README.md                        # This file
-```
+<pre style="background:#0d1117;color:#c9d1d9;padding:16px;border-radius:8px;font-family:Consolas,'Courier New',monospace;line-height:1.7;overflow-x:auto;">
+<span style="color:#ff8800;">📂 volumes/</span>                         <span style="color:#555;"># All book files (01-61)</span>
+<span style="color:#555;">  │</span>
+<span style="color:#555;">  ├──</span> <span style="color:#44ddff;">01-general-user-errors.md</span>
+<span style="color:#555;">  ├──</span> <span style="color:#44ddff;">02-liquid-and-physical-damage.md</span>
+<span style="color:#555;">  ├──</span> <span style="color:#44ddff;">...</span>
+<span style="color:#555;">  └──</span> <span style="color:#44ddff;">61-afterword-the-last-warnings.md</span>
+<span style="color:#555;">  │</span>
+<span style="color:#ff8800;">📄 version.json</span>                     <span style="color:#555;"># Auto-updated stats</span>
+<span style="color:#ff8800;">📄 index.html</span>                       <span style="color:#555;"># Browser frontend (search + export)</span>
+<span style="color:#44ff44;">🐍 serve.py</span>                         <span style="color:#555;"># Python dev server</span>
+<span style="color:#44ff44;">🐍 generate-index.py</span>                <span style="color:#555;"># Index generator (Python)</span>
+<span style="color:#44ddff;">⚡ generate-index.ps1</span>                <span style="color:#555;"># PowerShell wrapper</span>
+<span style="color:#888;">🪟 start.bat</span>                        <span style="color:#555;"># Windows double-click launcher</span>
+<span style="color:#555;">  │</span>
+<span style="color:#555;">📁 </span><span style="color:#ffcc00;">.github/</span>
+<span style="color:#555;">  ├── </span><span style="color:#ffcc00;">workflows/</span>                    <span style="color:#555;"># CI: auto-updates stats</span>
+<span style="color:#555;">  └── </span><span style="color:#ffcc00;">scripts/</span>                      <span style="color:#555;"># Stats calculator</span>
+<span style="color:#555;">  │</span>
+<span style="color:#555;">📄 </span><span style="color:#c9d1d9;">README.md</span>                        <span style="color:#555;"># This file</span>
+</pre>
 
 </details>
 
