@@ -1,9 +1,14 @@
 param(
-    [string]$SourceDir = (Split-Path -Parent $PSCommandPath),
+    [string]$SourceDir = (Join-Path (Split-Path -Parent $PSCommandPath) "volumes"),
     [string]$OutputFile = "index.json"
 )
 
-$chapters = Get-ChildItem -LiteralPath $SourceDir -Filter "*.md" | Where-Object { $_.Name -ne "README.md" -and $_.Name -ne $OutputFile -and $_.BaseName -match '^\d{2}' } | Sort-Object Name
+if (-not (Test-Path $SourceDir)) {
+    Write-Error "Volume directory not found: $SourceDir"
+    exit 1
+}
+
+$chapters = Get-ChildItem -LiteralPath $SourceDir -Filter "*.md" | Where-Object { $_.BaseName -match '^\d{2}' } | Sort-Object Name
 
 $result = @()
 

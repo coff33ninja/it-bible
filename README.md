@@ -1,6 +1,6 @@
 # 📖 The IT Bible
 
-**Warnings From The Department** — 40 books, 267 warnings covering every flavor of user error known to IT.
+**Warnings From The Department** — 45 books, 282 warnings covering every flavor of user error known to IT.
 
 A living encyclopedia of preventable suffering. Read this before your ticket becomes my problem.
 
@@ -25,9 +25,9 @@ A comprehensive (and brutally honest) guide to user errors that break systems. E
 
 ## 📊 By The Numbers
 
-- **40 books** of warnings
-- **267 warnings** total
-- **1000+ verses** (individual prevention tips)
+- **45 books** of warnings
+- **282 warnings** total
+- **1135 verses** (individual prevention tips)
 - **100% preventable** (if you read this first)
 
 ---
@@ -61,7 +61,7 @@ The frontend will load with a search-enabled sidebar, full warning text, and the
 | 01 | General User Errors & PEBCAK | 12 |
 | 02 | Liquid & Physical Damage | 8 |
 | ... | ... | ... |
-| 40 | The Silent Saboteur | (the worst one) |
+| 45 | The License Pirate | (software piracy) |
 
 Browse them all in the web interface. Bookmark the ones you'll need.
 
@@ -75,24 +75,26 @@ After adding or editing warnings, rebuild the search index:
 powershell -File generate-index.ps1
 ```
 
-The script scans all `.md` files in the root directory, extracts warnings, and generates `index.json` for the frontend. Takes seconds.
+The script scans all `.md` files in `volumes/`, extracts warnings, and generates `volumes/index.json` for the frontend. Takes seconds.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-├── 01-general-user-errors.md       # The classics
-├── 02-liquid-and-physical-damage.md # We've all seen this
-├── ...
-├── 40-the-silent-saboteur.md       # Don't ask what this is
+├── volumes/                         # All book files (01-45)
+│   ├── 01-general-user-errors.md
+│   ├── ...
+│   └── 45-the-license-pirate.md
 │
+├── version.json                     # Auto-updated stats
 ├── index.html                       # The UI you'll actually use
-├── index.json                       # The search index (auto-generated)
 ├── serve.py                         # Python dev server
 ├── start.bat                        # Windows double-click launcher
 ├── generate-index.ps1               # Index generator (PowerShell)
-├── README.txt                       # Server config options
+├── .github/
+│   ├── workflows/                   # CI: auto-updates stats
+│   └── scripts/                     # Stats calculator
 └── README.md                        # This file
 ```
 
