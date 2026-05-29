@@ -1,52 +1,38 @@
 @echo off
-title The IT Bible Server
+title The IT Bible - Server
 cd /d "%~dp0"
-cls
 
-echo.
-echo   ^>^>^> THE IT BIBLE ^<^<^<
-echo.
-echo   Locating Python...
+:: ── 1. Install uv (if missing) ──────────────────────────────────────────────
+where uv >nul 2>&1
+if errorlevel 1 (
+    echo [IT BIBLE] Installing uv...
+    powershell -ExecutionPolicy ByPass -Command "& {irm https://astral.sh/uv/install.ps1 | iex}"
+    if errorlevel 1 (
+        echo [IT BIBLE] Failed to install uv. Install manually: https://astral.sh/uv
+        pause
+        exit /b 1
+    )
+)
 
-:: Check for py (Python launcher, always in PATH when Python is installed)
-where py >nul 2>nul
-if %errorlevel% equ 0 goto :run_py
+:: ── 2. Locate uv executable ─────────────────────────────────────────────────
+set UV_EXE=uv
+where uv >nul 2>&1 || (
+    if exist "%USERPROFILE%\.local\bin\uv.exe" set "UV_EXE=%USERPROFILE%\.local\bin\uv.exe"
+    if exist "%USERPROFILE%\.cargo\bin\uv.exe" set "UV_EXE=%USERPROFILE%\.cargo\bin\uv.exe"
+)
+for /f "tokens=1-2" %%a in ('"%UV_EXE%" --version') do set UVVER=%%a %%b
+echo [IT BIBLE] %UVVER%
 
-:: Check for python via full path
-if exist "C:\Python314\python.exe" set PYCMD=C:\Python314\python.exe & goto :run
-if exist "C:\Python313\python.exe" set PYCMD=C:\Python313\python.exe & goto :run
-if exist "C:\Python312\python.exe" set PYCMD=C:\Python312\python.exe & goto :run
+:: ── 3. Ensure Python (uv-managed) ───────────────────────────────────────────
+echo [IT BIBLE] Ensuring Python...
+"%UV_EXE%" python install 3.11
 
-echo   [!] Python not found.
-echo.
-echo   Options:
-echo     npx http-server .   (if Node.js is installed)
-echo     python serve.py     (if Python is in your PATH)
-echo.
-pause
-exit /b
+:: ── 4. Sync dependencies & create .venv ─────────────────────────────────────
+echo [IT BIBLE] Installing dependencies...
+"%UV_EXE%" sync
 
-:run_py
-echo   Found: py (Python Launcher)
+:: ── 5. Launch server ────────────────────────────────────────────────────────
 echo.
-echo   Server starting at http://localhost:3000
-echo   Press Ctrl+C to stop
-echo.
-start /b "" cmd /c "timeout /t 2 /nobreak >nul && start http://localhost:3000"
-py serve.py
-goto :end
+"%UV_EXE%" run serve.py
 
-:run
-echo   Found: %PYCMD%
-echo.
-echo   Server starting at http://localhost:3000
-echo   Press Ctrl+C to stop
-echo.
-start /b "" cmd /c "timeout /t 2 /nobreak >nul && start http://localhost:3000"
-%PYCMD% serve.py
-goto :end
-
-:end
-echo.
-echo   Server stopped.
 pause

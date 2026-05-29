@@ -1,0 +1,8 @@
+[project]
+name = "it-bible"
+version = "1.0.0"
+description = "The IT Bible — Warnings From The Department"
+requires-python = ">=3.10"
+dependencies = [
+    "edge-tts>=7.0",
+]

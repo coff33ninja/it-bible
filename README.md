@@ -54,7 +54,17 @@ A comprehensive (and brutally honest) guide to user errors that break systems. E
 
 ## 🚀 Get Started
 
-### Quick Start (No Dependencies, No Nonsense)
+### Quick Start (No Nonsense)
+
+<kbd>start.bat</kbd>
+
+That's it. The script handles everything:
+- Installs <kbd>uv</kbd> (if missing)
+- Downloads/manages Python via <kbd>uv python install</kbd>
+- Installs dependencies with <kbd>uv sync</kbd>
+- Launches the server on **http://localhost:3000**
+
+Already have Python? Just run <kbd>py serve.py</kbd> (TTS won't work without <kbd>uv sync</kbd>).
 
 <kbd>py serve.py</kbd>
 
@@ -68,8 +78,8 @@ The frontend will load with a search-enabled sidebar, full warning text, and the
 > - 🔍 **<span style="color:#44ddff;">Full-text search</span>** — Find that specific warning you need
 > - 📋 **<span style="color:#44ddff;">Copy functionality</span>** — Paste warnings directly into tickets
 > - 🖼️ **<span style="color:#44ddff;">Image export</span>** — Download warnings as <abbr title="Portable Network Graphics">PNG</abbr> for Slack/email/wall posters
+> - 🔊 **<span style="color:#44ddff;">Text-to-Speech</span>** — Hear warnings with Microsoft neural voices (optional: <kbd>uv sync</kbd>)
 > - 📱 **<span style="color:#44ddff;">Mobile responsive</span>** — Read warnings from your phone at 3 AM
-> - ⚡ **<span style="color:#44ddff;">Zero external dependencies</span>** — Just Python and a browser
 
 ---
 
