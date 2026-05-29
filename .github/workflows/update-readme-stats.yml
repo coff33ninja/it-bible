@@ -19,101 +19,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
       - name: Generate stats and update README
-        run: |
-          import os
-          import re
-          import json
-          from pathlib import Path
-
-          # Scan all markdown files for book chapters
-          md_files = sorted([f for f in os.listdir('.') if f.endswith('.md') and f != 'README.md'])
-          
-          books = []
-          total_warnings = 0
-          total_verses = 0
-          
-          for md_file in md_files:
-              with open(md_file, 'r', encoding='utf-8') as f:
-                  content = f.read()
-              
-              # Extract book number from filename (e.g., "01-" from "01-general-user-errors.md")
-              match = re.match(r'(\d+)-(.+)\.md', md_file)
-              if not match:
-                  continue
-              
-              book_num = int(match.group(1))
-              book_title = match.group(2).replace('-', ' ').title()
-              
-              # Count warnings (lines starting with **)
-              warnings = len(re.findall(r'^\*\*[^*]+\*\*', content, re.MULTILINE))
-              
-              # Count verses (bullet points)
-              verses = len(re.findall(r'^\s*-\s', content, re.MULTILINE))
-              
-              books.append({
-                  'number': book_num,
-                  'title': book_title,
-                  'filename': md_file,
-                  'warnings': warnings,
-                  'verses': verses
-              })
-              
-              total_warnings += warnings
-              total_verses += verses
-          
-          # Read current README
-          with open('README.md', 'r', encoding='utf-8') as f:
-              readme = f.read()
-          
-          # Update stats in first section
-          readme = re.sub(
-              r'- \*\*40 books\*\*',
-              f'- **{len(books)} books**',
-              readme
-          )
-          
-          readme = re.sub(
-              r'- \*\*267 warnings\*\*',
-              f'- **{total_warnings} warnings**',
-              readme
-          )
-          
-          readme = re.sub(
-              r'- \*\*1000\+ verses\*\*',
-              f'- **{total_verses}+ verses**',
-              readme
-          )
-          
-          # Build the books table
-          table_header = "| Book | Focus | Warning Count |\n|------|-------|---|\n"
-          table_rows = ""
-          
-          for i, book in enumerate(books):
-              if i < 5 or i >= len(books) - 2:  # Show first 5 and last 2
-                  table_rows += f"| {book['number']:02d} | {book['title']} | {book['warnings']} |\n"
-              elif i == 5:
-                  table_rows += "| ... | ... | ... |\n"
-          
-          # Replace the books table
-          table_pattern = r'(\| Book \| Focus \| Warning Count \|\n\|---\|-----\|---\|\n)(.*?)(\n---)'
-          table_replacement = table_header + table_rows + "\n---"
-          readme = re.sub(table_pattern, table_header + table_rows + "\n---", readme, flags=re.DOTALL)
-          
-          # Write updated README
-          with open('README.md', 'w', encoding='utf-8') as f:
-              f.write(readme)
-          
-          # Print stats for logs
-          print(f"📚 Total Books: {len(books)}")
-          print(f"⚠️  Total Warnings: {total_warnings}")
-          print(f"📝 Total Verses: {total_verses}")
-        shell: python
+        run: python3 .github/scripts/update_stats.py
 
       - name: Commit and push if changed
         run: |
@@ -121,7 +28,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add README.md
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "✓ No changes to commit"
           else
             git commit -m "chore: auto-update README stats"
             git push
