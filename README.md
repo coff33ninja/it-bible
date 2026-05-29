@@ -264,7 +264,7 @@ Found a new way users can break things? Have a warning that saved your sanity?
 
 <ol style="color:#c9d1d9;line-height:1.9;">
 <li><strong><span style="color:#44ff44;">Add it</span></strong> to the appropriate chapter (or create a new one if it's truly novel)</li>
-<li><strong><span style="color:#44ff44;">Follow the format</span></strong> — see the <a href="CONTRIBUTING_SAMPLE.md" style="color:#44ddff;">sample template</a></li>
+<li><strong><span style="color:#44ff44;">Follow the format</span></strong> — see the <a href="CONTRIBUTING.md" style="color:#44ddff;">sample template</a></li>
 <li><strong><span style="color:#44ff44;">Rebuild</span></strong> the index: <code style="background:#1a1a1a;padding:2px 6px;border-radius:3px;">python generate-index.py</code></li>
 <li><strong><span style="color:#44ff44;">Commit and push</span></strong> — CI auto-updates stats</li>
 </ol>
