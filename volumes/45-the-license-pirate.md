@@ -45,3 +45,25 @@
 - You installed remote desktop software to access your work computer from home. The software you chose does not use encryption. Your remote session is being broadcast in plain text over the internet. Every keystroke, every password, every document you access is visible to anyone monitoring network traffic.
 
 *Note: IT approval exists because IT has been cleaning up the mess from unapproved installations for 30 years. The approval process is not a gate. It is a safety inspection. Skip it at your own risk.*
+
+---
+
+**BEFORE YOU USE OPEN SOURCE SOFTWARE WITHOUT CHECKING THE LICENSE...**
+
+- "It is open source, so it is free to use" — open source means the source code is open. It does not mean free for commercial use. The GPL requires you to release your source code if you distribute the software. Your company's proprietary codebase just became open source because you did not read the license.
+- You used an MIT-licensed library. You complied with the license terms. One of its dependencies is AGPL. The AGPL license requires you to provide source code to any user who accesses the software over a network. Your internal tool is now a legal liability because you did not check the dependency tree.
+- You copied code from a blog post. The blog post did not include a license. Copyright law defaults to "all rights reserved." You do not have permission to use that code. The blog author can issue a DMCA takedown. Your production deployment could be shut down because you copied a code snippet without reading the terms.
+- "It is on GitHub, so it is public domain" — GitHub is a hosting platform, not a license grant. The absence of a license file means the default copyright restrictions apply. You cannot use, modify, or distribute code that does not have an explicit license. The public repository is not a public domain dedication.
+
+*Note: Open source is not free software. It is licensed software with specific terms. The license defines what you can do. If you have not read the license, you have not legally acquired the software.*
+
+---
+
+**BEFORE YOU EXTEND A TRIAL PERIOD INDEFINITELY...**
+
+- You found a "trial reset" script that extends the 30-day trial indefinitely. The trial reset works by deleting registry keys. It also deleted your antivirus configuration. Your trial software is working. Your protection is not. The trade-off was not worth it.
+- You have been using a "trial" for 18 months. The trial expired 17 months ago. You are running software that stopped receiving updates when the trial ended. The software has 17 months of unpatched vulnerabilities. The trial never ends. The vulnerability window never closes.
+- "I will buy it when I am sure it works" — you have been sure for 6 months. You are not going to buy it. You are going to keep using the cracked trial until the vendor detects the tampering and sends a legal notice. The "trial" ends when the lawsuit arrives.
+- You edited the hosts file to block the software from phoning home. The software phones home to check for license validation. It also phones home to check for security updates. You blocked both. The trial keeps working. So does the zero-day exploit that was patched 3 months ago.
+
+*Note: A trial is an evaluation period, not a permanent state. If you need the software for more than 30 days, buy it. Or accept that you are running unlicensed, unpatched, and unprotected software. The trial ends. The risk does not.**

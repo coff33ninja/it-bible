@@ -45,3 +45,25 @@
 - "The staging environment is down, so we will just test in production" — staging being down is not a reason to use production as a test environment. It is a reason to fix staging. Production testing is not a backup plan. It is a disaster origin story.
 
 *Note: A deployment checklist is not bureaucracy. It is the accumulated scar tissue of every outage that came before you. Ignoring it does not make you efficient. It makes you the next scar.*
+
+---
+
+**BEFORE YOU MERGE WITHOUT CODE REVIEW...**
+
+- "I do not need a review, it is a trivial change" — every catastrophic deployment in history was a "trivial change." The variable you renamed was imported by a module you forgot existed. The code review would have caught it. You skipped it. Production caught it instead.
+- You reviewed your own pull request and approved it. That is not a code review. That is typing "LGTM" to yourself in a mirror. Code review exists because you are blind to your own mistakes. You are the least qualified person to review your own code.
+- "The reviewer is taking too long, I will just merge" — the reviewer is taking long because they found an issue and are writing a detailed explanation. You merged before they finished typing. The issue is now in production. The reviewer's comment is now a post-mortem action item with your name on it.
+- You merged during a code freeze. The freeze exists because the release branch is stabilizing. Your merge introduced a breaking change. The release is delayed. The freeze was not a suggestion. It was a rule. You are the reason rules exist.
+
+*Note: Code review is not a bottleneck. It is the last line of defence before your mistake becomes everyone's incident. The five minutes it takes to wait for a review is cheaper than the five hours of debugging a production outage.*
+
+---
+
+**BEFORE YOU SAY 'WE WILL FIX IT IN POST-PRODUCTION'...**
+
+- "We will patch it after launch" — you have been saying this for 6 months. The patch backlog is now 47 items. The "post-production fixes" list has become the production feature set. You are not fixing things after launch. You are accumulating technical debt at compound interest.
+- "It is not a bug, it is a known limitation" — a known limitation that affects 30% of users. You documented it in a README that nobody reads. The users do not care about your known limitations. They care that the feature does not work. Your documentation does not replace functionality.
+- "We will add error handling in the next sprint" — the next sprint has been "next sprint" for 3 sprints. The unhandled exception is now a production incident. The error handling you postponed is now the subject of an emergency meeting. The next sprint just became this sprint.
+- "The edge case is too rare to handle now" — the edge case just happened to your biggest client. The "rare" edge case is now a priority incident. The client is considering alternatives. The cost of handling the edge case before launch would have been 2 hours. The cost of handling it now is a contract renegotiation.
+
+*Note: "We will fix it later" is a promise you make to your future self. Your future self is already overwhelmed with the promises your past self made. Break the chain. Fix it now.**

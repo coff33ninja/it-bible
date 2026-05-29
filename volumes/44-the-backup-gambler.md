@@ -45,3 +45,25 @@
 - "I did not know we had a backup policy" — the policy was sent to you 3 years ago. You archived the email without reading it. The policy document has the backup schedule, retention periods, and restore procedures. You are now asking for a restore outside the retention window. The backup does not exist.
 
 *Note: "I did not know" is not a restore request. It is a confession of negligence. Backup policies exist. Read them. Or accept that your data's survival depends on luck, not process.*
+
+---
+
+**BEFORE YOU RELY ON AUTOSAVE AS YOUR ONLY BACKUP...**
+
+- "The autosave will get it back" — autosave saved the corrupted version. Over the good version. The autosave interval is 10 minutes. You made the critical edit 9 minutes ago. The autosave captured exactly the wrong moment. Your document is now permanently saved in its broken state.
+- "I use version history in Google Docs" — version history keeps snapshots for 30 days on the free tier. Your critical document was edited 31 days ago. The version history shows "No older versions." The document existed before today. The history does not. You are looking at the final snapshot before the cliff.
+- Autosave wrote over your original file when the application crashed. The crash corrupted the file. Autosave preserved the corruption. You now have a perfectly preserved copy of a broken file. The autosave did not save you. It saved the crash.
+- You rely on "recover unsaved documents" in Word. That feature is a temporary file that gets deleted when you close the application without saving. You closed the application. You did not save. The temporary file is gone. The feature cannot recover what it was never designed to keep.
+
+*Note: Autosave is a convenience, not a backup strategy. It saves versions, not safety. If autosave is your only backup, you do not have a backup. You have a false sense of security with a 10-minute delay.*
+
+---
+
+**BEFORE YOU KEEP CRITICAL DATA ON A SHARED DRIVE WITH NO VERSIONING...**
+
+- "It is on the shared drive, so it is safe" — the shared drive has no versioning. Someone overwrote your file with a blank template. The original data is gone. The shared drive stores the latest version. The latest version is a blank template. Your work is in the void between saves.
+- "Multiple people have copies of it" — multiple people have copies of the version from last month. The changes you made this week exist only on your laptop. Your laptop is not backed up. The collective copy network is a collection of outdated snapshots. Nobody has the current version.
+- "I emailed it to myself as a backup" — you emailed the file to yourself 6 months ago. The file you need is the one with this quarter's data. You are going to spend 3 hours rebuilding it from the email attachment and your memory. The email was not a backup. It was a time capsule of obsolete information.
+- The shared drive is mapped to a drive letter that changes when IT updates the network configuration. Your spreadsheet references the old drive letter. All the linked data is broken. The "backup" on the shared drive cannot be accessed by the file that needs it. Your data exists but your data does not work.
+
+*Note: A shared drive is a collaboration space, not an archive. If it does not have versioning, retention policies, and regular snapshots, it is not a backup. It is a shared space where data goes to be accidentally overwritten.**

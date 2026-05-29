@@ -41,3 +41,23 @@
 - "It is leaning to one side" — because you sit with your legs crossed and all your weight on one hip every single day for 8 hours. The foam has memory. It remembers your bad posture.
 
 *Note: A chair that leans to one side is not broken. It is a mirror reflecting your asymmetrical sitting habits.*
+
+---
+
+**BEFORE YOU 'FIX' YOUR CHAIR WITH DUCT TAPE AND HOPE...**
+
+- You "repaired" the armrest with duct tape. The duct tape adhesive has melted into the upholstery. The armrest is now sticky, the tape is peeling, and the residue will outlast the chair. You have created an archaeological artifact of bad decisions.
+- You replaced the gas lift with one from a different chair. It does not fit. The chair now lowers itself slowly throughout the day. At 3 PM you are basically sitting on the floor. You saved $30 and created a gradual humiliation machine.
+- You wedged a book under one side to stop the wobble. The book is now compressing. The wobble is back. The book is ruined. The chair is still wobbling. The only thing you have accomplished is reducing the resale value of the book.
+
+*Note: Your chair is not a project car. Modifications void the warranty and create safety hazards. If the chair is broken, submit a ticket. If you fix it yourself, you own the consequences.*
+
+---
+
+**BEFORE YOU COMPLAIN YOUR CHAIR IS UNCOMFORTABLE AFTER 8 YEARS...**
+
+- That chair was purchased in 2017. It has been sat in for approximately 8,000 hours. The foam is compressed. The gas lift is tired. The fabric is worn. The chair has done its time. It is not uncomfortable. It is retired.
+- "But my old chair was perfect" — your old chair was perfect because it molded to your body over 8 years. That molding is called settling. The chair is now a custom-fit seat that matches exactly one body: yours from 8 years ago. Your body has changed. The chair has changed. The match is gone.
+- You are using a chair that was meant for someone who is 15 cm shorter than you. The armrests are at the wrong height. The seat depth is wrong. The lumbar support hits your shoulder blades. The chair is not uncomfortable. It is the wrong chair for your body. You have been sitting wrong for years.
+
+*Note: Office furniture has a lifespan. Chairs do not last forever. Neither do your expectations of them. If your chair is older than some of your colleagues, it is time for a replacement.**
