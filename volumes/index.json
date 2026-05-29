@@ -3101,5 +3101,175 @@
         "warningCount":  4,
         "number":  45,
         "description":  "The License Pirate"
+    },
+    {
+        "id":  "46-the-screenshot-that-isnt",
+        "file":  "46-the-screenshot-that-isnt.md",
+        "warnings":  [
+                         {
+                             "bullets":  [
+                                             "\"Can you read this?\" â€” no, we cannot read the glare reflecting your desk lamp off a 2013 monitor at a 37-degree angle.",
+                                             "\"I sent you a screenshot\" â€” you sent a JPEG of a screen taken with another screen. There are pixels on your pixels.",
+                                             "\"You can zoom in, right?\" â€” I can zoom into a photo of a screen showing an error message that is itself a photo of a screen. The resolution loss is exponential.",
+                                             "\"My phone takes better photos than your eyes\" â€” my eyes do not have motion blur. My eyes do not include my thumb in the corner. My eyes do not capture the ceiling fan mid-spin."
+                                         ],
+                             "title":  "BEFORE YOU TAKE A PHOTO OF YOUR SCREEN WITH YOUR PHONE..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I took a screenshot of it\" â€” you took a screenshot of your desktop wallpaper. The error is gone.",
+                                             "\"It was there a second ago\" â€” correct. And now it is not. And you did not capture it. And I cannot help you.",
+                                             "\"I closed it by accident\" â€” you clicked \"Don\u0027t show again\" and now neither of us will ever see it.",
+                                             "Note: A screenshot is a digital capture of your display. A photo taken with your phone is a memento of a moment that IT cannot fix."
+                                         ],
+                             "title":  "BEFORE YOU SEND A SCREENSHOT OF AN ERROR MESSAGE THAT DOES NOT INCLUDE THE ERROR..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I did not realize my dating app was open\" â€” you do not realize a lot of things, and now I know all of them.",
+                                             "\"Can you just look at the error and ignore the rest?\" â€” I cannot unsee your shopping cart. I cannot unsee your ex\u0027s name.",
+                                             "\"I cropped it before sending\" â€” you cropped it vertically. The Tinder notification is still visible at the top.",
+                                             "Note: Share your entire screen. Share your entire life. I am not a therapist but I am judging you."
+                                         ],
+                             "title":  "BEFORE YOU SEND A SCREENSHOT WITH PERSONAL NOTIFICATIONS VISIBLE..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"It said something about a error\" â€” something. About a error. This is the information you chose to preserve.",
+                                             "\"I did not write it down because I knew I could screenshot it\" â€” you did not screenshot it either.",
+                                             "\"It was a blue screen with white text\" â€” that describes every error screen since 1995. Narrow it down.",
+                                             "Note: If you describe an error message from memory, you are writing scripture. I need the actual verse."
+                                         ],
+                             "title":  "BEFORE YOU SEND A SCREENSHOT THAT IS ACTUALLY JUST A DESCRIPTION OF WHAT YOU SAW..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I took a photo of my laptop with my desktop webcam\" â€” you have created an infinite regress of bad decisions.",
+                                             "\"Can you mirror my phone to the TV so I can take a photo of the TV?\" â€” no. Just no.",
+                                             "\"I recorded a video of my screen with my tablet and now I am playing it back on my phone to show you\" â€” you are in too deep. Start over.",
+                                             "Note: The number of screens involved in your \"screenshot\" should never exceed one. This is not a Christopher Nolan film."
+                                         ],
+                             "title":  "BEFORE YOU PHOTOGRAPH YOUR SCREEN WITH ANOTHER SCREEN..."
+                         }
+                     ],
+        "title":  "The Screenshot That Isn\u0027t",
+        "totalBullets":  20,
+        "warningCount":  5,
+        "number":  46,
+        "description":  "The Screenshot That Isn\u0027t"
+    },
+    {
+        "id":  "47-it-worked-yesterday",
+        "file":  "47-it-worked-yesterday.md",
+        "warnings":  [
+                         {
+                             "bullets":  [
+                                             "\"It worked yesterday\" â€” everything worked yesterday. Yesterday is not today. What changed?",
+                                             "\"Nothing changed\" â€” you installed software. You uninstalled software. You moved files. You changed settings. You \"updated\" something. You did *something*.",
+                                             "\"I literally did nothing\" â€” you opened your laptop. That is something. Start from there.",
+                                             "\"It worked this morning\" â€” it is now 4 PM. That is 7 hours of unspecified activity.",
+                                             "Note: \"It worked yesterday\" is not a diagnostic clue. It is a confession that you have no idea what you did."
+                                         ],
+                             "title":  "BEFORE YOU SAY \"IT WORKED YESTERDAY\" WITHOUT ANY OTHER INFORMATION..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I did not change anything\" â€” you changed your password. You said \"maybe my password expired\" which means something changed your password. That was you.",
+                                             "\"I swear nothing changed\" â€” your desktop icons are sorted by date. Your browser history is empty. Your wallpaper is different. You changed things.",
+                                             "\"Well I did not change anything intentionally\" â€” intention does not matter. The computer does not care about intent. It cares about state.",
+                                             "Note: The number of times a user says \"nothing changed\" is inversely proportional to the number of things that actually changed."
+                                         ],
+                             "title":  "BEFORE YOU SAY \"I DID NOT CHANGE ANYTHING\" FOR THE FOURTH TIME..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"Windows updated and now it is broken\" â€” Windows updates every Tuesday. You are telling me this on Thursday. That is 48 hours of blissful ignorance.",
+                                             "\"I think it was an update\" â€” you think. You do not know. The update log knows. You have never opened the update log.",
+                                             "\"It was probably a driver update\" â€” you do not know what a driver is. You overheard someone say \"driver\" once and now it is your entire thesis.",
+                                             "Note: \"An update\" is not a diagnosis. \"An update\" is the IT equivalent of \"a guy did a thing somewhere.\""
+                                         ],
+                             "title":  "BEFORE YOU BLAME \"AN UPDATE\" WITHOUT KNOWING WHICH ONE..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I already told you it worked yesterday\" â€” yes, and I asked what changed. You said nothing. That is not helpful.",
+                                             "\"I am just repeating myself because you are not listening\" â€” I am listening. You are not answering.",
+                                             "\"Can you just fix it?\" â€” I can fix it. But first I need to know what broke it. And you broke it. And you do not remember how.",
+                                             "Note: Repeating the same incomplete information does not make it more complete. It makes it louder."
+                                         ],
+                             "title":  "BEFORE YOU PROVIDE THE EXACT SAME INFORMATION IN A THIRD TICKET..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"Just roll me back to yesterday\" â€” yesterday is not a backup point. Yesterday is a concept. I cannot restore a concept.",
+                                             "\"Can you undo whatever changed?\" â€” I can undo the specific change if you tell me what it was. You do not know what it was.",
+                                             "\"Just reinstall Windows\" â€” you want me to reinstall Windows because something \"worked yesterday\" and now it does not. That is like demolishing your house because the toaster broke.",
+                                             "Note: \"Roll back to yesterday\" is not a technical request. It is a philosophical position on the nature of time and regret."
+                                         ],
+                             "title":  "BEFORE YOU DEMAND A ROLLBACK TO \"YESTERDAY\"..."
+                         }
+                     ],
+        "title":  "The \"It Worked Yesterday\" Expert",
+        "totalBullets":  21,
+        "warningCount":  5,
+        "number":  47,
+        "description":  "The \"It Worked Yesterday\" Expert"
+    },
+    {
+        "id":  "48-the-over-explainer",
+        "file":  "48-the-over-explainer.md",
+        "warnings":  [
+                         {
+                             "bullets":  [
+                                             "\"So I was born in 1987...\" â€” your birth year is not relevant to why Excel is not responding. Skip to the part where things broke.",
+                                             "\"Let me give you some background\" â€” the background is that something is broken. The foreground is that I need to fix it. Do not bury the lede.",
+                                             "\"I am not very technical, so bear with me\" â€” I have been bearing with you since paragraph one. You are on paragraph seven.",
+                                             "\"This all started when we migrated from the old system three years ago\" â€” no. This started 10 minutes ago when you clicked something you should not have clicked.",
+                                             "Note: A ticket is not a memoir. A ticket is a problem statement. Write it like one."
+                                         ],
+                             "title":  "BEFORE YOU START YOUR TICKET WITH YOUR LIFE STORY..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"It is like when you try to put a square peg in a round hole\" â€” it is not like that. Tell me what the actual error message says.",
+                                             "\"Imagine you are driving a car and the engine makes a noise\" â€” I am not driving a car. I am reading a ticket. What does the computer do?",
+                                             "\"You know how when you pour water into a full glass it overflows?\" â€” I know how fluid dynamics work. I do not know why your printer is offline.",
+                                             "Note: Every minute you spend crafting an analogy is a minute you could have spent copying the error message."
+                                         ],
+                             "title":  "BEFORE YOU EXPLAIN THE PROBLEM USING ANALOGIES..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I tried restarting, then I tried unplugging it, then I tried yelling at it\" â€” you tried yelling at it. That is not a troubleshooting step. That is a ceremony.",
+                                             "\"I Googled it and tried three things from a forum\" â€” you do not know what those three things did. You may have made it worse.",
+                                             "\"I reinstalled the software before calling you\" â€” you reinstalled the software. That is destruction of evidence. Do not tamper with the crime scene.",
+                                             "Note: If you attempted a fix before contacting IT, you are now a suspect, not a witness."
+                                         ],
+                             "title":  "BEFORE YOU INCLUDE EVERY ATTEMPT YOU MADE BEFORE CONTACTING IT..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"I circled the thing\" â€” you circled the clock. The error message is in the bottom right. You circled the system tray.",
+                                             "\"I put an arrow pointing to where it says error\" â€” thank you. I would not have known what \"error\" meant without the arrow.",
+                                             "\"I blacked out my personal information\" â€” you blacked out the error message too. Now I cannot read either.",
+                                             "Note: The more effort you put into annotating a screenshot, the less useful the screenshot becomes. This is a law of nature."
+                                         ],
+                             "title":  "BEFORE YOU SEND A SCREENSHOT WITH CIRCLE ANNOTATIONS, ARROWS, AND REDACTIONS..."
+                         },
+                         {
+                             "bullets":  [
+                                             "\"Anyway, long story short: my email is not working\" â€” that is the problem. That is the sentence that should have been the subject line.",
+                                             "\"Sorry for the long email, I ramble when I am frustrated\" â€” your frustration is valid. Your rambling is not.",
+                                             "\"TL;DR: I cannot print\" â€” you could have led with that. The first 300 words were about your morning commute.",
+                                             "Note: Write your ticket, then delete the first paragraph. The problem probably starts in paragraph two. If you cannot find the problem in under 50 words, the problem is your writing, not the computer."
+                                         ],
+                             "title":  "BEFORE YOU SUMMARISE THE PROBLEM IN THE LAST SENTENCE OF A FOUR-PARAGRAPH EMAIL..."
+                         }
+                     ],
+        "title":  "The Over-Explainer",
+        "totalBullets":  21,
+        "warningCount":  5,
+        "number":  48,
+        "description":  "The Over-Explainer"
     }
 ]
