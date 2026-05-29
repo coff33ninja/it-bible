@@ -3386,5 +3386,924 @@
         ]
       }
     ]
+  },
+  {
+    "id": "49-the-karin-protocol",
+    "number": 49,
+    "file": "49-the-karin-protocol.md",
+    "title": "The Karin Protocol",
+    "description": "The Karin Protocol",
+    "warningCount": 8,
+    "totalBullets": 37,
+    "warnings": [
+      {
+        "title": "BEFORE YOU IGNORE THE INSTRUCTIONS I JUST SENT AND DO THE OPPOSITE...",
+        "bullets": [
+          "\"I know you said to reboot, but I thought I would just unplug it instead\" — you unplugged the network drive. The issue is the network drive. You unplugged the solution.",
+          "\"I read your email but I figured my situation was different\" — your situation is identical. That is why I sent a mass email. You are not the main character.",
+          "\"I did step 3 first because it looked easier\" — step 1 is the prerequisite for step 3. You have now orphaned your own progress.",
+          "\"I skipped the part about saving my work because I was in a hurry\" — you were in such a hurry that you chose to spend 4 hours redoing work instead of 4 seconds clicking \"save.\"",
+          "Note: The instructions I send are a sequence, not a buffet. You do not get to pick and choose."
+        ]
+      },
+      {
+        "title": "BEFORE YOU 'FIX' THE PROBLEM YOURSELF AND THEN CALL IT WHEN IT GETS WORSE...",
+        "bullets": [
+          "\"I watched a YouTube video\" — you watched a video titled \"How to delete system32 for more storage.\" You deleted system32. Your computer no longer computes.",
+          "\"I downloaded a driver from the first link on Google\" — the first link on Google was a sponsored ad for \"DriverUpdatePro2025.exe.\" You now have 14 toolbars and a crypto miner.",
+          "\"I edited the registry\" — you searched \"fix slow computer registry\" and deleted every key containing the letter \"S.\" Your sound, your USB ports, and your smile are gone.",
+          "\"I changed the file extension to .docx and now it won't open\" — changing .HEIC to .docx does not make a photo into a Word document. File extensions are not name tags. They are not costumes.",
+          "Note: DIY IT from an untrained user is the IT equivalent of letting a toddler perform surgery. The outcome is always worse than the original condition."
+        ]
+      },
+      {
+        "title": "BEFORE YOU CC THE CEO ON A TICKET THAT HAS BEEN OPEN FOR 17 MINUTES...",
+        "bullets": [
+          "\"I just wanted to escalate this\" — you escalated a password reset. You escalated a password reset to the Chief Executive Officer of the company.",
+          "\"Maybe this will get your attention\" — my attention was already on your ticket. Now my attention is on composing a very professional email explaining to the CEO why you cannot remember your own birthday.",
+          "\"I am just making sure someone is watching\" — someone is watching. That someone now knows you cannot be trusted with basic self-service tools.",
+          "Note: CCing the CEO on a level-1 ticket is not a strategy. It is a declaration of incompetence."
+        ]
+      },
+      {
+        "title": "BEFORE YOU SAY 'I ALREADY TRIED THAT' WHEN YOU DEMONSTRABLY DID NOT...",
+        "bullets": [
+          "\"I already rebooted\" — your session is still active from this morning. Teams shows you as \"Away since 9:02 AM.\" The truth is on the screen.",
+          "\"I already cleared my cache\" — your browser cache is 2.4 GB. That is 2.3 GB more than \"cleared.\" You clicked something that said \"optimize\" and called it a day.",
+          "\"I already updated\" — your Windows version is from 2023. You are 18 months and several security breaches behind.",
+          "\"I already checked the cables\" — the cable is folded under the monitor stand in a way that defies both physics and geometry. You did not check anything.",
+          "Note: If you lie about rebooting, I will lie about fixing it. We will both sit here in a mutually agreed-upon fiction where nothing works and nobody is happy."
+        ]
+      },
+      {
+        "title": "BEFORE YOU CREATE THREE SEPARATE TICKETS FOR THE SAME ISSUE...",
+        "bullets": [
+          "\"I did not think the first one went through\" — it went through. They all went through. I now have four identical tickets from you and they are all assigned to me.",
+          "\"I submitted one as 'Urgent', one as 'Low', and one as 'Question'\" — you have created a timeline paradox. The system does not know which priority to trust and has assigned all of them to the bottom of the queue.",
+          "\"The auto-reply said to reply to the email if I need help so I opened a new ticket\" — the auto-reply said to reply to the email. Not to open a new ticket. That is the opposite of what it said.",
+          "Note: Every duplicate ticket resets the SLA timer. You are not speeding things up. You are hitting the snooze button on your own problem."
+        ]
+      },
+      {
+        "title": "BEFORE YOU CALL INSTEAD OF SUBMITTING A TICKET...",
+        "bullets": [
+          "\"I know you said to use the portal but this is faster\" — the portal is faster. The portal routes to the right team. The portal has a form that asks for the information I need. The phone is none of these things.",
+          "\"I do not have time to fill out a form\" — you have time to call me, describe the problem in 47 seconds, wait for me to tell you to submit a ticket, hang up, and then submit the ticket. You did not save time.",
+          "\"Can you just submit it for me?\" — I can. But then I will have to call you to ask for the information the form requires, which you could have typed faster than you said \"can you just submit it for me.\"",
+          "\"I am calling because this is an emergency\" — every call is an emergency to the person calling. If every call is urgent, no call is urgent.",
+          "Note: The portal exists because phone calls are a lossy compression algorithm for information. Use the portal. The portal remembers. The portal does not put you on hold."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ASK 'ARE YOU SURE?' FOR THE FIFTH TIME...",
+        "bullets": [
+          "\"Are you sure?\" — I have done this 800 times. This is the 800th time. I am sure.",
+          "\"But what if it deletes my files?\" — I just told you this process preserves files. Twice. Both times were in writing. You asked \"are you sure\" both times.",
+          "\"I am just being careful\" — you are not being careful. You are being anxious. Anxiety is not a troubleshooting methodology.",
+          "\"Can you double-check?\" — I am triple-checked. I am quadruple-checked. I am professionally checked. I am checked to the point where your repeated questioning is an insult to my entire career.",
+          "Note: Asking \"are you sure\" five times does not make the answer more correct. It makes me want to be wrong out of spite."
+        ]
+      },
+      {
+        "title": "BEFORE YOU FORWARD A 47-EMAIL THREAD WITHOUT CONTEXT...",
+        "bullets": [
+          "\"See below\" — I have looked below. Below is a chain of 47 emails, 43 of which are auto-replies, 3 of which are \"thank you,\" and 1 of which contains the original problem buried under a subject line that has changed 6 times.",
+          "\"I am forwarding this from Karen in accounting\" — you forwarded a thread where Karen in accounting asked a question, someone answered it, and the problem was resolved. There is no new problem. You just forwarded a closed case.",
+          "\"I think there is some context missing so I am including the whole thread\" — you are not including context. You are including noise. The context is in the last 3 emails. The first 44 are spam and scheduling.",
+          "Note: Forwarding a 47-email thread without a single line of original text is not communication. It is evidence dumping. I am not a forensic analyst. I am IT support."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "50-the-karin-protocol-v2",
+    "number": 50,
+    "file": "50-the-karin-protocol-v2.md",
+    "title": "The Karin Protocol v2: The Sequel",
+    "description": "The Karin Protocol v2: The Sequel",
+    "warningCount": 7,
+    "totalBullets": 35,
+    "warnings": [
+      {
+        "title": "BEFORE YOU REPLY-ALL TO A COMPANY-WIDE EMAIL WITH YOUR PERSONAL REQUEST...",
+        "bullets": [
+          "\"I need a new mouse — thanks\" — you replied-all to a 12,000-person distribution list. You now have a new mouse and 11,999 people who know you needed one.",
+          "\"Can everyone stop replying-all?\" — you replied-all to ask people to stop replying-all. You are now part of the problem you sought to destroy.",
+          "\"Please remove me from this thread\" — you replied-all to a thread you could have muted in 2 seconds. You have added yourself to more threads.",
+          "\"Unsubscribe\" — this is not a newsletter. This is your company. You cannot unsubscribe. You work here.",
+          "Note: The reply-all button is a weapon of mass destruction. Treat it like one."
+        ]
+      },
+      {
+        "title": "BEFORE YOU CHANGE YOUR PASSWORD AND THEN FORGET IT WITHIN 30 SECONDS...",
+        "bullets": [
+          "\"I just changed it but now it does not work\" — you changed it 17 seconds ago. You have already forgotten it. The password was \"Welcome1!\" and you have cycled through 47 variations of \"Welcome2\" through \"PasswordResetAgain.\"",
+          "\"It says the password does not meet complexity requirements\" — \"Password123\" is not complex. It is the opposite of complex. It is the default example on every tutorial since 1998.",
+          "\"Can I just use my old password?\" — you cannot use your old password because you forgot your old password. That is why you reset it. That is the entire reason we are here.",
+          "\"I wrote it on a sticky note under my keyboard\" — you have created a security vulnerability and a logistical dependency on your own memory. Neither is acceptable.",
+          "Note: A password you need to reset immediately after setting it is not a password. It is a temporary hallucination."
+        ]
+      },
+      {
+        "title": "BEFORE YOU EMAIL IT DIRECTLY INSTEAD OF USING THE TICKET SYSTEM BECAUSE 'YOU KNOW ME'...",
+        "bullets": [
+          "\"I know you prefer tickets but I thought I would just send you a quick email\" — you sent an email to someone who is currently working through a queue of 40 tickets. Your email is not in the queue. Your email is in the void.",
+          "\"You can just log it later, right?\" — I cannot log it later. Later becomes never. Never becomes a deleted email. Deleted email becomes a problem that still exists.",
+          "\"I did not want to bother you with a ticket\" — you emailed me directly. That is more bothersome than a ticket. A ticket is self-service. An email is a interruption.",
+          "\"I know you are busy so I kept it brief\" — \"Subject: Help\" with no body is not brief. It is a riddle. I do not have time for riddles.",
+          "Note: Emailing me directly because you \"know me\" does not make us friends. It makes you the person who does not follow the process."
+        ]
+      },
+      {
+        "title": "BEFORE YOU INSTALL SOFTWARE WITHOUT ASKING AND THEN ACT SURPRISED WHEN IT BREAKS...",
+        "bullets": [
+          "\"I downloaded it from a website\" — you downloaded \"FreeVideoConverterPro.exe\" which installed 3 search toolbars, a new default browser, and a screensaver of animated flames. Your computer now converts video at approximately 0 frames per second.",
+          "\"It asked for administrator access so I clicked yes\" — it asked for administrator access because it wanted to rewrite your system files. You gave it the keys to the kingdom. It has now changed your homepage to \"search.mygoodresults.com.\"",
+          "\"I needed it for work\" — you needed \"CoolMouseEffects.exe\" for work. You process invoices. You do not need cursors that leave rainbow trails.",
+          "\"I uninstalled it but the problem is still there\" — you uninstalled the toolbar. You did not uninstall the registry changes, the scheduled tasks, the browser extensions, or the certificate it installed. You pulled the weed but left the roots.",
+          "Note: If you install software without IT approval, you are not being resourceful. You are being a vector."
+        ]
+      },
+      {
+        "title": "BEFORE YOU SAY 'MY COMPUTER IS DOING WEIRD THINGS' AND EXPECT ME TO READ YOUR MIND...",
+        "bullets": [
+          "\"It is acting strange\" — \"strange\" is not a diagnostic category. \"Strange\" is how I would describe your refusal to elaborate. Be specific or be patient.",
+          "\"You know, just weird stuff\" — I do not know. I cannot see your screen. I cannot read your mind. \"Weird stuff\" is meaningless.",
+          "\"It is hard to explain\" — try. Use words. Use sentences. Use the same language you used to order coffee this morning. You managed to explain a latte. You can explain a popup.",
+          "\"I will know it when I see it\" — you will not see it because you will click \"ok\" before I get there. That is how this always goes.",
+          "Note: \"Weird stuff\" is the IT equivalent of \"somewhere over there.\" Point at the thing. Describe the thing. Let me fix the thing."
+        ]
+      },
+      {
+        "title": "BEFORE YOU PUT IN A TICKET FOR SOMEONE ELSE WITHOUT TELLING THEM...",
+        "bullets": [
+          "\"I am submitting this on behalf of Bob in sales\" — Bob in sales does not know you submitted this. Bob in sales is not expecting my call. Bob in sales is going to be very confused when I ask about his printer.",
+          "\"I am helping my colleague who is not technical\" — your colleague is technical enough to submit a ticket. You are not helping. You are proxying. Stop proxying.",
+          "\"I already told them you would reach out\" — you told them I would reach out at a time I did not agree to. You have now made commitments on my calendar without my consent.",
+          "\"They are sitting right next to me, can I just put you on speaker?\" — no. You cannot put me on speaker. The ticket system is not a conference call.",
+          "Note: Submitting a ticket for someone else without their knowledge is the IT equivalent of a surprise party that nobody wants."
+        ]
+      },
+      {
+        "title": "BEFORE YOU RESPOND TO AN AUTO-CLOSED TICKET WITH 'THIS IS NOT RESOLVED'...",
+        "bullets": [
+          "\"I just saw the auto-close email and clicked reply\" — the auto-close email was sent because the ticket was idle for 14 days. You replying does not reopen it. You have now commented on a closed ticket like a ghost haunting a house that has been sold.",
+          "\"I was on vacation\" — you were on vacation for 14 days without setting an out-of-office or delegating your active issues. The system assumed you vanished. The system was right.",
+          "\"Nobody asked me if it was resolved\" — the ticket asked you. Three times. You ignored all three. The system is not a nagging partner. The system has a job to do.",
+          "\"I assumed silence meant it was being worked on\" — silence meant you were silent. Silence does not mean anything else. The system does not read minds. It reads statuses.",
+          "Note: An auto-closed ticket is not a conversation. It is a funeral. You missed the funeral. The case is buried."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "51-the-karin-protocol-tech-shop-v1",
+    "number": 51,
+    "file": "51-the-karin-protocol-tech-shop-v1.md",
+    "title": "The Karin Protocol: Tech Shop v1",
+    "description": "The Karin Protocol: Tech Shop v1",
+    "warningCount": 7,
+    "totalBullets": 35,
+    "warnings": [
+      {
+        "title": "BEFORE YOU ARGUE THAT THE REPAIR COSTS MORE THAN THE DEVICE IS WORTH...",
+        "bullets": [
+          "\"I could buy a new one on Amazon for $200\" — then buy the new one on Amazon for $200. Nobody is stopping you. You came here because you want this one fixed. Pick one.",
+          "\"The parts are only $30 on eBay\" — the parts are $30 on eBay because they are pulled from a recycled e-waste bin in a country I cannot pronounce. I use new parts. I charge for labor. Labor is not optional.",
+          "\"I am not paying $80 to fix a $100 printer\" — then do not. Throw it away. That is what \"replace\" means. \"Repair\" is the other word. They are different words.",
+          "\"For that price I might as well upgrade\" — then upgrade. You do not need my permission to spend your money. You need my permission to stop wasting my time.",
+          "Note: The price of a replacement device and the price of a repair are not competing offers. They are two different products. One is a new thing. The other is your old thing, working again. Choose."
+        ]
+      },
+      {
+        "title": "BEFORE YOU TELL ME YOUR NEPHEW \"KNOWS COMPUTERS\" AND COULD DO IT CHEAPER...",
+        "bullets": [
+          "\"My nephew is really good with this stuff\" — your nephew installed RGB fans in his gaming PC. That is not \"really good with this stuff.\" That is adult LEGO.",
+          "\"He said it is probably just the RAM\" — your nephew diagnosed this without touching it. He diagnosed it from a description you gave him over the phone. He is guessing.",
+          "\"He built his own computer\" — he assembled parts someone else manufactured, into a case someone else designed, using a tutorial someone else made. He did not build a computer. He followed instructions.",
+          "\"I will just have him look at it\" — you said that three devices ago. Each time he made it worse. Each time you came back. Each time the repair cost more. Your nephew is my job security.",
+          "Note: Your nephew \"knows computers\" the same way your cousin \"knows cars\" because he changes his own oil. It is not the same. It has never been the same."
+        ]
+      },
+      {
+        "title": "BEFORE YOU PULL UP A YOUTUBE VIDEO AND TELL ME HOW TO DO MY JOB...",
+        "bullets": [
+          "\"This guy on YouTube fixed the same issue in 10 minutes\" — that video has 12 million views because people watch it instead of paying someone. Most of those people still have broken devices.",
+          "\"He used a heat gun and it just popped right off\" — he used a heat gun on a device that was already sacrificed for content. That is not a repair. That is a demonstration. My customer's device is not a demonstration.",
+          "\"Can you just do what he did?\" — I can do what he did. But I will not warranty it, because what he did was wrong. He got views. You get a dead phone.",
+          "\"I watched a few tutorials so I kind of know what to expect\" — you watched a few tutorials. I have done this 4,000 times. We are not equally qualified.",
+          "Note: YouTube is a video platform. It is not a certification. Watching someone do a thing is not the same as knowing how to do the thing. I watched a documentary about open-heart surgery. You will not let me operate on you."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ASK ME TO \"JUST TAKE A QUICK LOOK\" FOR FREE...",
+        "bullets": [
+          "\"Can you just look at it? It will take two seconds\" — I have been looking at it for 30 seconds. I already know what is wrong. Knowing what is wrong is the diagnostic. The diagnostic costs money.",
+          "\"I just need to know if it is worth fixing\" — that is the diagnostic. You are describing the diagnostic. The diagnostic is not free.",
+          "\"You do not need to fix it, just tell me what is wrong\" — telling you what is wrong is the diagnostic. The diagnostic is a service. Services cost money.",
+          "\"I will bring it in if you can give me a quick estimate over the phone\" — I cannot diagnose a crackling sound through a phone call. The crackling sound could be a fan, a hard drive, or a tiny man with a hammer. I need to see it.",
+          "Note: Free diagnostics do not exist. What exists is the cost of diagnostics hidden in the price of the repair. You either pay for the diagnostic, or you pay for the diagnostic. Those are the two options."
+        ]
+      },
+      {
+        "title": "BEFORE YOU HAND ME A DEVICE AND SAY \"IT WAS WORKING FINE BEFORE I BROUGHT IT IN\"...",
+        "bullets": [
+          "\"It was working this morning\" — it was working this morning because you did not drop it this morning. You dropped it on the way here. The crack is new. The crack is yours.",
+          "\"I did not do anything to it\" — you put it in a bag. The bag had a water bottle. The water bottle leaked. The bag is wet. The device is wet. You did something to it.",
+          "\"All I did was plug it in\" — you plugged in a charger that does not belong to this device. The voltage is wrong. The connector is forced. The port is damaged. \"All you did\" was enough.",
+          "\"I just turned it on and it made a noise\" — you turned it on after it fell in the toilet. You did not tell me it fell in the toilet. The noise is the sound of your choices.",
+          "Note: Every device \"worked fine\" until it did not. The moment it stopped working is the moment you became part of the story. Stop pretending you are just a witness."
+        ]
+      },
+      {
+        "title": "BEFORE YOU BRING IN A DEVICE COVERED IN FOOD, DUST, OR UNIDENTIFIED SUBSTANCES...",
+        "bullets": [
+          "\"I know it is a little dirty\" — it is not a little dirty. There is a ecosystem living in the fan grille. I can identify your lunch from three weeks ago by the fossil record.",
+          "\"Can you just clean it while you are in there?\" — I can. But \"while I am in there\" is not free time. It is time. Time costs money.",
+          "\"It fell on the floor of my car\" — the floor of your car is not a location. It is a biohazard. The device has been in that environment for months. The corrosion is structural now.",
+          "\"I do not know what that sticky stuff is\" — I do either. I am going to have to treat it as a hazardous material. There will be a surcharge.",
+          "Note: A device covered in the remnants of your lifestyle is a health risk, not a repair job. Clean it before you bring it in, or pay the biohazard fee."
+        ]
+      },
+      {
+        "title": "BEFORE YOU TELL ME WHAT THE OTHER SHOP SAID...",
+        "bullets": [
+          "\"The other shop said it needs a new motherboard\" — the other shop said it needs a new motherboard so they could charge you $400 and swap a $15 capacitor. That is why you came to me. Do not quote the liar.",
+          "\"I went to three other places and they all gave me different answers\" — three different answers means three different guesses. I am about to be the fourth guess. You have not helped anyone by collecting opinions.",
+          "\"The guy at [big chain store] said it is not worth fixing\" — the guy at the big chain store is paid to sell you a new device. His diagnosis is a sales script. My diagnosis is an actual diagnosis.",
+          "\"I do not trust repair shops\" — you are in a repair shop. You are asking me to fix something. The trust has already been established by your presence. Do not undermine it in the first sentence.",
+          "Note: If the other shop knew what they were doing, you would not be here. Stop treating their wrong opinion as a valid data point."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "52-the-karin-protocol-tech-shop-v2",
+    "number": 52,
+    "file": "52-the-karin-protocol-tech-shop-v2.md",
+    "title": "The Karin Protocol: Tech Shop v2",
+    "description": "The Karin Protocol: Tech Shop v2",
+    "warningCount": 7,
+    "totalBullets": 35,
+    "warnings": [
+      {
+        "title": "BEFORE YOU HAND ME A DEVICE WITH A LOCKED SCREEN AND NO PASSWORD...",
+        "bullets": [
+          "\"I forgot the password\" — you forgot the password to the device you use every day. You use it every day. You forgot. I cannot guess it. I am not a psychic. I am a technician.",
+          "\"It is my dead husband's phone and I need the photos\" — I am sorry for your loss. I still cannot bypass the lock screen without proof of ownership. Grief is not authentication.",
+          "\"Just wipe it and start over\" — you want me to wipe the device without being able to verify you own it. That is not a repair request. That is a felony I am not going to help you commit.",
+          "\"Can you crack the password?\" — I can crack the password if you bring me a court order, a police report, and a notarized letter. I cannot crack the password because you locked yourself out of your own iPad for the fourth time.",
+          "Note: A device with a locked screen is a brick until you prove it is yours. I am not a locksmith. I am not a hacker. I am the person who needs you to type the password before I can help you."
+        ]
+      },
+      {
+        "title": "BEFORE YOU DEMAND YOUR REPAIR BE DONE BEFORE EVERYONE ELSE'S...",
+        "bullets": [
+          "\"I need it by 5 PM\" — it is 4:30 PM. The diagnostic alone takes longer than 30 minutes. You need a time machine, not a technician.",
+          "\"I am leaving on a flight tomorrow\" — you have known about this flight for months. You broke your laptop today. Your poor planning is not my emergency.",
+          "\"Can you just prioritize mine?\" — everyone who walks through that door is a priority to them. You are not special. Your urgency is not a unique burden.",
+          "\"I will pay extra to skip the line\" — you will pay extra. Everyone who skips the line pays extra. You are not the first person to discover that money talks. The line is still a line.",
+          "Note: The word \"rush\" does not mean \"do it now.\" It means \"do it faster than usual.\" The word \"ASAP\" does not mean \"right this second.\" It means \"at some point sooner than if you had not asked.\" Learn the definitions."
+        ]
+      },
+      {
+        "title": "BEFORE YOU BRING IN A DEVICE YOU ALREADY \"FIXED\" AND MADE WORSE...",
+        "bullets": [
+          "\"I tried to replace the screen myself\" — you tried to replace the screen yourself and now the frame is bent, the ribbon cable is torn, and there are three screws left over that you \"could not find a home for.\" The screws were important.",
+          "\"I watched a guide and got halfway through before I got stuck\" — you got stuck because the guide said \"remove the adhesive carefully\" and you ripped the digitizer off with pliers. You did not get stuck. You deviated.",
+          "\"I took it apart to clean it and now it won't turn on\" — you took it apart with a butter knife and a flathead screwdriver that belongs in a toolbox from 1987. You did not clean it. You committed a hate crime against electronics.",
+          "\"I replaced the battery but now the screen does not work\" — you replaced the battery and forgot to disconnect the power before unplugging the display. The backlight is fried. The screen was collateral damage in your adventure.",
+          "Note: If you open a device without the right tools, the right training, or the right brain, you are not \"attempting a repair.\" You are \"creating a more expensive problem for a professional to fix.\" Congratulations."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ASK ME TO INSTALL PARTS YOU BOUGHT ONLINE...",
+        "bullets": [
+          "\"I bought the part on Amazon, can you just put it in?\" — you bought a part from a seller named \"Electronics_Deals_2025\" with 12 reviews and a name that looks like it was generated by a bot. I am not installing that. It is not a part. It is a gamble.",
+          "\"It said 'compatible with your model' in the title\" — the title also said \"100% original\" and the listing has a photo of a part that is clearly a different color. The title is not a specification. The title is a trap.",
+          "\"If it does not work, I will just buy another one\" — you will just buy another one and then come back and ask me to install that one too. I am not a test bench for your eBay addiction.",
+          "\"The seller said it is genuine\" — the seller said it is genuine. The seller is a person called \"tech_parts_4u\" operating out of a warehouse that does not exist. The part is not genuine. The part is a lie.",
+          "Note: Bringing in your own parts does not make the repair cheaper. It makes the repair riskier, the warranty void, and my hourly rate the same. You saved money on the part. You will spend it on labor when the part fails."
+        ]
+      },
+      {
+        "title": "BEFORE YOU REFUSE TO PAY THE DIAGNOSTIC FEE...",
+        "bullets": [
+          "\"I am not paying $50 just for you to tell me it is broken\" — I just told you it is broken. It took me an hour to confirm what kind of broken. That hour is the diagnostic. The $50 is for the hour.",
+          "\"You did not even fix anything\" — I identified the problem. That is the first half of fixing it. You cannot skip the first half and call it overpriced.",
+          "\"I could have figured that out myself\" — you could have. You did not. That is why you are here. The diagnostic fee is the penalty for not figuring it out yourself.",
+          "\"Just waive the fee and I will come back for the repair\" — you will not come back. I have seen this dance before. You will take the free diagnosis to another shop or try to fix it yourself and make it worse. The diagnostic fee is non-refundable because the diagnostic is a service.",
+          "Note: The diagnostic fee is not optional. It is not negotiable. It is not a suggestion. It is the price of my expertise. You are paying for the years of experience that let me identify your problem in an hour instead of a week. That is not expensive. That is a bargain."
+        ]
+      },
+      {
+        "title": "BEFORE YOU BRING IN A DEVICE THAT HAS BEEN SITTING IN A DRAWER FOR TWO YEARS AND EXPECT IT TO WORK...",
+        "bullets": [
+          "\"It was fine when I put it away\" — it was fine when you put it away in 2023. The battery has discharged to zero. The software has not been updated in three major versions. \"Fine\" was a temporary condition.",
+          "\"I just need to get the photos off\" — the photos are on a storage chip that is powered by a battery that is now a spicy pillow. I can get the photos off. It will involve microsoldering. It will not be cheap.",
+          "\"I charged it for an hour and it still won't turn on\" — you charged a battery that has been in deep discharge for 18 months. The battery is chemically dead. Charging it for an hour is like putting a drop of water in a desert and expecting a lake.",
+          "\"It was working before I stored it\" — storage is not a pause button. Devices degrade. Batteries decay. Connectors corrode. Time passes. Your device aged while it sat in that drawer. It is not the same device you put away.",
+          "Note: A device is not a frozen meal. You cannot leave it in a drawer for two years and expect it to work like the day you bought it. Electronics have an expiration date. That date does not pause when the device is off."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ASK ME TO \"RECOVER THE DATA\" FROM A DEVICE THAT WAS RUN OVER BY A CAR...",
+        "bullets": [
+          "\"It just needs a new screen\" — the device is bent into a U-shape. The screen is not the problem. The laws of physics are the problem. You need a miracle, not a repair.",
+          "\"The data is probably still there\" — the data is probably still on the NAND chip. The NAND chip is currently curved. Curved NAND chips do not always cooperate.",
+          "\"My whole life is on this phone\" — your whole life was on this phone. Now your whole life is in a plastic bag that I am holding with tweezers. We will try our best.",
+          "\"How much would it cost to get everything back?\" — it would cost between \"a lot\" and \"more than the phone is worth\" depending on how badly you want those photos of your cat from 2019.",
+          "Note: Data recovery from a physically destroyed device is not a repair. It is a rescue mission. The outcome is not guaranteed. The price reflects the uncertainty. And no, we do not have a \"fix it for free if you fail\" option."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "53-the-karin-protocol-meeting-menace",
+    "number": 53,
+    "file": "53-the-karin-protocol-meeting-menace.md",
+    "title": "The Karin Protocol: The Meeting Menace",
+    "description": "The Karin Protocol: The Meeting Menace",
+    "warningCount": 7,
+    "totalBullets": 35,
+    "warnings": [
+      {
+        "title": "BEFORE YOU JOIN THE MEETING WITHOUT MUTING YOUR MICROPHONE...",
+        "bullets": [
+          "\"Sorry, can everyone hear me?\" — yes, everyone can hear you. Everyone heard you open a chip bag. Everyone heard you sneeze into the abyss. Everyone heard your dog bark at a delivery truck.",
+          "\"One second, let me find the mute button\" — you have been in this meeting for 12 minutes. You have been breathing into the mic like a sea lion for 12 minutes. Find it before you join, not after.",
+          "\"I think I am on mute\" — you are not on mute. You have never been on mute. \"I think\" is doing a lot of work in that sentence.",
+          "\"Can you hear me now?\" — I could hear you before. I can hear you now. I will hear you forever.",
+          "Note: The mute button is the most important button in modern business. Learn where it is before you join. Your coworkers do not want to hear your chewing."
+        ]
+      },
+      {
+        "title": "BEFORE YOU SHARE YOUR SCREEN WITHOUT CHECKING WHAT IS VISIBLE...",
+        "bullets": [
+          "\"Oh no, that is my personal email\" — that is your personal email. Open. On your screen. With a booking confirmation for a vacation you lied about being \"sick\" for.",
+          "\"Sorry, I did not mean to share that tab\" — you shared the tab with your online shopping cart. We all saw the price. We all judged you.",
+          "\"Can everyone see my screen?\" — everyone can see your screen. Everyone can see the 47 tabs open. Everyone can see the Facebook tab. Everyone can see the dating app notification.",
+          "\"Let me just find the document\" — you are scrolling through a desktop covered in 200 unorganized files. We are all watching you search. It is uncomfortable for everyone.",
+          "Note: Before you share your screen, close everything you would not want your boss to see. Assume your boss is watching. Because your boss probably is."
+        ]
+      },
+      {
+        "title": "BEFORE YOU JOIN THE MEETING 15 MINUTES LATE WITHOUT CONTEXT...",
+        "bullets": [
+          "\"Sorry I am late, I was in another meeting\" — you were in another meeting that ran late because you did not leave on time. Your lack of schedule management is now everyone else's problem.",
+          "\"I had a conflict\" — you have a calendar. You saw the invitation. You accepted the invitation. The \"conflict\" existed when you accepted. You chose this.",
+          "\"Can someone catch me up?\" — I can catch you up in the 15 minutes you missed if you want me to repeat everything. Or you can read the notes that were sent in advance. The notes you did not read.",
+          "\"I will watch the recording\" — you will not watch the recording. You say you will watch the recording. You never watch the recording. You will ask me tomorrow what we decided.",
+          "Note: Being 15 minutes late to a 30-minute meeting means you missed half of it. That is not \"fashionably late.\" That is \"barely present.\""
+        ]
+      },
+      {
+        "title": "BEFORE YOU ASK A QUESTION THAT WAS ANSWERED ON SLIDE 2...",
+        "bullets": [
+          "\"I have a question\" — the answer is on the slide that is still visible. The slide you are looking at. The slide that contains the answer to your question.",
+          "\"Sorry, I was multitasking\" — you were multitasking. You were not listening. You were checking emails while someone prepared a presentation for you. That is not multitasking. That is being rude.",
+          "\"Can you go back a slide?\" — I can go back to the slide that answers your question. The slide you did not read. The slide everyone else read.",
+          "\"I missed that at the beginning\" — you missed it because you joined late. You joined late because you were in another meeting. The chain of causality is clear.",
+          "Note: The first rule of meetings is that the agenda exists for a reason. Read it before you come. Listen while you are here. Ask questions about what was not covered, not what was."
+        ]
+      },
+      {
+        "title": "BEFORE YOU EAT LUNCH DURING A PRESENTATION...",
+        "bullets": [
+          "\"Do not mind me, I am just eating\" — everyone minds you. The crunching is coming through the mic. The smacking is coming through the mic. The entire meeting is now about your lunch choices.",
+          "\"I did not have time to eat before\" — you did not have time to eat before because you were in a meeting that you joined late because you were in another meeting. Your schedule is a house of cards built on poor decisions.",
+          "\"It is just a salad\" — it is never \"just a salad.\" \"Just a salad\" is a lie people tell themselves before they spend 20 minutes chewing lettuce into the void.",
+          "\"I will be quick\" — you will not be quick. Eating takes time. Time you are spending on camera. Time everyone is spending listening to you eat.",
+          "Note: If you would not eat it in a library, do not eat it in a meeting. The camera does not absorb sound. The microphone is not a napkin."
+        ]
+      },
+      {
+        "title": "BEFORE YOU SAY \"I THINK WE ARE TALKING ABOUT THE SAME THING\" WHEN YOU ARE CLEARLY NOT...",
+        "bullets": [
+          "\"So what I am hearing is...\" — you are not hearing. You are projecting. You heard three words and built an entire interpretation that has nothing to do with what was said.",
+          "\"Let me just play devil's advocate\" — you are not playing devil's advocate. You did not understand the proposal and are now filling the silence with opposition. Ask a question or let us move on.",
+          "\"I think we are saying the same thing\" — we are not saying the same thing. I said \"we need to migrate the server.\" You said \"we should rename the shared drive.\" These are not the same thing.",
+          "\"Just to circle back to an earlier point\" — the earlier point was resolved. You missed the resolution because you were multitasking. The circle you are trying to close is already closed.",
+          "Note: If you are confused, say \"I am confused.\" Do not say \"I think what you mean is\" and then demonstrate that you do not know what anyone means."
+        ]
+      },
+      {
+        "title": "BEFORE YOU VOLUNTEER TO \"TAKE ACTION ITEMS\" AND THEN DO NOTHING...",
+        "bullets": [
+          "\"I will own this\" — you will not own this. You will forget about this before the meeting ends. I will remind you in three days. You will say \"oh right\" and then forget again.",
+          "\"Just send me the notes and I will take care of it\" — I will send you the notes. You will file them in a folder called \"Action Items 2023\" that you have never opened.",
+          "\"I can handle that offline\" — \"offline\" is a place where tasks go to die. \"Offline\" is the grave of good intentions. If you can handle it offline, handle it now.",
+          "\"Let me loop in the right people\" — you will loop in the right people by forwarding an email with no context. The right people will ignore it because there is no context. The task will evaporate.",
+          "Note: An action item you take but never complete is not an action item. It is a placeholder for disappointment. Either do it or do not volunteer."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "54-the-karin-protocol-password-apocalypse",
+    "number": 54,
+    "file": "54-the-karin-protocol-password-apocalypse.md",
+    "title": "The Karin Protocol: The Password Apocalypse",
+    "description": "The Karin Protocol: The Password Apocalypse",
+    "warningCount": 6,
+    "totalBullets": 30,
+    "warnings": [
+      {
+        "title": "BEFORE YOU ASK IT TO RESET YOUR PASSWORD FOR THE 47TH TIME THIS MONTH...",
+        "bullets": [
+          "\"I forgot my password again\" — you did not forget your password. You entered the wrong one three times and the system locked you out. The password is the same one we reset yesterday.",
+          "\"It says my password is expired\" — your password is set to expire every 90 days. It has been 91 days. The system did exactly what it was configured to do. You are not a victim. You are late.",
+          "\"Can you just tell me what it is?\" — I cannot tell you what it is because I do not know what it is. Passwords are hashed. They are not stored in a spreadsheet called \"passwords.txt\" on my desktop.",
+          "\"I have too many passwords to remember\" — you have too many passwords because you reset them every time you forget instead of writing them down in a password manager. The password manager is the solution you refuse to adopt.",
+          "Note: Your password is not broken. Your memory is not broken. Your process is broken. Use a password manager. It is 2026. This is not new information."
+        ]
+      },
+      {
+        "title": "BEFORE YOU WRITE YOUR PASSWORD ON A STICKY NOTE AND ATTACH IT TO YOUR MONITOR...",
+        "bullets": [
+          "\"I know it is not secure but I have to write it down\" — you have to write it down because you refuse to use a password manager. The sticky note is not the solution. It is the symptom.",
+          "\"Nobody can see it from here\" — I can see it from here. I am standing at your desk. I can read it from across the room. It is \"Password1!\" You have used \"Password1!\" since 2018.",
+          "\"I work from home so it is fine\" — you work from home until you do not. The sticky note will stay on the monitor when you go to the office. The sticky note does not know you changed locations.",
+          "\"I will remember to take it down before visitors come\" — you will not. You never do. There are sticky notes on your monitor from 2022. They have passwords for systems that no longer exist.",
+          "Note: A sticky note with a password is not a memory aid. It is a security breach with adhesive backing."
+        ]
+      },
+      {
+        "title": "BEFORE YOU COMPLAIN THAT TWO-FACTOR AUTHENTICATION IS \"TOO HARD\"...",
+        "bullets": [
+          "\"It is so inconvenient to get my phone every time\" — it takes 12 seconds. You spend more time sighing about it than doing it. The 12 seconds are worth not having your email hijacked by a ransomware gang.",
+          "\"Can you just disable 2FA for my account?\" — I can disable 2FA for your account. I can also leave your front door unlocked with a sign that says \"nobody home.\" Both are equally bad ideas.",
+          "\"I keep losing my authentication codes\" — you keep losing them because you delete the backup codes instead of saving them. The backup codes are for backup. Save them.",
+          "\"The code expired before I could type it\" — the code expires in 30 seconds. You stared at your phone for 25 seconds before starting to type. The code did not expire too fast. You were too slow.",
+          "Note: Two-factor authentication is not optional. It is not negotiable. It is not \"too hard.\" It is the bare minimum for security in a world where your password is probably \"Password1!\""
+        ]
+      },
+      {
+        "title": "BEFORE YOU SHARE YOUR PASSWORD WITH A COWORKER...",
+        "bullets": [
+          "\"I gave Bob my password so he could finish the report\" — Bob now has access to everything you have access to. Bob should have his own access. Bob does not need your password. Bob needs a ticket.",
+          "\"We share an account in our department\" — you share an account because you refused to set up shared mailboxes. The audit trail is now useless. I cannot tell who did what. I only know that \"Karin\" did everything.",
+          "\"I trust them, they are my friend\" — your friend is a person who changes jobs. Your friend is a person who gets disgruntled. Your friend is a person who could make a \"mistake\" that gets traced back to you. Trust is not a security control.",
+          "\"It is easier than setting up a new account\" — it is easier for you. It is harder for me. It is impossible for the security team. It is a disaster waiting to happen.",
+          "Note: Sharing passwords is not teamwork. It is a shared liability. When something goes wrong, there is no way to prove who did it. And something will go wrong."
+        ]
+      },
+      {
+        "title": "BEFORE YOU RESET YOUR PASSWORD TO THE SAME THING WITH A NUMBER AT THE END...",
+        "bullets": [
+          "\"I changed it to Welcome2!\" — you changed it to Welcome2! because Welcome1! expired. Next month it will be Welcome3! The pattern is not clever. It is predictable.",
+          "\"The system said it cannot be the same as the last 10 passwords\" — the system is configured to prevent exactly what you are trying to do. The system has seen every variation of your cat's name.",
+          "\"I just rotated the characters\" — you took \"Summer2024!\" and turned it into \"!4202remmuS\". You think this is a new password. It is the same password with a haircut.",
+          "\"I used the password generator but I already forgot what it generated\" — the password generator gave you something secure. You immediately forgot it. You reset it to something you can remember. Something like \"Password1!\"",
+          "Note: Incrementing a number at the end of your password is not a password change. It is a ritual that security systems have been trained to detect since 2012."
+        ]
+      },
+      {
+        "title": "BEFORE YOU DEMAND TO KNOW WHY YOU NEED A PASSWORD AT ALL...",
+        "bullets": [
+          "\"Why can we not just use fingerprints?\" — we use fingerprints. You registered your fingerprint. You also need a password because fingerprints can be copied and you cannot change your fingers.",
+          "\"Nobody would want to hack MY account\" — nobody wants to hack your account. They want to use your account to send spam, launch attacks, and access systems that are not yours. You are not the target. You are the stepping stone.",
+          "\"This is a waste of time\" — resetting your password every week because you refuse to use a password manager is a waste of time. The password policy is not the problem. You are the problem.",
+          "\"Just let me in, I am in a hurry\" — you are always in a hurry. You are always locked out. The two conditions are connected. Rushing causes mistakes. Mistakes cause lockouts. Lockouts cause rushing. Break the cycle.",
+          "Note: You need a password because the alternative is a world where anyone can access anything. That world is called \"before security existed.\" We tried it. It was terrible."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "55-the-karin-protocol-wfh-horror",
+    "number": 55,
+    "file": "55-the-karin-protocol-wfh-horror.md",
+    "title": "The Karin Protocol: The WFH Horror",
+    "description": "The Karin Protocol: The WFH Horror",
+    "warningCount": 7,
+    "totalBullets": 35,
+    "warnings": [
+      {
+        "title": "BEFORE YOU CALL IT ABOUT A VPN ISSUE FROM A COUNTRY YOU DID NOT DISCLOSE YOU WERE IN...",
+        "bullets": [
+          "\"I am working from a coffee shop in Thailand\" — you are working from a coffee shop in Thailand without telling anyone. The VPN is not working because the VPN is detecting a login from Bangkok and flagging it as compromised.",
+          "\"I did not think it mattered where I was\" — it matters. The VPN certificate is region-restricted. The security policy blocks logins from outside the country. You did not think. That is the problem.",
+          "\"I am on vacation but I told my boss I would be available\" — you told your boss you would be available. You did not tell IT you would be logging in from a hotel in a different hemisphere. IT is not your boss. IT is the gatekeeper.",
+          "\"Can you just whitelist my IP?\" — you are asking me to whitelist an IP address in a country we do not do business in, from a coffee shop that probably has a keylogger on every terminal. No. I cannot whitelist that.",
+          "Note: If you log in from a foreign country without warning, you will be locked out. That is not a technical glitch. That is a security feature. One that exists because of people exactly like you."
+        ]
+      },
+      {
+        "title": "BEFORE YOU JOIN A VIDEO CALL FROM YOUR BED...",
+        "bullets": [
+          "\"Sorry about the background, I am working from home today\" — your background is a pillow. You are in bed. The meeting is about Q4 earnings. You are in bed.",
+          "\"My camera is off because my connection is bad\" — your connection is fine. You are in bed. I can see the profile picture of your pillow fort.",
+          "\"I did not have time to get dressed this morning\" — you have been working from home for three years. You have not had time to get dressed in three years. The novelty has worn off. Put a shirt on.",
+          "\"I am working from my phone today\" — you are working from your phone. In bed. At 11 AM. The phone is not the problem. The bed is the problem. Get out of it.",
+          "Note: Working from home does not mean working from your bed. Your bed is for sleeping. Your desk is for working. The distinction exists for a reason."
+        ]
+      },
+      {
+        "title": "BEFORE YOU CLAIM YOU \"CANNOT WORK\" BECAUSE OF A MINOR INTERNET ISSUE...",
+        "bullets": [
+          "\"The internet is down\" — your internet is down because you did not pay the bill. The bill is in your name. You are responsible for it. I cannot fix your unpaid Comcast account.",
+          "\"Wi-Fi is not working\" — Wi-Fi is not working because your router is unplugged. You unplugged it to charge your phone. You forgot to plug it back in. The router is in your hand right now.",
+          "\"My VPN keeps disconnecting\" — your VPN keeps disconnecting because you are on public Wi-Fi on a train. The train is moving through tunnels. The tunnels block signals. The VPN is not the problem. Physics is the problem.",
+          "\"I cannot access the shared drive\" — you cannot access the shared drive because you are not connected to the VPN. You need the VPN to access the shared drive. You know this. You have been told this. You keep asking.",
+          "Note: The internet is not a utility that IT controls. The internet is a service you pay for. If your home internet is down, IT cannot fix it. IT does not work for Comcast."
+        ]
+      },
+      {
+        "title": "BEFORE YOU TAKE A MEETING FROM YOUR CAR...",
+        "bullets": [
+          "\"I am just pulling into a parking lot\" — you are driving. You are on a video call. While driving. I can see the road moving behind you. I can see the traffic.",
+          "\"I will just do audio only\" — you will just do audio only because you are driving. You should not be doing audio only either. You should be driving.",
+          "\"I am parked\" — you are parked in a fire lane. The parking brake is not on. The engine is running. You are not parked. You are stopped. There is a difference.",
+          "\"I will be home in 5 minutes\" — you will be home in 5 minutes. The meeting started 10 minutes ago. You are late because you scheduled back-to-back meetings without travel time. Again.",
+          "Note: Your car is not a conference room. Your car is not an office. Your car is a vehicle. Drive it. Stop trying to join Zoom from the driver's seat."
+        ]
+      },
+      {
+        "title": "BEFORE YOU BLAME \"IT\" FOR YOUR HOME NETWORK BEING SLOW...",
+        "bullets": [
+          "\"The VPN is making everything slow\" — the VPN is adding 30 milliseconds of latency. Your child is streaming 4K video on the same network. That is adding 300 milliseconds. The VPN is not the problem. Your child is the problem.",
+          "\"Ever since I started working from home, my internet has been terrible\" — ever since you started working from home, your internet usage has doubled. The internet is not worse. You are using it more.",
+          "\"Can IT pay for my internet upgrade?\" — IT can pay for your internet upgrade if your contract includes a home internet stipend. Check your contract. Do not call IT to ask. IT does not handle payroll.",
+          "\"My neighbor said their internet is fine\" — your neighbor has a different provider, a different plan, and a different usage pattern. Your neighbor is not a diagnostic tool. Stop asking your neighbor.",
+          "Note: Your home internet speed is not an IT problem. It is a plan problem. Upgrade your plan. Stop blaming the VPN."
+        ]
+      },
+      {
+        "title": "BEFORE YOU WORK FROM A LOCATION WITH A HURRICANE WARNING AND THEN COMPLAIN ABOUT POWER OUTAGES...",
+        "bullets": [
+          "\"The storm knocked out my power\" — there is a hurricane. The power is out everywhere. The office is closed. Why are you trying to work?",
+          "\"I need to finish this report by end of day\" — you need to finish a report during a natural disaster. The report can wait. The hurricane cannot.",
+          "\"Can you remote into my computer and save my files?\" — your computer is offline. The power is out. The internet is out. I cannot remote into a computer that does not have electricity.",
+          "\"I will just use my phone hotspot\" — you will use your phone hotspot during a hurricane. Your phone battery will die. The cell towers will go down. You will be stranded with a dead phone and an unfinished report.",
+          "Note: Natural disasters are not a remote work flexibility opportunity. They are a \"stay alive and secure your home\" situation. The report can wait. Your safety cannot."
+        ]
+      },
+      {
+        "title": "BEFORE YOU SET YOUR STATUS TO \"AVAILABLE\" AND THEN DISAPPEAR FOR THREE HOURS...",
+        "bullets": [
+          "\"I was doing laundry\" — you were doing laundry during work hours. Your status said \"Available.\" Your laundry is not a work activity. Change your status.",
+          "\"I took a quick nap\" — a quick nap is 20 minutes. You were offline for 3 hours. That is not a nap. That is a second sleep cycle.",
+          "\"I was running errands\" — you were running errands during work hours. On the clock. Without telling anyone. Your status said \"Available.\" You were not available.",
+          "\"I stepped away from my desk for a minute\" — you stepped away from your desk for 2 hours and 47 minutes. That is not \"a minute.\" That is \"most of the morning.\"",
+          "Note: Working from home is a privilege. Abusing it is how privileges get revoked. Every time you disappear for hours with your status set to \"Available,\" you make it worse for everyone who actually works from home responsibly."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "56-the-karin-protocol-security-risk",
+    "number": 56,
+    "file": "56-the-karin-protocol-security-risk.md",
+    "title": "The Karin Protocol: The Security Risk",
+    "description": "The Karin Protocol: The Security Risk",
+    "warningCount": 6,
+    "totalBullets": 30,
+    "warnings": [
+      {
+        "title": "BEFORE YOU CLICK THE LINK IN THE EMAIL THAT SAYS \"YOUR ACCOUNT HAS BEEN COMPROMISED\"...",
+        "bullets": [
+          "\"It looked legit\" — it looked legit because it had a logo on it. Anyone can put a logo on an email. The Nigerian prince also had a logo. The link goes to \"secure-login.companyname-verify.com.\" That is not our domain.",
+          "\"I was just trying to see what would happen\" — what happened is you entered your credentials on a phishing site. What happened is your account is now compromised. What happened is what was always going to happen.",
+          "\"It asked for my password and I realized it might be fake\" — you realized it might be fake after you typed your password. Before you pressed enter. The password was already sent. The realization was too late.",
+          "\"I get so many of these emails, how am I supposed to know?\" — you are supposed to know by checking the sender address, hovering over the link, and using the common sense that god gave a turnip. The training exists. Take it.",
+          "Note: If an email asks for your password, it is a scam. Full stop. No legitimate service asks for your password by email. No exception. No \"but this one looked real.\" None."
+        ]
+      },
+      {
+        "title": "BEFORE YOU PLUG IN A USB DRIVE YOU FOUND IN THE PARKING LOT...",
+        "bullets": [
+          "\"I found it in the parking lot and wanted to see whose it was\" — you wanted to see whose it was by plugging it into your work computer. Instead of checking with IT. Instead of doing literally anything else.",
+          "\"It has a label that says 'Q4 Bonuses'\" — the label says \"Q4 Bonuses\" because the attacker wants you to plug it in. The label is bait. You are the fish. The hook is malware.",
+          "\"I thought it might be important\" — it is important. It is important to the person who wants to infect your computer. That person left it there. For you. To find. You found it.",
+          "\"I scanned it with antivirus first\" — you scanned a USB drive found in a parking lot. The antivirus did not detect anything because the malware is zero-day. Your scan gave you false confidence. The USB drive is still dangerous.",
+          "Note: USB drives found in parking lots are not lost property. They are attack vectors. Treat every unknown USB drive as if it is coated in anthrax. Because digitally, it is."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ASK WHY YOU CANNOT INSTALL \"FREE\" SOFTWARE FROM THE INTERNET...",
+        "bullets": [
+          "\"It is free, so it cannot be a virus\" — \"free\" and \"safe\" are not the same thing. \"Free\" is the price. \"Virus\" is the product. You are the product.",
+          "\"I just need this one tool for a project\" — the tool is \"PDFConverterPro.exe.\" It converts PDFs into 47 toolbars, a new default search engine, and a cryptocurrency miner. The tool is a delivery mechanism.",
+          "\"My friend recommended it\" — your friend recommended it because your friend already installed it and now their computer is also compromised. Your friend is not a malware researcher. Your friend is a vector.",
+          "\"I downloaded it from the official website\" — the \"official website\" is the first Google result. The first Google result is a sponsored ad. The sponsored ad redirects to a domain that is three days old. That is not official.",
+          "Note: If you did not get the software from your IT department or the official app store, you got it from somewhere that wants to compromise your machine. Free software is not free. It has a price. The price is your security."
+        ]
+      },
+      {
+        "title": "BEFORE YOU TAKE A PICTURE OF YOUR SCREEN THAT CONTAINS CONFIDENTIAL DATA...",
+        "bullets": [
+          "\"I needed to show my friend something\" — your friend does not have clearance for this data. The photo is now on your personal phone. The photo is backed up to your personal cloud. The photo is now a data breach.",
+          "\"I cropped out the sensitive part\" — you cropped out the column header. The data is still visible. I can still read customer names. Your crop job is not redaction.",
+          "\"I will delete it after\" — you will not delete it after. You will forget about it. The photo will live in your camera roll forever. Next to photos of your cat.",
+          "\"It was just easier than explaining it\" — easier for you. Harder for the compliance team. Harder for the legal team. Harder for everyone who has to clean up your convenience-driven data leak.",
+          "Note: Taking photos of confidential data with your personal phone is a breach. Every time. No exceptions. Use the approved tools. The approved tools exist for this exact reason."
+        ]
+      },
+      {
+        "title": "BEFORE YOU CONNECT YOUR WORK LAPTOP TO PUBLIC WI-FI WITHOUT THE VPN...",
+        "bullets": [
+          "\"The Starbucks Wi-Fi is password protected\" — the Starbucks Wi-Fi password is printed on a receipt. Everyone who buys a coffee gets the password. The password is not security. The password is a formality.",
+          "\"I forgot to turn on the VPN\" — you forgot to turn on the VPN. Your traffic is now visible to everyone on the network. Your emails are visible. Your documents are visible. Your passwords are visible.",
+          "\"I will just quickly check my email\" — you will quickly check your email over unencrypted public Wi-Fi. \"Quickly\" is all it takes. A packet capture does not take long. A credential harvest does not take long.",
+          "\"The VPN makes everything slow\" — the VPN makes everything slow because it is encrypting your traffic. That encryption is the only thing protecting you from the teenager in the corner with a laptop and a Python script.",
+          "Note: Public Wi-Fi is not a network. It is a public square where everyone can see your traffic. The VPN is not optional. The VPN is the only thing between you and the person monitoring the network. Turn it on."
+        ]
+      },
+      {
+        "title": "BEFORE YOU TURN OFF YOUR ANTIVIRUS BECAUSE \"IT IS SLOWING DOWN YOUR COMPUTER\"...",
+        "bullets": [
+          "\"I disabled it temporarily and forgot to turn it back on\" — you disabled it temporarily. That was three months ago. The antivirus has not been running for three months. Your computer has been unprotected for three months.",
+          "\"It keeps blocking things I want to download\" — it keeps blocking things you want to download because the things you want to download are malicious. The antivirus is doing its job. You are doing the opposite of your job.",
+          "\"I have not had any issues since I turned it off\" — you have not had any issues that you can see. The malware running silently in the background is not going to announce itself. It is going to wait.",
+          "\"I know what I am doing\" — you know what you are doing when you disable the security software that the company installed specifically to protect against people who do not know what they are doing.",
+          "Note: Disabling antivirus is not a performance optimization. It is a security nullification. The antivirus is not the problem. Your impatience is the problem."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "57-the-karin-protocol-procurement-disaster",
+    "number": 57,
+    "file": "57-the-karin-protocol-procurement-disaster.md",
+    "title": "The Karin Protocol: The Procurement Disaster",
+    "description": "The Karin Protocol: The Procurement Disaster",
+    "warningCount": 6,
+    "totalBullets": 30,
+    "warnings": [
+      {
+        "title": "BEFORE YOU BUY 12 MONITORS FROM A BRAND NOBODY HAS EVER HEARD OF...",
+        "bullets": [
+          "\"They were really cheap on eBay\" — they were really cheap on eBay because they are refurbished units from 2017 with dead pixels and VGA-only inputs. Your docking station does not have VGA. Nobody has VGA.",
+          "\"The listing said 'new in box'\" — the listing said \"new in box\" but the box has a shipping label from 2019 and the seal was broken with a knife. The box is new. The monitor is not.",
+          "\"I saved the company $200 per monitor\" — you saved the company $200 per monitor. You also spent 4 hours trying to make them work. And I spent 2 hours telling you they will not work. And now we have to return them. The savings are gone.",
+          "\"They were from a liquidation sale\" — liquidation sales exist for a reason. The reason is that the products did not sell. The products did not sell because they are not good. You bought things nobody wanted and now they are our problem.",
+          "Note: Cheap is not the same as cost-effective. Buying something that does not work is always more expensive than buying something that does. Always."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ORDER A LAPTOP WITHOUT IT APPROVAL BECAUSE YOU FOUND A \"DEAL\"...",
+        "bullets": [
+          "\"I found the same model for $300 less on a different site\" — you found the same model on \"laptop-deals-2025.net\" for $300 less. The site is a scam. The laptop does not exist. The $300 \"savings\" is now a $1,200 loss.",
+          "\"I already ordered it before checking with IT\" — you already ordered it. Without checking with IT. The laptop arrived without a charging cable. Without a warranty. Without an OS license. But you saved $50.",
+          "\"It is the same specs as the ones IT recommends\" — it has the same CPU. It has a different motherboard, different drivers, different BIOS, and a different support path. It is not the same. It is compatible until it is not.",
+          "\"I needed it urgently so I just bought it myself\" — you needed it urgently because you waited until the last minute. Your urgency is not a reason to bypass the process. The process exists because of people who bypass the process.",
+          "Note: IT-approved hardware is not a suggestion. It is a standard. The standard exists because we have tested that hardware. We know it works. We know how to support it. Your eBay special is not supported."
+        ]
+      },
+      {
+        "title": "BEFORE YOU SUBMIT A REQUEST FOR A $5,000 MACHINE TO \"BROWSE THE WEB\"...",
+        "bullets": [
+          "\"I need the top-spec model for performance\" — you need the top-spec model to check email and open PDFs. You will use 2% of its capability. The remaining 98% will depreciate in your bag.",
+          "\"My current laptop is too slow\" — your current laptop is too slow because you have 47 browser extensions, 12 startup programs, and a desktop full of files. A new laptop will be slow too. The problem is not the hardware.",
+          "\"I need the upgraded graphics card for my work\" — your work is spreadsheets. Spreadsheets do not require a dedicated GPU. You want the graphics card because you want to game at lunch. I know. Everyone knows.",
+          "\"It is an investment in my productivity\" — it is an investment in your ego. The $1,200 model will do everything you need. The $5,000 model will do everything you need plus drain the budget for people who actually need expensive hardware.",
+          "Note: A top-spec machine for a basic user is not an investment. It is waste. The person who needs the powerful machine is the one rendering 3D models, not the one rendering expense reports."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ORDER A SINGLE $3 CABLE FROM AN EXPRESS SHIP OPTION THAT COSTS $25...",
+        "bullets": [
+          "\"I needed it tomorrow\" — you needed a cable tomorrow because you lost yours today. The cable costs $3. The shipping costs $25. The total is $28 for a cable that is in the drawer downstairs.",
+          "\"Nobody told me where the spare cables are\" — I told you where the spare cables are. Last month. When you lost the first cable. You forgot. You lost the cable and the memory of me telling you where the spares are.",
+          "\"It is just company money\" — it is company money. It is also my budget. The $28 for your cable comes from the same budget that buys the server upgrades. Your impatience is now competing with infrastructure.",
+          "\"Can you expense the shipping?\" — you can expense the shipping if you want to explain to your manager why you paid $25 to ship a $3 cable that was available for free in the IT supply closet.",
+          "Note: The express shipping fee on a cheap item is a idiot tax. There is a supply closet for a reason. Use it."
+        ]
+      },
+      {
+        "title": "BEFORE YOU BUY SOFTWARE AND SUBMIT THE INVOICE FOR REIMBURSEMENT WITHOUT CHECKING IF WE ALREADY HAVE A LICENSE...",
+        "bullets": [
+          "\"I bought a PDF editor because I needed to edit a PDF\" — we have 200 licenses for Adobe Acrobat. You have Adobe Acrobat installed on your computer. You bought a second PDF editor. You now have two PDF editors and one confused expense report.",
+          "\"It was only $50 so I did not think it mattered\" — $50 does not matter until 200 people each spend $50 on software we already have. Then it is $10,000 of wasted money. Then it matters.",
+          "\"I did not know we already had a license\" — you did not know because you did not ask. You did not ask because asking is \"too much work.\" The $50 is now the cost of not asking.",
+          "\"I will just use my personal account for work\" — you will use your personal account for work. Your personal account is not licensed for commercial use. The software company will audit us. The audit will find your personal account.",
+          "Note: Before you buy software, ask IT if we already have it. The answer is usually yes. The savings is usually significant. The process is usually ignored."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ORDER 50 UNITS OF SOMETHING WITHOUT SPEC CHECKING...",
+        "bullets": [
+          "\"They all looked the same in the listing\" — they all looked the same in the listing because the listing had one photo for 50 different items. You ordered 50 mice. 30 are wired. 20 are wireless. 15 are left-handed. None are what you need.",
+          "\"I did not realize there were different versions\" — there are always different versions. That is why there is a model number. You ignored the model number. You ordered by color. You ordered blue. Blue is the wrong version.",
+          "\"Can we just use them anyway?\" — we can use 7 of them. The rest do not fit, do not connect, or do not work with our systems. 43 units are going to sit in a closet until someone throws them away.",
+          "\"I already threw away the boxes\" — you already threw away the boxes. The return window is still open. The return policy requires original packaging. You have created 50 units of e-waste.",
+          "Note: A model number is not a suggestion. It is a specification. Read it. Match it. Order it. The extra 30 seconds of reading saves thousands of dollars of waste."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "58-the-karin-protocol-printer-warrior",
+    "number": 58,
+    "file": "58-the-karin-protocol-printer-warrior.md",
+    "title": "The Karin Protocol: The Printer Warrior",
+    "description": "The Karin Protocol: The Printer Warrior",
+    "warningCount": 6,
+    "totalBullets": 30,
+    "warnings": [
+      {
+        "title": "BEFORE YOU YELL AT THE PRINTER LIKE IT IS A SENTIENT BEING THAT HATES YOU...",
+        "bullets": [
+          "\"This printer never works\" — this printer works fine for everyone else. It works fine for me. I tested it this morning. The common denominator is not the printer. The common denominator is you.",
+          "\"It is possessed\" — it is not possessed. The error code is \"PC LOAD LETTER.\" That means the paper tray is loaded with A4 and the printer wants letter. The printer is not demonic. The printer is configured for the wrong paper size.",
+          "\"It makes a noise every time I try to print\" — the noise is the printer telling you it is out of paper. The manual explains this. The screen explains this. The universe explains this. You are not listening.",
+          "\"I hit it and now it works\" — you hit it and now it works because you jostled a loose connection. You did not fix it. You delayed the inevitable. The printer will die. When it does, your violence will be remembered.",
+          "Note: Printers are not sentient. They do not have emotions. They do not have grudges. They have error states. Error states have solutions. Screaming is not a solution."
+        ]
+      },
+      {
+        "title": "BEFORE YOU PUT IN A TICKET THAT JUST SAYS \"THE PRINTER IS NOT WORKING\"...",
+        "bullets": [
+          "\"The printer is broken\" — the printer is broken in what way? Is it jammed? Is it offline? Is it out of ink? Is it on fire? \"Broken\" is not a diagnosis. \"Broken\" is a state of being.",
+          "\"It just stopped working\" — things do not \"just\" stop working. There is a cause. The cause is probably paper. The cause is probably a jam. The cause is never \"just because.\"",
+          "\"I tried everything\" — you tried nothing. You looked at it. You said \"it is not working.\" You opened a ticket. That is not \"everything.\" That is the minimum.",
+          "\"Can you come take a look?\" — I can come take a look. But I already know what I will find. I will find a paper jam. I will clear it. I will be done in 30 seconds. The 30 seconds are not the problem. The walk to your desk is the problem.",
+          "Note: \"Printer not working\" is the most useless ticket in existence. It tells me nothing. It helps nobody. It wastes everyone's time. Include the error message. Include the blinking light pattern. Include something useful."
+        ]
+      },
+      {
+        "title": "BEFORE YOU IGNORE THE BLINKING LIGHT THAT HAS BEEN BLINKING FOR THREE WEEKS...",
+        "bullets": [
+          "\"That light has been on for a while but it still prints\" — it still prints because it is using backup ink. The light means the ink is almost empty. When the ink runs out, it will stop printing. The light is a warning. Warnings precede failures.",
+          "\"I did not know what the light meant\" — you did not know what the light meant because you did not read the manual. The manual explains the lights. The manual is taped to the printer. The manual is in your hand.",
+          "\"I assumed someone else would deal with it\" — someone else will deal with it when the printer stops working entirely. That someone else is me. That time is now. Congratulations. Your silence created an emergency.",
+          "\"It has been blinking for weeks and now it won't print at all\" — it has been blinking for weeks because it needed maintenance. You ignored it. Now it needs repair. The repair costs more than the maintenance would have. Your avoidance is expensive.",
+          "Note: A blinking light is not a suggestion. It is a request for attention. Ignoring it does not make it go away. It makes the problem worse. The printer is patient. The printer will win."
+        ]
+      },
+      {
+        "title": "BEFORE YOU LOAD PAPER INCORRECTLY AND THEN BLAME THE PRINTER...",
+        "bullets": [
+          "\"I put paper in and now it is jammed\" — you put 50 sheets of paper in upside down, backwards, and folded at the corner. The paper is not loaded. The paper is offended.",
+          "\"I used the paper from my desk\" — you used paper that has been sitting on your desk for two years. The paper is curled. The paper is damp. The paper has coffee stains. The printer cannot print on a coffee stain.",
+          "\"I refilled the tray with the wrong size\" — you refilled the legal tray with letter paper. The printer is configured for legal. The paper does not match the setting. The jam is not a jam. It is a size mismatch.",
+          "\"I just pulled the paper out when it jammed\" — you pulled the paper out. You did not open the access panel. You did not remove the torn pieces. There are now pieces of paper inside the printer that I have to extract with tweezers.",
+          "Note: Loading paper is not a mysterious art. The tray has guides. The guides have markings. The markings tell you which size goes where. Follow them. It is not a test of character."
+        ]
+      },
+      {
+        "title": "BEFORE YOU INSTALL THE WRONG TONER CARTRIDGE AND FORCE IT IN...",
+        "bullets": [
+          "\"It looked like it would fit\" — it looked like it would fit because cartridges are vaguely rectangular. The keying pins are different. The chip is different. The color is wrong. \"Looked like it would fit\" is not a specification.",
+          "\"I had to really push to get it in\" — you had to push because it is the wrong cartridge. The \"push\" was the sound of plastic tabs breaking. The cartridge is now stuck. The printer is now broken.",
+          "\"I bought a generic brand to save money\" — you bought a generic brand that costs 20% less and damages the printer 300% more. The savings on toner will be spent on repairs. The repair budget is now your toner budget.",
+          "\"The third-party one was half the price\" — the third-party one was half the price because it uses low-quality powder that clogs the drum. The drum is now clogged. The drum replacement costs more than the OEM toner would have.",
+          "Note: Printer toner is not a commodity. The OEM cartridge is expensive for a reason. The cheap cartridge is cheap for a reason. You are not outsmarting the system. You are breaking the printer."
+        ]
+      },
+      {
+        "title": "BEFORE YOU PRINT 200 PAGES AND THEN SAY \"I DID NOT MEAN TO PRINT ALL OF THAT\"...",
+        "bullets": [
+          "\"I thought it would only print the first page\" — you thought clicking \"Print\" on a 200-page document would only print the first page. That is not how printing works. That has never been how printing works.",
+          "\"I did not check the page range\" — you did not check the page range because checking the page range takes 3 seconds. You are now standing at the printer watching 200 pages come out. That will take much longer than 3 seconds.",
+          "\"Can you cancel it?\" — I can cancel it. But 150 pages have already printed. The paper is gone. The toner is gone. The tree is gone. The cancel button is a formality at this point.",
+          "\"Just put the paper back in the tray\" — you cannot put printed paper back in the tray. That is not how recycling works. That is not how printing works. That is not how any of this works.",
+          "Note: Every print job is a commitment. Check the page count. Check the preview. Check your sanity. Then click Print. Not before."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "59-the-karin-protocol-onboarding-disaster",
+    "number": 59,
+    "file": "59-the-karin-protocol-onboarding-disaster.md",
+    "title": "The Karin Protocol: The Onboarding Disaster",
+    "description": "The Karin Protocol: The Onboarding Disaster",
+    "warningCount": 6,
+    "totalBullets": 30,
+    "warnings": [
+      {
+        "title": "BEFORE YOU IGNORE THE WELCOME EMAIL AND THEN ASK QUESTIONS THAT WERE ANSWERED IN IT...",
+        "bullets": [
+          "\"I did not see the email\" — you did not see the email titled \"WELCOME — IMPORTANT — PLEASE READ\" with three exclamation marks and a priority flag. You did not see it because you did not read it.",
+          "\"There was too much information so I skimmed it\" — you skimmed the part that said \"your login credentials are below\" and missed the credentials. You now need new credentials. You are now a reset request on your first day.",
+          "\"Can someone just tell me what to do?\" — someone did tell you what to do. The email told you what to do. The email had bullet points. The email had numbered steps. The email was written for someone who cannot be bothered to read it.",
+          "\"I will read it later\" — later never comes. Later is a myth. Later is the place where unread emails go to die. Read it now. Later is already full.",
+          "Note: The welcome email is not a suggestion. It is a manual for your first week. Read it. Every word. Before you ask a question that is answered in paragraph one."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ASK FOR A BETTER LAPTOP ON YOUR FIRST DAY...",
+        "bullets": [
+          "\"This one is not what I am used to\" — you are used to a different model because your previous company had a different budget. This is not your previous company. This laptop is what we provide. It is sufficient.",
+          "\"It is a little slow\" — it is a little slow because you installed 14 browser extensions during the 30 minutes since I handed it to you. The laptop is not slow. Your extension addiction is slow.",
+          "\"My colleague got a better one\" — your colleague has been here for 6 years. Your colleague develops software. Your colleague needs the better one. You are in accounting. You will survive.",
+          "\"I need a MacBook\" — you need a MacBook because you prefer the aesthetic. The entire company runs on Windows. The software we use is Windows-only. The support we provide is Windows-only. You need a MacBook like a fish needs a bicycle.",
+          "Note: The laptop you receive on your first day is not a reflection of your worth. It is a tool for your role. Use it. If you still need an upgrade after a year of proving yourself, we can talk. Not before."
+        ]
+      },
+      {
+        "title": "BEFORE YOU SET UP YOUR EMAIL SIGNATURE WITH QUOTES, IMAGES, AND RAINBOW COLORS...",
+        "bullets": [
+          "\"I customized it to reflect my personality\" — your personality is not a company asset. The email signature is a business communication tool. Keep it professional. Your favorite quote about \"living your best life\" does not belong in client emails.",
+          "\"I added my photo so people know who I am\" — people know who you are by your name. The photo takes up half the screen. The photo loads slowly. The photo makes every email you send look like a newsletter.",
+          "\"I included a link to my personal blog\" — you included a link to your personal blog about your cat. In your company email signature. Every email you send now advertises your cat. Stop it.",
+          "\"I made the font bright pink so it stands out\" — it stands out. It stands out as unprofessional. The company brand guidelines specify black text. The brand guidelines exist. Read them.",
+          "Note: Your email signature is not a self-expression canvas. It is a corporate communication standard. Name, title, phone number. That is all. The motivational quote stays on your desktop wallpaper."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ASK FOR ADMIN RIGHTS ON YOUR FIRST WEEK...",
+        "bullets": [
+          "\"I need admin access to install software\" — you need admin access to install software that IT has not approved. You do not need that software. You need to ask IT to install approved software. That is the process.",
+          "\"I am used to having full control over my machine\" — you are used to having full control over your personal machine. This is not your personal machine. This is a company asset. You do not have full control.",
+          "\"It will make me more productive\" — it will make you more productive at installing software that will break your machine. It will make me less productive at fixing the machine you broke. Net productivity: negative.",
+          "\"I know what I am doing\" — you know what you are doing on your own computer. You do not know what you are doing on a domain-joined corporate machine with group policy, endpoint protection, and compliance requirements. You know how to click \"Yes\" on an installer. That is not the same.",
+          "Note: Admin rights are not a status symbol. They are a security risk. You do not need them. If you genuinely do, you will get them after we verify that you actually need them. Not because you asked nicely."
+        ]
+      },
+      {
+        "title": "BEFORE YOU COME TO IT ON YOUR FIRST DAY WITHOUT YOUR LAPTOP CHARGER...",
+        "bullets": [
+          "\"I left it at home\" — you left it at home. On your first day. The only day you definitely know you will need it. The day everything is new and the battery is probably dead.",
+          "\"Can I borrow one?\" — you can borrow one if someone else is willing to work without their charger. Nobody is willing to work without their charger. You are not borrowing a charger.",
+          "\"I thought it would last the whole day\" — you thought a brand new laptop out of the box would last 8 hours on a partial charge. The battery was at 60% when I gave it to you. It is now 10 AM. The battery is at 20%.",
+          "\"Can someone drive me home to get it?\" — someone can drive you home to get it if you want to explain to your new manager that you need someone to drive you home to get your charger on your first day.",
+          "Note: Your laptop charger is not optional. It is not a suggestion. It is the only thing keeping your computer alive. Bring it. Every day. Especially the first day."
+        ]
+      },
+      {
+        "title": "BEFORE YOU INTRODUCE YOURSELF TO EVERYONE BY REPLY-ALLING TO THE COMPANY-WIDE ANNOUNCEMENT...",
+        "bullets": [
+          "\"I just wanted to say hello to everyone\" — you said hello to 12,000 people. All of them now have a notification. All of them now know your name. All of them now wish you had just said hello to your team.",
+          "\"I thought it was the right thing to do\" — the right thing to do is reply to your team. The company-wide list is for announcements. You are not an announcement. You are a new hire.",
+          "\"I did not realize it would go to everyone\" — you did not realize because you did not look at the recipient list. The recipient list said \"All Staff (12,000).\" You did not check.",
+          "\"Can I take it back?\" — you cannot take it back. The email is sent. The email is read. The email is archived. Your introduction is now a permanent record of your first mistake.",
+          "Note: The reply-all button is not a greeting card. Do not introduce yourself to the entire company with it. Introduce yourself to your team. Let the rest discover you through your work."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "60-the-karin-protocol-offboarding-escape",
+    "number": 60,
+    "file": "60-the-karin-protocol-offboarding-escape.md",
+    "title": "The Karin Protocol: The Offboarding Escape",
+    "description": "The Karin Protocol: The Offboarding Escape",
+    "warningCount": 6,
+    "totalBullets": 30,
+    "warnings": [
+      {
+        "title": "BEFORE YOU ASK TO KEEP YOUR LAPTOP \"FOR PERSONAL USE\"...",
+        "bullets": [
+          "\"I have had it for years and it feels like mine\" — it feels like yours because you have been using it for years. It is not yours. It is a company asset. The company paid for it. The company owns it. You are leaving.",
+          "\"I need it to look for a new job\" — you need the company laptop to look for a new job while still employed here? That is a different problem. One that HR should probably hear about.",
+          "\"I will buy it from you\" — you will buy a 4-year-old laptop that is fully depreciated but still contains company data that we cannot guarantee you will wipe. The answer is no. Buy your own laptop.",
+          "\"There are personal files on it\" — there should not be personal files on it. You were told not to store personal files on it. The personal files are now a data recovery problem. We will return them if we can. You will not keep the laptop.",
+          "Note: The laptop is not a parting gift. It is a company asset that must be returned, wiped, and redeployed or recycled. Your attachment to it is not a policy exception."
+        ]
+      },
+      {
+        "title": "BEFORE YOU FORWARD ALL YOUR COMPANY EMAIL TO YOUR PERSONAL ADDRESS...",
+        "bullets": [
+          "\"I need to keep my emails for my records\" — your emails are company records. They belong to the company. Forwarding them to your personal Gmail is a data breach. Do not do it.",
+          "\"I have important contacts in there\" — the important contacts can be reached via LinkedIn like every other professional on the planet. You do not need 5 years of internal email chains for that.",
+          "\"I am just saving a few messages\" — you are saving a few messages that contain confidential information. On your personal email. Outside the company's control. That is a policy violation.",
+          "\"Nobody will notice\" — the system logs every forwarded email. The system has a report. The report goes to compliance. Compliance will notice. I will notice. You will get a very awkward phone call.",
+          "Note: Your company email is not your personal archive. It is not your address book. It is not yours. Leave it behind. That is what \"offboarding\" means."
+        ]
+      },
+      {
+        "title": "BEFORE YOU WIPE YOUR LAPTOP YOURSELF BEFORE RETURNING IT...",
+        "bullets": [
+          "\"I factory reset it to save you time\" — you factory reset it. You also wiped the recovery partition. You also removed the BIOS password. The laptop is now a paperweight that needs to be reimaged from scratch.",
+          "\"I deleted my personal files so you do not have to\" — you deleted your personal files. You also deleted system files. The laptop now boots to a black screen. The \"personal files\" were apparently in the Windows directory.",
+          "\"I used a program to securely erase everything\" — you used a program to securely erase everything. Including the operating system. Including the bootloader. You have created a pile of expensive e-waste.",
+          "\"I wanted to make sure my data was safe\" — your data was safe. The encrypted drive was safe. The IT wipe process is safe. You did not need to \"help.\" You never need to \"help.\"",
+          "Note: Do not wipe your own laptop. Return it. Let IT do the wipe. The IT wipe process is standard. Your DIY wipe is not."
+        ]
+      },
+      {
+        "title": "BEFORE YOU CLAIM YOU \"LOST\" THE COMPANY DONGLE...",
+        "bullets": [
+          "\"I cannot find it anywhere\" — you cannot find it because you lost it. You lost it months ago. You have been using a personal dongle that is not approved. The lost dongle has been missing for longer than your notice period.",
+          "\"It might be in my desk\" — it is not in your desk. I checked your desk. I found 3 other things that belong to the company. The dongle is not among them.",
+          "\"I will keep looking and mail it\" — you will not mail it. \"I will mail it\" is the offboarding equivalent of \"the check is in the mail.\" It never arrives.",
+          "\"Can you just write it off?\" — I can write it off if you sign a form acknowledging the lost asset and authorizing the replacement cost to be deducted from your final paycheck.",
+          "Note: The dongle is not lost. You lost it. \"Lost\" is a euphemism for \"I was irresponsible and now I do not want to face the consequences.\" Face them."
+        ]
+      },
+      {
+        "title": "BEFORE YOU ANNOUNCE YOUR DEPARTURE WITH A PASSIVE-AGGRESSIVE GOODBYE EMAIL...",
+        "bullets": [
+          "\"I am leaving for new opportunities\" — you are leaving because you were unhappy. Everyone knows you were unhappy. The goodbye email does not need to hint at it. Just say goodbye.",
+          "\"I want to thank everyone except...\" — you want to thank everyone except specific people. You listed the exceptions. In a company-wide email. That everyone will read. Including the people you excluded.",
+          "\"I have learned a lot here\" — you have learned a lot here. The next sentence is going to explain why the things you learned are wrong. I can feel it coming. Do not write that sentence.",
+          "\"I wish the company well\" — \"I wish the company well\" is corporate for \"I hope this place burns down.\" Everyone reads it that way. Just say \"thank you\" and stop.",
+          "Note: A goodbye email is not a farewell tour. It is not a performance review. It is not a manifesto. It is a \"thank you, here is my contact info, goodbye.\" Anything else is a liability."
+        ]
+      },
+      {
+        "title": "BEFORE YOU DISABLE YOUR OWN ACCOUNT ON THE WAY OUT...",
+        "bullets": [
+          "\"I changed my password so nobody can access it\" — you changed your password to something only you know. Your account now cannot be accessed by IT to transfer your files or forward your email. You have locked us out of your own work.",
+          "\"I deleted some files that were personal\" — you deleted files that were personal. You also deleted files that were not personal. The audit log shows what you deleted. We have backups. We will restore them. We will know what you deleted.",
+          "\"I set up an auto-reply that says 'I do not work here anymore haha'\" — the auto-reply is unprofessional. Turn it off. Now.",
+          "\"I removed myself from all the distribution lists\" — you removed yourself from distribution lists that include active projects. The project teams are now missing emails. Your clean exit just created chaos.",
+          "Note: Do not touch your accounts on the way out. Do not change passwords. Do not delete files. Do not set up auto-replies. Close your laptop. Hand it in. Walk away. That is your only job on the last day."
+        ]
+      }
+    ]
   }
 ]
