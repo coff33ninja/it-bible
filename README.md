@@ -142,17 +142,14 @@ flowchart LR
 <details>
 <summary><strong>🎯 Use Cases</strong></summary>
 
-> [!TIP]
-> **<span style="color:#ff8800;">IT Professionals:</span>**
-> Use this to build a personal knowledge base. Copy warnings into your ticket templates. Share specific warnings in Slack instead of writing the same explanation for the 47th time.
+**<span style="color:#ff8800;">IT Professionals:</span>**  
+Use this to build a personal knowledge base. Copy warnings into your ticket templates. Share specific warnings in Slack instead of writing the same explanation for the 47th time.
 
-> [!TIP]
-> **<span style="color:#ff8800;">IT Managers:</span>**
-> Send individual warnings to repeat offenders. Post warnings in common areas. Use this as evidence that some problems are genuinely user-induced.
+**<span style="color:#ff8800;">IT Managers:</span>**  
+Send individual warnings to repeat offenders. Post warnings in common areas. Use this as evidence that some problems are genuinely user-induced.
 
-> [!TIP]
-> **<span style="color:#ff8800;">Users (Who Actually Read):</span>**
-> Learn what NOT to do before your device needs repair. Understand why IT people look tired. Appreciate the complexity hidden in "just rebooting it."
+**<span style="color:#ff8800;">Users (Who Actually Read):</span>**  
+Learn what NOT to do before your device needs repair. Understand why IT people look tired. Appreciate the complexity hidden in "just rebooting it."
 
 </details>
 
@@ -161,7 +158,6 @@ flowchart LR
 <details>
 <summary><strong>💭 Philosophy</strong></summary>
 
-> [!NOTE]
 > Every warning in this Bible is based on real support tickets. Real user errors. Real suffering.
 
 The tone is harsh because the truth is harsh. But it's not cruel—it's cathartic. It's saying: *You are not alone. Your users do this too. It's not your fault.*
@@ -175,15 +171,14 @@ Except sometimes it is their fault. This book documents those times.
 <details>
 <summary><strong>📝 Contributing</strong></summary>
 
-> [!TIP]
-> Found a new way users can break things? Have a warning that saved your sanity?
->
-> 1. Add it to the appropriate chapter (or create a new one if it's truly novel)
-> 2. Follow the existing format (title + bullet points + optional note)
-> 3. Run `generate-index.py` to rebuild
-> 4. Commit and push
->
-> The Bible grows as technology finds new ways to surprise us.
+Found a new way users can break things? Have a warning that saved your sanity?
+
+1. Add it to the appropriate chapter (or create a new one if it's truly novel)
+2. Follow the existing format (title + bullet points + optional note)
+3. Run `generate-index.py` to rebuild
+4. Commit and push
+
+The Bible grows as technology finds new ways to surprise us.
 
 </details>
 
@@ -212,12 +207,11 @@ Except sometimes it is their fault. This book documents those times.
 <details>
 <summary><strong>🤝 Support</strong></summary>
 
-> [!TIP]
-> **<span style="color:#ff8800;">Have a question?</span>** Read the warning first. The answer is probably in here.
->
-> **<span style="color:#ff8800;">Found a bug?</span>** Check if it's user error. It probably is.
->
-> **<span style="color:#ff8800;">Want to contribute?</span>** See the Contributing section above.
+**<span style="color:#ff8800;">Have a question?</span>** Read the warning first. The answer is probably in here.
+
+**<span style="color:#ff8800;">Found a bug?</span>** Check if it's user error. It probably is.
+
+**<span style="color:#ff8800;">Want to contribute?</span>** See the Contributing section above.
 
 </details>
 
