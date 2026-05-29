@@ -1,6 +1,6 @@
 <h1 align="center">
-  <span style="color:#e0e0e0;font-weight:800">📖 THE</span>
-  <span style="color:#e0e0e0;font-weight:800">IT</span>
+  <span style="color:#ffffff;font-weight:800">📖 THE</span>
+  <span style="color:#ffffff;font-weight:800">IT</span>
   <span style="color:#ff4444;font-weight:800">BIBLE</span>
 </h1>
 <p align="center">
@@ -26,14 +26,14 @@
 A comprehensive (and brutally honest) guide to user errors that break systems. Each "book" covers a different flavor of chaos—from the classics ("I spilled coffee on it") to the existential ("How is this even possible?").
 
 > [!NOTE]
-> **✅ This is:**
+> **<span style="color:#44ff44;">✅ This is:</span>**
 > - Legitimate troubleshooting documentation
 > - A public service announcement
 > - A survival guide for IT professionals
 > - Deeply cathartic
 
 > [!CAUTION]
-> **❌ This is NOT:**
+> **<span style="color:#ff4444;">❌ This is NOT:</span>**
 > - A substitute for professional support
 > - Legal permission to yell at your users
 > - A reason to skip backups
@@ -44,10 +44,10 @@ A comprehensive (and brutally honest) guide to user errors that break systems. E
 
 <!-- STATS_START -->
 > [!IMPORTANT]
-> - **61 books** of warnings
-> - **397 warnings** total
-> - **1340 verses** (individual prevention tips)
-> - **100% preventable** (if you read this first)
+> - **<span style="color:#ff4444;">61 books</span>** of warnings
+> - **<span style="color:#ff8800;">397 warnings</span>** total
+> - **<span style="color:#44ff44;">1340 verses</span>** (individual prevention tips)
+> - **<span style="color:#44ddff;">100% preventable</span>** (if you read this first)
 <!-- STATS_END -->
 
 ---
@@ -65,11 +65,11 @@ The frontend will load with a search-enabled sidebar, full warning text, and the
 ### What You Get
 
 > [!TIP]
-> - 🔍 **Full-text search** — Find that specific warning you need
-> - 📋 **Copy functionality** — Paste warnings directly into tickets
-> - 🖼️ **Image export** — Download warnings as <abbr title="Portable Network Graphics">PNG</abbr> for Slack/email/wall posters
-> - 📱 **Mobile responsive** — Read warnings from your phone at 3 AM
-> - ⚡ **Zero external dependencies** — Just Python and a browser
+> - 🔍 **<span style="color:#44ddff;">Full-text search</span>** — Find that specific warning you need
+> - 📋 **<span style="color:#44ddff;">Copy functionality</span>** — Paste warnings directly into tickets
+> - 🖼️ **<span style="color:#44ddff;">Image export</span>** — Download warnings as <abbr title="Portable Network Graphics">PNG</abbr> for Slack/email/wall posters
+> - 📱 **<span style="color:#44ddff;">Mobile responsive</span>** — Read warnings from your phone at 3 AM
+> - ⚡ **<span style="color:#44ddff;">Zero external dependencies</span>** — Just Python and a browser
 
 ---
 
@@ -187,18 +187,18 @@ The Bible grows as technology finds new ways to surprise us.
 ## ⚡ Quick Reference: Common Warnings
 
 > [!WARNING]
-> - **"I didn't change anything"** — Yes, you did. The system remembers.
-> - **"The network is down"** — You're on Guest Wi-Fi.
-> - **"Everything is broken"** — Be specific or be ignored.
-> - **"I already rebooted"** — No, you didn't. Closing the lid isn't a reboot.
-> - **"My computer hates me"** — Your computer is indifferent. You hate your computer.
+> - **<span style="color:#ffcc00;">"I didn't change anything"</span>** — Yes, you did. The system remembers.
+> - **<span style="color:#ffcc00;">"The network is down"</span>** — You're on Guest Wi-Fi.
+> - **<span style="color:#ffcc00;">"Everything is broken"</span>** — Be specific or be ignored.
+> - **<span style="color:#ffcc00;">"I already rebooted"</span>** — No, you didn't. Closing the lid isn't a reboot.
+> - **<span style="color:#ffcc00;">"My computer hates me"</span>** — Your computer is indifferent. You hate your computer.
 
 ---
 
 ## 📜 License
 
 > [!NOTE]
-> Public domain. Use freely. Blame me when your users get mad about being quoted.
+> **<span style="color:#44ddff;">Public domain.</span>** Use freely. Blame me when your users get mad about being quoted.
 
 ---
 
