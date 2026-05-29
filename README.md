@@ -1,8 +1,13 @@
-# 📖 The IT Bible
+<h1 align="center">
+  <span style="color:#e0e0e0">📖 THE</span>
+  <span style="color:#e0e0e0">IT</span>
+  <span style="color:#ff4444">BIBLE</span>
+</h1>
+<p align="center">
+  <span style="color:#888;font-size:11px;text-transform:uppercase;letter-spacing:2px;">Warnings From The Department</span>
+</p>
 
-**Warnings From The Department** — covering every flavor of user error known to IT.
-
-A living encyclopedia of preventable suffering. Read this before your ticket becomes my problem.
+<p align="center">A living encyclopedia of preventable suffering. Read this before your ticket becomes my problem.</p>
 
 ---
 
