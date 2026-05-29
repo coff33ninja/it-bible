@@ -9,6 +9,16 @@
 
 <p align="center">A living encyclopedia of preventable suffering. Read this before your ticket becomes my problem.</p>
 
+<p align="center">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-44ddff">
+  <img alt="Books" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcoff33ninja%2Fit-bible%2Fmaster%2Fversion.json&query=%24.books&style=flat&label=books&color=ff4444">
+  <img alt="Warnings" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcoff33ninja%2Fit-bible%2Fmaster%2Fversion.json&query=%24.warnings&style=flat&label=warnings&color=ff8800">
+  <img alt="Verses" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcoff33ninja%2Fit-bible%2Fmaster%2Fversion.json&query=%24.verses&style=flat&label=verses&color=44ff44">
+  <img alt="GitHub Actions" src="https://img.shields.io/github/actions/workflow/status/coff33ninja/it-bible/update-readme-stats.yml?label=CI&color=44ddff">
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/coff33ninja/it-bible?label=updated&color=888">
+  <img alt="Stars" src="https://img.shields.io/github/stars/coff33ninja/it-bible?style=flat&label=stars&color=ffcc00">
+</p>
+
 ---
 
 ## ⚠️ What This Is
@@ -33,10 +43,11 @@ A comprehensive (and brutally honest) guide to user errors that break systems. E
 ## 📊 By The Numbers
 
 <!-- STATS_START -->
-- **61 books** of warnings
-- **397 warnings** total
-- **1340 verses** (individual prevention tips)
-- **100% preventable** (if you read this first)
+> [!IMPORTANT]
+> - **61 books** of warnings
+> - **397 warnings** total
+> - **1340 verses** (individual prevention tips)
+> - **100% preventable** (if you read this first)
 <!-- STATS_END -->
 
 ---
@@ -45,9 +56,7 @@ A comprehensive (and brutally honest) guide to user errors that break systems. E
 
 ### Quick Start (No Dependencies, No Nonsense)
 
-```bash
-py serve.py
-```
+<kbd>py serve.py</kbd>
 
 Open **http://localhost:3000** and prepare yourself.
 
@@ -58,7 +67,7 @@ The frontend will load with a search-enabled sidebar, full warning text, and the
 > [!TIP]
 > - 🔍 **Full-text search** — Find that specific warning you need
 > - 📋 **Copy functionality** — Paste warnings directly into tickets
-> - 🖼️ **Image export** — Download warnings as PNG for Slack/email/wall posters
+> - 🖼️ **Image export** — Download warnings as <abbr title="Portable Network Graphics">PNG</abbr> for Slack/email/wall posters
 > - 📱 **Mobile responsive** — Read warnings from your phone at 3 AM
 > - ⚡ **Zero external dependencies** — Just Python and a browser
 
@@ -66,12 +75,17 @@ The frontend will load with a search-enabled sidebar, full warning text, and the
 
 ## 📚 The Books
 
+<details>
+<summary><strong>📚 Click to expand book list</strong></summary>
+
 | Book | Focus | Warning Count |
 |------|-------|---|
-| 01 | General User Errors & PEBCAK | 12 |
+| 01 | General User Errors & <abbr title="Problem Exists Between Chair And Keyboard">PEBCAK</abbr> | 12 |
 | 02 | Liquid & Physical Damage | 8 |
 | ... | ... | ... |
 | 61 | Afterword — The Last Warnings You Will Ever Need | 7 |
+
+</details>
 
 Browse them all in the web interface. Bookmark the ones you'll need.
 
@@ -81,15 +95,27 @@ Browse them all in the web interface. Bookmark the ones you'll need.
 
 After adding or editing warnings, rebuild the search index:
 
-```bash
-python generate-index.py
-```
+<kbd>python generate-index.py</kbd>
 
 The script scans all `.md` files in `volumes/`, extracts warnings, and generates `volumes/index.json` for the frontend. Takes seconds.
 
+```mermaid
+flowchart LR
+  A[volumes/*.md] --> B[generate-index.py]
+  B --> C[index.json]
+  C --> D[index.html]
+  D --> E[Browser]
+  style A fill:#1a1a1a,stroke:#ff4444,color:#e0e0e0
+  style B fill:#1a1a1a,stroke:#ff8800,color:#e0e0e0
+  style C fill:#1a1a1a,stroke:#44ddff,color:#e0e0e0
+  style D fill:#1a1a1a,stroke:#44ff44,color:#e0e0e0
+  style E fill:#1a1a1a,stroke:#e0e0e0,color:#e0e0e0
+```
+
 ---
 
-## 📁 Project Structure
+<details>
+<summary><strong>📁 Project Structure</strong></summary>
 
 ```
 ├── volumes/                         # All book files (01-61)
@@ -104,46 +130,62 @@ The script scans all `.md` files in `volumes/`, extracts warnings, and generates
 ├── generate-index.py                # Index generator (Python)
 ├── generate-index.ps1               # Thin wrapper calling generate-index.py
 ├── .github/
-│   ├── workflows/                   # CI: auto-updates stats
+│   ├── workflows/                   # <abbr title="Continuous Integration / Continuous Deployment">CI/CD</abbr>: auto-updates stats
 │   └── scripts/                     # Stats calculator
 └── README.md                        # This file
 ```
 
----
-
-## 🎯 Use Cases
-
-**<span style="color:#ff8800;">IT Professionals:</span>**  
-Use this to build a personal knowledge base. Copy warnings into your ticket templates. Share specific warnings in Slack instead of writing the same explanation for the 47th time.
-
-**<span style="color:#ff8800;">IT Managers:</span>**  
-Send individual warnings to repeat offenders. Post warnings in common areas. Use this as evidence that some problems are genuinely user-induced.
-
-**<span style="color:#ff8800;">Users (Who Actually Read):</span>**  
-Learn what NOT to do before your device needs repair. Understand why IT people look tired. Appreciate the complexity hidden in "just rebooting it."
+</details>
 
 ---
 
-## 💭 Philosophy
+<details>
+<summary><strong>🎯 Use Cases</strong></summary>
 
+> [!TIP]
+> **<span style="color:#ff8800;">IT Professionals:</span>**
+> Use this to build a personal knowledge base. Copy warnings into your ticket templates. Share specific warnings in Slack instead of writing the same explanation for the 47th time.
+
+> [!TIP]
+> **<span style="color:#ff8800;">IT Managers:</span>**
+> Send individual warnings to repeat offenders. Post warnings in common areas. Use this as evidence that some problems are genuinely user-induced.
+
+> [!TIP]
+> **<span style="color:#ff8800;">Users (Who Actually Read):</span>**
+> Learn what NOT to do before your device needs repair. Understand why IT people look tired. Appreciate the complexity hidden in "just rebooting it."
+
+</details>
+
+---
+
+<details>
+<summary><strong>💭 Philosophy</strong></summary>
+
+> [!NOTE]
 > Every warning in this Bible is based on real support tickets. Real user errors. Real suffering.
 
 The tone is harsh because the truth is harsh. But it's not cruel—it's cathartic. It's saying: *You are not alone. Your users do this too. It's not your fault.*
 
 Except sometimes it is their fault. This book documents those times.
 
+</details>
+
 ---
 
-## 📝 Contributing
+<details>
+<summary><strong>📝 Contributing</strong></summary>
 
-Found a new way users can break things? Have a warning that saved your sanity?
+> [!TIP]
+> Found a new way users can break things? Have a warning that saved your sanity?
+>
+> 1. Add it to the appropriate chapter (or create a new one if it's truly novel)
+> 2. Follow the existing format (title + bullet points + optional note)
+> 3. Run `generate-index.py` to rebuild
+> 4. Commit and push
+>
+> The Bible grows as technology finds new ways to surprise us.
 
-1. Add it to the appropriate chapter (or create a new one if it's truly novel)
-2. Follow the existing format (title + bullet points + optional note)
-3. Run `generate-index.py` to rebuild
-4. Commit and push
-
-The Bible grows as technology finds new ways to surprise us.
+</details>
 
 ---
 
@@ -160,17 +202,24 @@ The Bible grows as technology finds new ways to surprise us.
 
 ## 📜 License
 
-Public domain. Use freely. Blame me when your users get mad about being quoted.
+> [!NOTE]
+> Public domain. Use freely. Blame me when your users get mad about being quoted.
 
 ---
 
 ## 🤝 Support
 
-**<span style="color:#ff8800;">Have a question?</span>** Read the warning first. The answer is probably in here.
+<details>
+<summary><strong>🤝 Support</strong></summary>
 
-**<span style="color:#ff8800;">Found a bug?</span>** Check if it's user error. It probably is.
+> [!TIP]
+> **<span style="color:#ff8800;">Have a question?</span>** Read the warning first. The answer is probably in here.
+>
+> **<span style="color:#ff8800;">Found a bug?</span>** Check if it's user error. It probably is.
+>
+> **<span style="color:#ff8800;">Want to contribute?</span>** See the Contributing section above.
 
-**<span style="color:#ff8800;">Want to contribute?</span>** See the Contributing section above.
+</details>
 
 ---
 
