@@ -15,7 +15,7 @@ VERSION_FILE = ROOT / "version.json"
 
 def count_warnings(filepath):
     content = filepath.read_text(encoding="utf-8")
-    before_count = len(re.findall(r'^\*\*(BEFORE\s+.+)\*\*\.\.\.?$', content, re.MULTILINE))
+    before_count = len(re.findall(r'^\*\*(BEFORE\s.+)\*\*$', content, re.MULTILINE))
     return before_count
 
 def count_verses(filepath):
@@ -80,7 +80,7 @@ def main():
 
     README.write_text(readme, encoding="utf-8")
 
-    print(f"✓ Stats updated: {book_count} books, {warning_count} warnings, {verse_count} verses")
+    print(f"[OK] Stats updated: {book_count} books, {warning_count} warnings, {verse_count} verses")
 
 if __name__ == "__main__":
     main()
