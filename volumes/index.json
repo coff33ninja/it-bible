@@ -4312,8 +4312,8 @@
     "file": "61-afterword-the-last-warnings.md",
     "title": "Afterword — The Last Warnings You Will Ever Need",
     "description": "Afterword — The Last Warnings You Will Ever Need",
-    "warningCount": 6,
-    "totalBullets": 30,
+    "warningCount": 7,
+    "totalBullets": 38,
     "warnings": [
       {
         "title": "BEFORE YOU DO ANYTHING, READ THE THING...",
@@ -4363,6 +4363,19 @@
           "You CC'd the CEO on a support ticket because the response time was 4 hours instead of 2. The ticket was for a font not displaying correctly. The CEO now has a ticket about fonts in their inbox. The support person now has a meeting with their manager about the escalation. The font is still not displaying correctly. The escalation did not fix it.",
           "You said \"You people never fix anything\" to the person who fixed your computer last week, the month before, and the month before that. The person who keeps fixing your computer is the same person you are insulting. They fix your things repeatedly. You insult them repeatedly. One of these patterns is sustainable.",
           "Note: IT support is not a vending machine. It is a relationship. The people who fix your problems are people. Treat them like people, and your problems will be fixed faster. Treat them like machines, and you become the problem."
+        ]
+      },
+      {
+        "title": "BEFORE YOU CONTINUE EXISTING WITHOUT BASIC READING COMPREHENSION...",
+        "bullets": [
+          "You had ONE JOB. The dialog box said \"DO YOU WANT TO INSTALL THIS SOFTWARE?\" There was a picture of the software. There was the publisher name. There was a CANCEL button. You clicked YES. You do not KNOW what you installed. You do not KNOW who published it. You did not READ the three words on the button you clicked. The toolbar is now on your browser. The ads are now in your face. The malware is now on your network. All because reading THREE WORDS was too much effort for your two functioning brain cells.",
+          "You saw an ad that said \"YOUR PC HAS A VIRUS! CLICK HERE TO SCAN!\" The ad was flashing. The ad had Comic Sans. The ad was on a website called \"totallyfreegames.ru.\" The ad was next to an ad for \"ONE WEIRD TRICK TO LOSE BELLY FAT.\" You clicked it. You downloaded the \"scanner.\" You ran the \"scanner.\" The \"scanner\" was the virus. The virus is now encrypting your files. The ransom note is written in the same broken English as the ad. You paid the scam, you downloaded the scam, you ran the scam. You completed the scam's entire to-do list for them. You did the scam's job better than the scammer did.",
+          "The installer had 7 screens. Each screen had checkboxes. The checkboxes said things like \"Install browser toolbar,\" \"Change default search engine to Bing,\" \"Make CNBC your homepage,\" \"Install coupon finder extension.\" You clicked \"Next >>\" 7 times without reading a single word. Your browser is now a carnival of unwanted toolbars. Your homepage is a search engine that does not know what a search engine is. Your new tab page is covered in coupons for things you would never buy. You did this to yourself. The installer asked permission at every step. You granted it. You are not a victim. You are a volunteer.",
+          "You tried to install a PDF reader. You searched \"pdf reader free download.\" You clicked the first result. It was not the PDF reader. It was a \"download manager\" that bundles adware. The real PDF reader was the fourth result. You did not scroll. You did not check the URL. You clicked the first link like a toddler grabbing the brightest candy on the shelf. The candy is malware. The shelf is the internet. You are not old enough to be left unsupervised.",
+          "The pop-up asked for your email address to \"claim your prize.\" You do not remember entering a contest. The pop-up does not say which contest. The pop-up does not say what the prize is. The pop-up is a pop-up. It is asking for your email. You gave it. Your inbox is now a landfill of pharmaceutical spam. The prize was more spam. You won. Congratulations.",
+          "You clicked \"UNSUBSCRIBE\" on a phishing email. The email was from \"totallynotascam@phish.ru.\" The email said your Netflix account was suspended. You do not have Netflix. You clicked UNSUBSCRIBE anyway. You confirmed your email is active. You confirmed you click links in phishing emails. You are now on every spam list on the dark web. Your email address is worth money because of you. YOU are the product. YOU are the supply chain. YOU are the reason spam exists.",
+          "The warning said \"THIS FILE MAY BE DANGEROUS.\" It said \"ARE YOU SURE YOU WANT TO RUN THIS?\" It said \"THIS FILE IS FROM AN UNKNOWN PUBLISHER.\" It said \"RUNNING THIS MAY HARM YOUR COMPUTER.\" There were 4 warnings. You bypassed all 4. You clicked \"More info.\" You clicked \"Run anyway.\" You typed your administrator password. You did all of this to open a file called \"document.exe\" that was attached to an email from \"shipping@freemailservice.net\" about a package you did not order. The document was not a document. The exe was not a document. The shipping company does not send executables. The four warnings were not Microsoft being annoying. They were Microsoft trying harder to protect you from yourself than you are willing to protect yourself.",
+          "Note: Reading is not a superpower. It is a basic human function that you have decided to opt out of. Every dialog box, every warning, every confirmation screen exists because someone before you ignored it and broke something. The text is not there to slow you down. It is there to save you. But you will not read this note either. You have already scrolled past it. Congratulations. You proved the point."
         ]
       },
       {
