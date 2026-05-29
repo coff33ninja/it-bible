@@ -1,6 +1,6 @@
 # 📖 The IT Bible
 
-**Warnings From The Department** — 45 books, 282 warnings covering every flavor of user error known to IT.
+**Warnings From The Department** — covering every flavor of user error known to IT.
 
 A living encyclopedia of preventable suffering. Read this before your ticket becomes my problem.
 
@@ -25,14 +25,12 @@ A comprehensive (and brutally honest) guide to user errors that break systems. E
 
 ## 📊 By The Numbers
 
+<!-- STATS_START -->
 - **45 books** of warnings
-<<<<<<< HEAD
 - **282 warnings** total
-=======
-- **282 warnings** total
->>>>>>> origin/master
 - **918 verses** (individual prevention tips)
 - **100% preventable** (if you read this first)
+<!-- STATS_END -->
 
 ---
 
