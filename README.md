@@ -203,45 +203,75 @@ flowchart LR
 ---
 
 <details>
-<summary><strong>🎯 Use Cases</strong></summary>
+<summary><strong><span style="color:#ff8800;">🎯 Use Cases</span></strong></summary>
 
-**<span style="color:#ff8800;">IT Professionals:</span>**  
-Use this to build a personal knowledge base. Copy warnings into your ticket templates. Share specific warnings in Slack instead of writing the same explanation for the 47th time.
+<br>
 
-**<span style="color:#ff8800;">IT Managers:</span>**  
-Send individual warnings to repeat offenders. Post warnings in common areas. Use this as evidence that some problems are genuinely user-induced.
+<blockquote style="border-left:4px solid #ff8800;padding:8px 16px;margin:0;">
+<p><strong><span style="color:#ff8800;">🛠️ IT Professionals:</span></strong><br>
+Use this to build a personal knowledge base. Copy warnings into your ticket templates. Share specific warnings in Slack instead of writing the same explanation for the 47th time.</p>
+</blockquote>
 
-**<span style="color:#ff8800;">Users (Who Actually Read):</span>**  
-Learn what NOT to do before your device needs repair. Understand why IT people look tired. Appreciate the complexity hidden in "just rebooting it."
+<br>
+
+<blockquote style="border-left:4px solid #ff8800;padding:8px 16px;margin:0;">
+<p><strong><span style="color:#ff8800;">📋 IT Managers:</span></strong><br>
+Send individual warnings to repeat offenders. Post warnings in common areas. Use this as evidence that some problems are genuinely user-induced.</p>
+</blockquote>
+
+<br>
+
+<blockquote style="border-left:4px solid #ff8800;padding:8px 16px;margin:0;">
+<p><strong><span style="color:#ff8800;">👤 Users (Who Actually Read):</span></strong><br>
+Learn what NOT to do before your device needs repair. Understand why IT people look tired. Appreciate the complexity hidden in "just rebooting it."</p>
+</blockquote>
 
 </details>
 
 ---
 
 <details>
-<summary><strong>💭 Philosophy</strong></summary>
+<summary><strong><span style="color:#44ddff;">💭 Philosophy</span></strong></summary>
 
-> Every warning in this Bible is based on real support tickets. Real user errors. Real suffering.
+<br>
 
-The tone is harsh because the truth is harsh. But it's not cruel—it's cathartic. It's saying: *You are not alone. Your users do this too. It's not your fault.*
+<blockquote style="border-left:4px solid #44ddff;padding:12px 20px;margin:0;background:#0d1117;border-radius:4px;">
+<p><em>Every warning in this Bible is based on <strong><span style="color:#44ddff;">real support tickets</span></strong>. <strong><span style="color:#ff4444;">Real user errors.</span></strong> <strong><span style="color:#ff8800;">Real suffering.</span></strong></em></p>
+</blockquote>
 
-Except sometimes it is their fault. This book documents those times.
+<br>
+
+<p style="color:#c9d1d9;line-height:1.7;">
+The tone is harsh because the truth is harsh. But it's not cruel—it's cathartic. It's saying: <em>You are not alone. Your users do this too. It's not your fault.</em>
+</p>
+
+<p style="color:#ff4444;line-height:1.7;">
+<strong>Except sometimes it is their fault. This book documents those times.</strong>
+</p>
 
 </details>
 
 ---
 
 <details>
-<summary><strong>📝 Contributing</strong></summary>
+<summary><strong><span style="color:#44ff44;">📝 Contributing</span></strong></summary>
 
+<br>
+
+<p style="color:#c9d1d9;line-height:1.7;">
 Found a new way users can break things? Have a warning that saved your sanity?
+</p>
 
-1. Add it to the appropriate chapter (or create a new one if it's truly novel)
-2. Follow the existing format (title + bullet points + optional note)
-3. Run `generate-index.py` to rebuild
-4. Commit and push
+<ol style="color:#c9d1d9;line-height:1.9;">
+<li><strong><span style="color:#44ff44;">Add it</span></strong> to the appropriate chapter (or create a new one if it's truly novel)</li>
+<li><strong><span style="color:#44ff44;">Follow the format</span></strong> — see the <a href="CONTRIBUTING_SAMPLE.md" style="color:#44ddff;">sample template</a></li>
+<li><strong><span style="color:#44ff44;">Rebuild</span></strong> the index: <code style="background:#1a1a1a;padding:2px 6px;border-radius:3px;">python generate-index.py</code></li>
+<li><strong><span style="color:#44ff44;">Commit and push</span></strong> — CI auto-updates stats</li>
+</ol>
 
+<p style="color:#888;font-style:italic;">
 The Bible grows as technology finds new ways to surprise us.
+</p>
 
 </details>
 
