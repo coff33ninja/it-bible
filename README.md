@@ -78,7 +78,7 @@ powershell -File generate-index.ps1
 ```
 or directly:
 ```
-C:\Python314\python.exe generate-index.py
+python generate-index.py
 ```
 
 The script scans all `.md` files in `volumes/`, extracts warnings, and generates `volumes/index.json` for the frontend. Takes seconds.
