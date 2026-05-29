@@ -42,10 +42,12 @@ def main():
 
     stats_block = (
         "<!-- STATS_START -->\n"
-        f"- **{book_count} books** of warnings\n"
-        f"- **{warning_count} warnings** total\n"
-        f"- **{verse_count} verses** (individual prevention tips)\n"
-        "- **100% preventable** (if you read this first)\n"
+        f'<ul style="margin:0;color:#e0e0e0;list-style:none;padding:0;">\n'
+        f'  <li style="padding:4px 0;"><strong style="color:#ff4444;">{book_count} books</strong> of warnings</li>\n'
+        f'  <li style="padding:4px 0;"><strong style="color:#ff4444;">{warning_count} warnings</strong> total</li>\n'
+        f'  <li style="padding:4px 0;"><strong style="color:#ff4444;">{verse_count} verses</strong> (individual prevention tips)</li>\n'
+        f'  <li style="padding:4px 0;"><strong style="color:#ff4444;">100% preventable</strong> (if you read this first)</li>\n'
+        f'</ul>\n'
         "<!-- STATS_END -->"
     )
 
