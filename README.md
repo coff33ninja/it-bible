@@ -76,6 +76,10 @@ After adding or editing warnings, rebuild the search index:
 ```powershell
 powershell -File generate-index.ps1
 ```
+or directly:
+```
+C:\Python314\python.exe generate-index.py
+```
 
 The script scans all `.md` files in `volumes/`, extracts warnings, and generates `volumes/index.json` for the frontend. Takes seconds.
 
@@ -93,7 +97,8 @@ The script scans all `.md` files in `volumes/`, extracts warnings, and generates
 ├── index.html                       # The UI you'll actually use
 ├── serve.py                         # Python dev server
 ├── start.bat                        # Windows double-click launcher
-├── generate-index.ps1               # Index generator (PowerShell)
+├── generate-index.py                # Index generator (Python)
+├── generate-index.ps1               # Thin wrapper calling generate-index.py
 ├── .github/
 │   ├── workflows/                   # CI: auto-updates stats
 │   └── scripts/                     # Stats calculator
