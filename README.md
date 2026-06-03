@@ -287,6 +287,21 @@ The Bible grows as technology finds new ways to surprise us.
 
 ---
 
+## 🤖 Future Dumb Plans — Just Cause We Can
+
+> *"Let there be intelligence — not because we need it, but because we can."*
+
+The full AI roadmap lives in **[`JUST_CAUSE_WE_CAN.md`](JUST_CAUSE_WE_CAN.md)** — 26 scenarios across 11 phases covering semantic search, Gemini live/Groq chatbots, content generation, Discord/Slack bots, Jira integration, gamification, and more.
+
+tl;dr of the tl;dr:
+- **Phase 1**: Semantic search via sentence-transformers (deps already in lockfile)
+- **Phase 2**: "Ask the IT Bible" chatbot backed by Gemini 3.5 Flash, Groq (560 tok/s), or local LLMs
+- **Phase 3+**: Confession booth, browser extension, ticketing integration, achievements, Karen-o-meter
+
+All AI features are **optional, modular, zero-dependency-by-default**. Add `uv sync --extra ai` when you're ready to summon the machine spirit.
+
+---
+
 ## ⚡ Quick Reference: Common Warnings
 
 > [!WARNING]
